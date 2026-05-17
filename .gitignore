@@ -1,0 +1,27 @@
+API_DEEPSEEK.txt
+SANA.pdf
+*.docx
+
+.env
+.venv/
+.codex_tmp/
+
+*.pyc
+__pycache__/
+
+outputs/
+data/
+ZZM Earphone/
+
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+*.log
+*.err.log
+*.pid
+
+results/figures/
+results/*environment*.md

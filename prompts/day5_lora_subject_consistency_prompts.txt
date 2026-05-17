@@ -1,0 +1,10 @@
+# Subject-focused prompts for Day 5 LoRA consistency checks.
+# These prompts avoid strong occlusion so the evaluation focuses on the learned headphone identity.
+a centered studio product photo of zzmearphone black over-ear headphones with large oval ear cups, a padded headband, black leather cushions, isolated on a clean white table, sharp focus
+a front view product photo of zzmearphone black over-ear headphones, symmetrical headband, large round ear cups, matte black plastic, soft studio lighting, plain gray background
+a three-quarter angle product photo of zzmearphone black over-ear headphones on a wooden desk, visible padded headband, oval ear cushions, realistic photography, warm window light
+a close-up macro photo of zzmearphone black over-ear headphones showing textured ear cushions, metal hinge details, black headband padding, shallow depth of field
+a premium advertisement render of zzmearphone black over-ear headphones floating on a dark background, blue rim light, centered object, clean silhouette, glossy black finish
+a realistic lifestyle photo of zzmearphone black over-ear headphones beside a silver laptop, unobstructed on the desk, large ear cups clearly visible, morning light
+a catalog product photo of zzmearphone black over-ear headphones on a simple stand, full object visible, padded headband, black cushions, neutral background
+a clean exploded-view product render of zzmearphone black over-ear headphones, separated ear cups and headband parts, black cushions, small hardware details, white background

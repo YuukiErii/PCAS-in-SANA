@@ -1,0 +1,12 @@
+model_id: Efficient-Large-Model/Sana_600M_1024px_diffusers
+output_dir: outputs/baseline_20steps
+prompt_file: prompts/day1_test_prompts.txt
+height: 1024
+width: 1024
+num_inference_steps: 20
+guidance_scale: 4.5
+seed: 42
+torch_dtype: float16
+variant: fp16
+auxiliary_dtype: bfloat16
+device: cuda

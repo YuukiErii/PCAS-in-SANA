@@ -1,0 +1,10 @@
+model_id: optimum-intel-internal-testing/tiny-random-sana
+output_dir: outputs/day1_tiny_debug
+prompt_file: prompts/day1_test_prompts.txt
+height: 64
+width: 64
+num_inference_steps: 2
+guidance_scale: 1.0
+seed: 42
+torch_dtype: float32
+device: cuda

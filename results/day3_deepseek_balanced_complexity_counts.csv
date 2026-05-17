@@ -1,0 +1,7 @@
+method,complexity,count
+deepseek_pcas_7_3,low,5
+deepseek_pcas_7_3,medium,6
+deepseek_pcas_7_3,high,19
+deepseek_balanced_pcas,low,5
+deepseek_balanced_pcas,medium,6
+deepseek_balanced_pcas,high,19

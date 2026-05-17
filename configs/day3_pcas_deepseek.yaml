@@ -1,0 +1,29 @@
+model_id: Efficient-Large-Model/Sana_600M_512px_diffusers
+output_dir: outputs/day3_pcas_deepseek
+prompt_file: prompts/day2_benchmark_prompts.txt
+seed: 42
+torch_dtype: float16
+variant: fp16
+auxiliary_dtype: bfloat16
+device: cuda
+local_files_only: true
+deepseek_model: deepseek-v4-flash
+deepseek_api_key_file: API_DEEPSEEK.txt
+deepseek_cache_path: results/day3_deepseek_complexity_cache.json
+refresh_deepseek_cache: false
+deepseek_policy:
+  low:
+    steps: 10
+    guidance_scale: 4.0
+    height: 512
+    width: 512
+  medium:
+    steps: 20
+    guidance_scale: 4.5
+    height: 512
+    width: 512
+  high:
+    steps: 28
+    guidance_scale: 5.0
+    height: 512
+    width: 512

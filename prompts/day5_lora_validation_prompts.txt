@@ -1,0 +1,7 @@
+# Day 5 LoRA validation prompts for the learned subject token.
+a studio product photo of zzmearphone headphones on a clean white table, softbox lighting, sharp focus
+a close-up macro photo of zzmearphone headphones with metallic details, shallow depth of field, commercial product photography
+zzmearphone headphones beside a silver laptop on a wooden desk, morning window light, realistic lifestyle photo
+a pair of zzmearphone headphones floating on a dark background with subtle blue rim lighting, premium advertisement style
+zzmearphone headphones placed inside an open travel backpack with notebooks and charging cables, realistic indoor photo
+an exploded-view product render of zzmearphone headphones showing ear cups, headband, cushions, and small hardware details

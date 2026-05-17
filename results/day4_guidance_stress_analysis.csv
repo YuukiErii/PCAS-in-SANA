@@ -1,0 +1,5 @@
+prompt_length_group,clipscore_at_4_5,clipscore_at_1_5,delta_1_5_vs_4_5,clipscore_at_8_5,delta_8_5_vs_4_5,normal_band_range_3_5_to_6_5,full_range_1_5_to_8_5,best_guidance_by_clipscore,worst_guidance_by_clipscore
+all,35.762,34.705,-1.057,36.027,0.264,0.130,1.322,8.5,1.5
+10_words,34.336,33.219,-1.117,34.686,0.350,0.482,1.468,6.5,1.5
+30_words,36.614,35.978,-0.636,36.438,-0.176,0.187,0.714,3.5,1.5
+50_words,36.336,34.918,-1.419,36.955,0.619,0.345,2.038,8.5,1.5

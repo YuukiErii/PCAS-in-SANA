@@ -1,0 +1,27 @@
+model_id: Efficient-Large-Model/Sana_600M_512px_diffusers
+output_dir: outputs/day3_pcas_balanced
+prompt_file: prompts/day2_benchmark_prompts.txt
+seed: 42
+torch_dtype: float16
+variant: fp16
+auxiliary_dtype: bfloat16
+device: cuda
+local_files_only: true
+pcas_policy:
+  short_max_words: 20
+  medium_max_words: 40
+  short:
+    steps: 8
+    guidance_scale: 4.0
+    height: 512
+    width: 512
+  medium:
+    steps: 16
+    guidance_scale: 4.4
+    height: 512
+    width: 512
+  long:
+    steps: 24
+    guidance_scale: 4.8
+    height: 512
+    width: 512
