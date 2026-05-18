@@ -1,8 +1,72 @@
 # SANA 课程项目工作总结与后续交接
 
-更新时间：2026-05-17
+更新时间：2026-05-18
 
 本文档用于给后续对话、正式报告写作和 PPT 制作快速接上项目上下文。它不是最终书面报告，而是从原始大纲、实际实施、遇到的问题、补救实验到当前结论的完整工作总结。
+
+## 0. 最新对话更新：正式报告整合、版式与叙事重构
+
+本轮对话已经把前期实验、Day6 Calibrated-PCAS 扩展和报告修改意见整合进正式 LaTeX 报告，并在原项目目录下重新编译出 PDF。
+
+最新正式报告文件：
+
+| 文件 | 状态 |
+| --- | --- |
+| `report/latex/sana_pcas_report.tex` | 已更新，包含最终报告正文、表格、图、参考文献和附录 |
+| `report/latex/sana_pcas_report.pdf` | 已重新编译，当前为 A4、42 页 |
+
+本轮完成的报告层面工作：
+
+- 参考用户提供的 LaTeX 报告 PDF，调整正式报告前三页格式：第一页为中英文标题与作者 `钟子铭 2200012104`，第二页为“摘要”，第三页开始为“目录”。
+- 将全文字体统一为参考报告风格：中文使用 FandolSong/FandolKai，英文使用 Latin Modern Roman；正文标题也已从无衬线字体改为与正文同源的宋体/Latin Modern 体系，颜色保持原来的红/蓝方案。
+- 全局处理表格居中：表格本体和 caption 都已居中。
+- 将 Day6 Calibrated-PCAS 的新图表、标签分布、约束满足率和新版结论写入正式报告。
+- 根据用户反馈，删除了引言中单独列出的“前一版不足与本文补强”板块，不再把新版结论机械拆成一张表。
+- 重新组织第 5 章“实验结果”的叙事逻辑，使其自然体现“提出问题 -> 初步探索 -> 发现问题 -> 进一步深化”：
+  - Fixed-step baseline 提出固定预算冗余问题。
+  - Rule-PCAS 做初步探索，证明 prompt-aware 分配可行。
+  - 原始 Rule-PCAS 暴露平均预算失控、复杂度估计过粗的问题。
+  - Balanced-PCAS 用预算约束解决整体加速不足。
+  - DeepSeek-PCAS 暴露 LLM 标签未校准的问题。
+  - DeepSeek-Balanced 说明语义复杂度可以进入策略，但必须经过预算约束。
+  - Calibrated-PCAS 进一步把手工 policy 推进为 Fixed-20 质量约束下的最小充分 steps 预测。
+
+最新正式报告目录如下：
+
+```text
+1 引言
+  1.1 高分辨率文生图的推理效率问题
+  1.2 从原始 SANA 到 prompt-aware SANA 推理
+  1.3 本文贡献
+2 相关工作
+  2.1 扩散模型与 Diffusion Transformer
+  2.2 SANA 的高效生成设计
+  2.3 自适应推理与动态计算
+  2.4 LoRA 与 DreamBooth 个性化
+3 方法
+  3.1 问题定义
+  3.2 Prompt 复杂度估计
+  3.3 Adaptive Sampling Policy
+  3.4 Calibrated-PCAS：最小充分 steps 预测
+  3.5 SANA-LoRA 个性化扩展
+4 实验设置
+  4.1 硬件与软件环境
+  4.2 Prompt Benchmark
+  4.3 评价指标
+5 实验结果
+  5.1 固定步数 SANA baseline
+  5.2 原始 Rule-PCAS：计算重分配有效但整体收益不足
+  5.3 Balanced-PCAS：相对于固定 SANA 推理的主要效率优势
+  5.4 DeepSeek-Balanced：从语义复杂度到预算约束调度
+  5.5 Calibrated-PCAS：从手工规则到数据校准 policy
+  5.6 质量评价：PCAS 保持质量而非显著提高质量
+  5.7 Guidance scale 消融
+  5.8 Hard prompt 定性分析与视觉差异
+  5.9 LoRA 个性化实验
+6 讨论
+7 结论
+A 补充图表
+```
 
 ## 1. 项目来源与原始大纲
 
@@ -39,7 +103,7 @@ Prompt
 | Day 3 | 实现 PCAS 和可选 LLM-based PCAS | 已完成，并追加 Balanced 版本 |
 | Day 4 | 计算 CLIPScore，做 steps/guidance 消融 | 已完成，并追加 hard prompt 定性分析 |
 | Day 5 | 可选 Sana-LoRA DreamBooth 或失败案例补充 | 已完成 LoRA，并围绕主体一致性做多轮补强 |
-| Day 6-7 | 写报告，做 PPT，整理最终提交材料 | 当前正进入该阶段 |
+| Day 6-7 | 写报告，做 PPT，整理最终提交材料 | 已追加 Calibrated-PCAS 扩展；正式 LaTeX 报告已整合、版式优化并重新编译；PPT 大纲已更新 |
 
 ## 2. 项目目录与关键文件
 
@@ -69,12 +133,18 @@ C:\Users\Mahiru\Desktop\ERII\PKU\Semester8\DL\项目汇报\SANA
 | `README.md` | 当前项目总进度索引 |
 | `report/WORK_SUMMARY_HANDOFF.md` | 当前交接总结 |
 | `report/PPT_ACADEMIC_REPORT_OUTLINE.md` | PPT 和正式报告结构草案 |
+| `report/latex/sana_pcas_report.tex` | 当前正式 LaTeX 报告源文件 |
+| `report/latex/sana_pcas_report.pdf` | 当前正式报告 PDF |
 | `report/day3_balanced_pcas_draft.md` | Balanced-PCAS 中文解释 |
 | `report/day3_deepseek_balanced_draft.md` | DeepSeek-Balanced 中文解释 |
 | `report/day4_quality_evaluation_draft.md` | Day4 质量评价草稿 |
 | `report/day4_hard_prompt_evaluation_draft.md` | Hard prompt 视觉打平结论 |
 | `report/day5_lora_evaluation_draft.md` | Day5 LoRA 个性化草稿 |
+| `report/CALIBRATED_PCAS_OUTLINE.md` | Calibrated-PCAS 研究大纲 |
+| `report/day6_calibrated_pcas_draft.md` | Day6 Calibrated-PCAS 报告草稿 |
 | `results/day5_lora_subject_consistency_summary.md` | 最新 Day5 主体一致性结论 |
+| `results/day6_calibrated_pcas_summary.md` | Rule-feature Calibrated-PCAS 结果 |
+| `results/day6_calibrated_pcas_llm_features_summary.md` | LLM-feature Calibrated-PCAS 结果 |
 
 ## 3. 已完成工作总览
 
@@ -447,6 +517,89 @@ subject consistency 最新结果：
 - `report/day5_lora_evaluation_draft.md`
 - `results/figures/day5_lora_subject_consistency_grid.png`
 
+### 3.6 Day 6：Calibrated-PCAS 扩展
+
+完成内容：
+
+- 将 Balanced-PCAS 从手工 8/16/24 policy 扩展为实验校准 policy。
+- 对 30 条 benchmark prompt 构建 6 档 steps calibration grid：8、12、16、20、24、28，共 180 张图像。
+- 使用 Fixed-20 作为参考，定义最小充分 steps 标签：`CLIPScore(s) >= CLIPScore(Fixed-20) - 0.2`。
+- 实现 rule-feature prompt 解析、DeepSeek JSON prompt feature 提取、纯 Python decision tree 训练和 Calibrated-PCAS 推理入口。
+- 重跑 Fixed-20、Balanced-PCAS、DeepSeek-Balanced、Calibrated-PCAS 和 LLM-feature Calibrated-PCAS 的可比较输出，并用同一 CLIPScore 评估流程汇总。
+
+核心标签分布：
+
+| Minimal sufficient steps | Prompts |
+| ---: | ---: |
+| 8 | 18 |
+| 12 | 4 |
+| 16 | 6 |
+| 20 | 2 |
+
+主要结果：
+
+| Method | Avg steps | Avg time no-warmup | Avg CLIPScore | Constraint satisfaction |
+| --- | ---: | ---: | ---: | ---: |
+| Fixed-20 | 20.000 | 1.537s | 35.762 | 100.0% |
+| Balanced-PCAS | 16.000 | 1.740s | 35.772 | 73.3% |
+| DeepSeek-Balanced | 18.467 | 2.023s | 35.813 | 73.3% |
+| Oracle minimum | 10.933 | 1.112s | 36.276 | 100.0% |
+| Calibrated-PCAS | 10.667 | 0.675s | 36.234 | 96.7% |
+| LLM-feature Calibrated-PCAS | 11.333 | 1.093s | 36.230 | 96.7% |
+
+关键文件：
+
+- `src/run_sana_calibration_grid.py`
+- `src/build_calibration_dataset.py`
+- `src/prompt_features.py`
+- `src/prompt_features_deepseek.py`
+- `src/train_calibrated_pcas_predictor.py`
+- `src/run_sana_calibrated_pcas.py`
+- `configs/day6_calibrated_pcas.yaml`
+- `results/day6_calibration_summary.md`
+- `results/day6_calibrated_pcas_summary.md`
+- `results/day6_calibrated_pcas_llm_features_summary.md`
+- `results/day6_calibrated_pcas_final_comparison_summary.md`
+- `report/day6_calibrated_pcas_draft.md`
+
+结论：
+
+- Calibrated-PCAS 把 PCAS 从“按经验分配 steps”推进到“在 Fixed-20 质量约束下预测最小预算”。
+- 当前 30 条 prompt 的结果显示，rule-feature 和 LLM-feature 两个 learned policy 都达到 96.7% 约束满足率，明显高于 Balanced-PCAS 和 DeepSeek-Balanced 的 73.3%。
+- 由于数据规模小、CLIPScore 对 steps 非单调且 wall-clock latency 有波动，正式报告中应把 Day6 作为 PCAS 的进一步研究扩展，而不是替代 Day3 Balanced-PCAS 主结果。
+
+### 3.7 Day 7：正式报告整合、格式优化与叙事重构
+
+完成内容：
+
+- 将 Day2-Day6 的实验结果整合成完整论文式 LaTeX 报告。
+- 按参考报告格式重做前三页：标题页、摘要页、目录页。
+- 统一全文中英文字体，并将正文标题字体改成与正文一致的参考报告风格。
+- 保留原来的红/蓝配色，不改变整体视觉识别。
+- 全局修正表格居中和表题居中。
+- 将 Calibrated-PCAS 的最新结论、表格和讨论写入正文。
+- 按用户反馈重写结果部分的逻辑，不再单独列“前一版不足”表，而是在每个结果小节中自然解释：
+  - 为什么要从 fixed-step baseline 进入 PCAS；
+  - 为什么原始 Rule-PCAS 不够；
+  - 为什么需要 Balanced-PCAS；
+  - 为什么 LLM 标签不能直接映射为更多 steps；
+  - 为什么需要 Calibrated-PCAS；
+  - 为什么质量结论应保守表述为“保持质量并改善效率-质量权衡”。
+
+关键文件：
+
+- `report/latex/sana_pcas_report.tex`
+- `report/latex/sana_pcas_report.pdf`
+- `report/PPT_ACADEMIC_REPORT_OUTLINE.md`
+
+当前报告结论定位：
+
+- Balanced-PCAS 仍是最稳健、最容易讲清楚的主效率结果：约 24.6% 平均加速，CLIPScore 基本保持。
+- DeepSeek-Balanced 是语义复杂度调度的预算约束版本：说明 LLM feature 有价值，但标签到动作必须校准。
+- Calibrated-PCAS 是新版方法深化：把 PCAS 从经验规则推进到 Fixed-20 质量约束下的最小预算预测。
+- 质量分析不宣称 PCAS 显著提高图像质量，而强调保持自动文本对齐指标和视觉观感基本相近。
+- LoRA 是扩展实验，用于展示 SANA pipeline 可扩展性和小样本个性化的局限。
+
 ## 4. 五个“不尽人意”问题及最终处理
 
 先前对话中把项目中“不尽人意”的地方拆成五类。当前状态如下。
@@ -459,6 +612,8 @@ subject consistency 最新结果：
 | 4. Guidance 消融不明显 | 3.5-6.5 是平稳区间 | 加 1.5/8.5 stress points | 结论改为中等 guidance 不敏感，低 guidance 不推荐 |
 | 5. LoRA 主体一致性不稳定 | 数据少、caption 粗、scale 过强会形变 | enhanced LoRA、clean-captioned LoRA、subject-focused 验证 | 足够支撑汇报，最佳自动设置 enhanced x1.5，保守设置 clean-caption x1.25 |
 
+Day6 的 Calibrated-PCAS 不是原五个问题之一，而是对问题 1 和问题 2 的进一步扩展：用真实 calibration grid 校准“prompt 复杂度标签”和“采样 steps 动作”之间的关系。
+
 ## 5. 方法贡献应如何表述
 
 建议正式报告中使用以下贡献点：
@@ -467,14 +622,15 @@ subject consistency 最新结果：
 2. 构建了 30 条受控 prompt benchmark，按 10/30/50 words 分组，系统比较 Fixed-10、Fixed-20、Fixed-28。
 3. 提出并实现 Prompt-Complexity Adaptive Sampling，包括 rule-based PCAS 和 DeepSeek-assisted PCAS。
 4. 针对原始 PCAS 整体加速不足和 DeepSeek-PCAS 过于保守的问题，提出 Balanced-PCAS 与 DeepSeek-Balanced，在保持 CLIPScore 接近的同时显著降低平均推理时间。
-5. 系统评估 steps、guidance scale、prompt complexity 对速度和 CLIPScore 的影响，并通过 hard prompt 定性分析给出更稳健解释。
-6. 作为可选增强，复现 SANA DreamBooth LoRA 个性化流程，并围绕主体一致性不稳定问题设计 enhanced LoRA、clean-captioned LoRA 和 subject-focused 验证。
+5. 追加 Calibrated-PCAS，将自适应采样建模为 Fixed-20 质量约束下的最小 steps 预测，并用可解释 decision tree 近似 oracle 最小预算。
+6. 系统评估 steps、guidance scale、prompt complexity 对速度和 CLIPScore 的影响，并通过 hard prompt 定性分析给出更稳健解释。
+7. 作为可选增强，复现 SANA DreamBooth LoRA 个性化流程，并围绕主体一致性不稳定问题设计 enhanced LoRA、clean-captioned LoRA 和 subject-focused 验证。
 
 ## 6. 最终核心结论
 
 可以写进报告摘要/结论的核心版本：
 
-> 本项目在单张 RTX5080 Laptop GPU 上复现了 SANA-0.6B 的 diffusers 推理流程，并围绕固定采样参数造成的计算浪费问题提出 Prompt-Complexity Adaptive Sampling。实验表明，原始 Rule-PCAS 能在短 prompt 上显著节省推理时间，但在均衡 benchmark 中会被长 prompt 的额外步数抵消。为此，本项目提出 Balanced-PCAS，将 10/30/50-word prompt 的采样步数调整为 8/16/24，使平均步数从 Fixed-20 的 20 降到 16，平均推理时间从 0.996s 降到 0.751s，整体加速约 24.6%，同时 CLIPScore 基本保持不变。对于 LLM-based prompt complexity，本项目发现原始 DeepSeek-PCAS 由于过度保守而变慢，因此提出 DeepSeek-Balanced，在复用同一批语义复杂度标签的基础上将平均时间从 1.303s 降到 0.844s，相比 Fixed-20 快 15.3%。质量评估显示，各方法 CLIPScore 差距较小，因此 PCAS 更适合定位为一种保持自动对齐指标并改善效率-质量权衡的自适应推理策略，而不是显著提升图像质量的方法。最后，项目复现了 SANA-LoRA DreamBooth 个性化流程，证明小样本 LoRA 在该硬件条件下可行，但主体一致性受数据、caption 和 adapter scale 影响明显，应作为探索性增强而非强定量结论。
+> 本项目在单张 RTX5080 Laptop GPU 上复现了 SANA-0.6B 的 diffusers 推理流程，并围绕固定采样参数造成的计算浪费问题提出 Prompt-Complexity Adaptive Sampling。实验表明，原始 Rule-PCAS 能在短 prompt 上显著节省推理时间，但在均衡 benchmark 中会被长 prompt 的额外步数抵消。为此，本项目提出 Balanced-PCAS，将 10/30/50-word prompt 的采样步数调整为 8/16/24，使平均步数从 Fixed-20 的 20 降到 16，平均推理时间从 0.996s 降到 0.751s，整体加速约 24.6%，同时 CLIPScore 基本保持不变。对于 LLM-based prompt complexity，本项目发现原始 DeepSeek-PCAS 由于过度保守而变慢，因此提出 DeepSeek-Balanced，在复用同一批语义复杂度标签的基础上将平均时间从 1.303s 降到 0.844s，相比 Fixed-20 快 15.3%。进一步的 Calibrated-PCAS 用 6 档 steps calibration grid 定义每条 prompt 的最小充分预算，在当前 calibration set 上以约 10--11 个平均 steps 达到 96.7% 的 Fixed-20 约束满足率。质量评估显示，各方法 CLIPScore 差距较小，因此 PCAS 更适合定位为一种保持自动对齐指标并改善效率-质量权衡的自适应推理策略，而不是显著提升图像质量的方法。最后，项目复现了 SANA-LoRA DreamBooth 个性化流程，证明小样本 LoRA 在该硬件条件下可行，但主体一致性受数据、caption 和 adapter scale 影响明显，应作为探索性增强而非强定量结论。
 
 ## 7. 报告写作时的注意事项
 
@@ -507,13 +663,14 @@ subject consistency 最新结果：
 | Guidance 消融图 | `results/figures/day4_guidance_ablation_clipscore.png` | 解释 guidance 不敏感 |
 | Hard prompt 网格 | `results/figures/day4_hard_prompt_qualitative_grid.png` | 支持视觉打平 |
 | Day5 LoRA 对比图 | `results/figures/day5_lora_subject_consistency_grid.png` | 展示 LoRA 主体一致性分析 |
+| Day6 Calibrated-PCAS 表 | `results/day6_calibrated_pcas_final_comparison_summary.md` | 展示数据校准 policy、最小充分 steps 与约束满足率 |
 
 ## 9. 如果后续继续扩展
 
 优先级从高到低：
 
-1. 整理正式书面报告，把现有 `report/day*_draft.md` 合并为完整论文式结构。
-2. 制作 PPT，根据 `report/PPT_ACADEMIC_REPORT_OUTLINE.md` 逐页填图。
+1. 制作 PPT，根据 `report/PPT_ACADEMIC_REPORT_OUTLINE.md` 的最新 17-19 页大纲逐页填图。
+2. 对正式报告 PDF 做最终人工通读，重点检查图表编号、表格跨页、图片清晰度和中文表达。
 3. 如果时间允许，补一个小型人工评分表，尤其用于 hard prompt 和 LoRA 主体一致性。
 4. 如果希望 LoRA 展示更强，再补拍 10-15 张干净耳机产品图，覆盖正面、侧面、45 度、平放、立放、折叠、耳罩特写、头梁特写。
 5. 如显存和时间允许，可尝试 SANA 1.6B 或更高分辨率作为扩展，不建议作为当前主线。

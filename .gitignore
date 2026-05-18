@@ -1,5 +1,6 @@
 API_DEEPSEEK.txt
 SANA.pdf
+report/latex/*.pdf
 *.docx
 
 .env

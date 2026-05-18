@@ -166,9 +166,9 @@ def format_float(value: object) -> str:
     return f"{float(value):.3f}"
 
 
-def write_markdown(path: Path, summary_rows: list[dict[str, Any]], model_id: str) -> None:
+def write_markdown(path: Path, summary_rows: list[dict[str, Any]], model_id: str, title: str) -> None:
     lines = [
-        "# Day 4 CLIPScore Summary",
+        f"# {title}",
         "",
         f"CLIP model: `{model_id}`.",
         "",
@@ -200,10 +200,12 @@ def main() -> None:
     parser.add_argument("--results-dir", default="results")
     parser.add_argument("--cache", default="results/day4_clipscore_cache.json")
     parser.add_argument("--extra-method", action="append", type=parse_extra_method, default=[])
+    parser.add_argument("--no-default-methods", action="store_true")
     parser.add_argument("--output-prefix", default="day4_clipscore")
+    parser.add_argument("--title", default=None)
     args = parser.parse_args()
 
-    methods = METHODS + args.extra_method
+    methods = ([] if args.no_default_methods else METHODS) + args.extra_method
     rows = load_records(methods)
     cache_path = Path(args.cache)
     cache = load_cache(cache_path)
@@ -257,7 +259,12 @@ def main() -> None:
         "avg_peak_vram_gb",
     ]
     write_csv(results_dir / f"{args.output_prefix}_summary.csv", summary_rows, summary_fields)
-    write_markdown(results_dir / f"{args.output_prefix}_summary.md", summary_rows, args.model_id)
+    title = args.title or (
+        "Day 4 CLIPScore Summary"
+        if args.output_prefix == "day4_clipscore"
+        else f"{args.output_prefix.replace('_', ' ').title()} CLIPScore Summary"
+    )
+    write_markdown(results_dir / f"{args.output_prefix}_summary.md", summary_rows, args.model_id, title)
     print(f"Wrote {results_dir / f'{args.output_prefix}_results.csv'}")
     print(f"Wrote {results_dir / f'{args.output_prefix}_summary.csv'}")
     print(f"Wrote {results_dir / f'{args.output_prefix}_summary.md'}")

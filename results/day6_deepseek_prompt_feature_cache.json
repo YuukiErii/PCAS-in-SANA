@@ -1,0 +1,1142 @@
+{
+  "7d621226560d882a12cbfe93063bdfef5cd67baa76e257622fc7ecfde3579111": {
+    "model": "deepseek-v4-flash",
+    "prompt": "red apple resting on wooden table under soft studio light",
+    "features": {
+      "object_count": 2,
+      "attribute_count": 3,
+      "relation_count": 2,
+      "spatial_relation_count": 2,
+      "action_count": 0,
+      "style_constraint_count": 1,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.3,
+      "rare_concept_score": 0.0,
+      "estimated_difficulty": 0.3,
+      "difficulty_label": "low",
+      "reason": "two common objects with spatial relations and one lighting constraint"
+    },
+    "normalized": {
+      "llm_object_count": 2,
+      "llm_attribute_count": 3,
+      "llm_relation_count": 2,
+      "llm_spatial_relation_count": 2,
+      "llm_action_count": 0,
+      "llm_style_constraint_count": 1,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.3,
+      "llm_rare_concept_score": 0.0,
+      "llm_estimated_difficulty": 0.3,
+      "llm_difficulty_label": "low",
+      "llm_reason": "two common objects with spatial relations and one lighting constraint"
+    },
+    "usage": {
+      "prompt_tokens": 438,
+      "completion_tokens": 127,
+      "total_tokens": 565
+    },
+    "created_at": "2026-05-18 12:21:35"
+  },
+  "67e881377f882c28f5656332b653c9fe0300ef7d6c2ba84e923a99b17bf89fc4": {
+    "model": "deepseek-v4-flash",
+    "prompt": "golden retriever sitting on grass beside a white garden ball",
+    "features": {
+      "object_count": 3,
+      "attribute_count": 3,
+      "relation_count": 2,
+      "spatial_relation_count": 1,
+      "action_count": 1,
+      "style_constraint_count": 0,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.3,
+      "rare_concept_score": 0.0,
+      "estimated_difficulty": 0.3,
+      "difficulty_label": "low",
+      "reason": "common objects with simple spatial relation and action"
+    },
+    "normalized": {
+      "llm_object_count": 3,
+      "llm_attribute_count": 3,
+      "llm_relation_count": 2,
+      "llm_spatial_relation_count": 1,
+      "llm_action_count": 1,
+      "llm_style_constraint_count": 0,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.3,
+      "llm_rare_concept_score": 0.0,
+      "llm_estimated_difficulty": 0.3,
+      "llm_difficulty_label": "low",
+      "llm_reason": "common objects with simple spatial relation and action"
+    },
+    "usage": {
+      "prompt_tokens": 441,
+      "completion_tokens": 125,
+      "total_tokens": 566
+    },
+    "created_at": "2026-05-18 12:21:37"
+  },
+  "36708248488e9b530d9554734b445835e3f025c846615603e4762da6f26908bc": {
+    "model": "deepseek-v4-flash",
+    "prompt": "blue sports car parked on empty road at bright noon",
+    "features": {
+      "object_count": 2,
+      "attribute_count": 4,
+      "relation_count": 1,
+      "spatial_relation_count": 1,
+      "action_count": 0,
+      "style_constraint_count": 1,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.3,
+      "rare_concept_score": 0.0,
+      "estimated_difficulty": 0.3,
+      "difficulty_label": "low",
+      "reason": "two common objects with one spatial relation and simple attributes"
+    },
+    "normalized": {
+      "llm_object_count": 2,
+      "llm_attribute_count": 4,
+      "llm_relation_count": 1,
+      "llm_spatial_relation_count": 1,
+      "llm_action_count": 0,
+      "llm_style_constraint_count": 1,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.3,
+      "llm_rare_concept_score": 0.0,
+      "llm_estimated_difficulty": 0.3,
+      "llm_difficulty_label": "low",
+      "llm_reason": "two common objects with one spatial relation and simple attributes"
+    },
+    "usage": {
+      "prompt_tokens": 438,
+      "completion_tokens": 127,
+      "total_tokens": 565
+    },
+    "created_at": "2026-05-18 12:21:40"
+  },
+  "4ae47058d9dd0d1d79fcc2865aec8d4530d852f054b101c9bf6f0aae128c3704": {
+    "model": "deepseek-v4-flash",
+    "prompt": "white ceramic mug steaming on kitchen counter near morning window",
+    "features": {
+      "object_count": 4,
+      "attribute_count": 4,
+      "relation_count": 2,
+      "spatial_relation_count": 2,
+      "action_count": 1,
+      "style_constraint_count": 1,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.4,
+      "rare_concept_score": 0.0,
+      "estimated_difficulty": 0.3,
+      "difficulty_label": "low",
+      "reason": "common objects with simple spatial relations and one action"
+    },
+    "normalized": {
+      "llm_object_count": 4,
+      "llm_attribute_count": 4,
+      "llm_relation_count": 2,
+      "llm_spatial_relation_count": 2,
+      "llm_action_count": 1,
+      "llm_style_constraint_count": 1,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.4,
+      "llm_rare_concept_score": 0.0,
+      "llm_estimated_difficulty": 0.3,
+      "llm_difficulty_label": "low",
+      "llm_reason": "common objects with simple spatial relations and one action"
+    },
+    "usage": {
+      "prompt_tokens": 438,
+      "completion_tokens": 126,
+      "total_tokens": 564
+    },
+    "created_at": "2026-05-18 12:21:42"
+  },
+  "ce5e9faf83ceb4fe3538a18f424abbc98c0c290490ae28692d05d719f3442d4d": {
+    "model": "deepseek-v4-flash",
+    "prompt": "sunflower standing in clear glass vase beside folded linen napkin",
+    "features": {
+      "object_count": 3,
+      "attribute_count": 4,
+      "relation_count": 2,
+      "spatial_relation_count": 1,
+      "action_count": 0,
+      "style_constraint_count": 0,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.4,
+      "rare_concept_score": 0.0,
+      "estimated_difficulty": 0.3,
+      "difficulty_label": "low",
+      "reason": "three common objects with simple spatial relation and clear attributes"
+    },
+    "normalized": {
+      "llm_object_count": 3,
+      "llm_attribute_count": 4,
+      "llm_relation_count": 2,
+      "llm_spatial_relation_count": 1,
+      "llm_action_count": 0,
+      "llm_style_constraint_count": 0,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.4,
+      "llm_rare_concept_score": 0.0,
+      "llm_estimated_difficulty": 0.3,
+      "llm_difficulty_label": "low",
+      "llm_reason": "three common objects with simple spatial relation and clear attributes"
+    },
+    "usage": {
+      "prompt_tokens": 440,
+      "completion_tokens": 127,
+      "total_tokens": 567
+    },
+    "created_at": "2026-05-18 12:21:45"
+  },
+  "1e33031239d19c75cfb5aa2e87b345ca319cdc614e6eb2c0404109b5b8db4205": {
+    "model": "deepseek-v4-flash",
+    "prompt": "black bicycle leaning against brick wall after summer rain quietly",
+    "features": {
+      "object_count": 3,
+      "attribute_count": 4,
+      "relation_count": 2,
+      "spatial_relation_count": 1,
+      "action_count": 1,
+      "style_constraint_count": 2,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.4,
+      "rare_concept_score": 0.1,
+      "estimated_difficulty": 0.35,
+      "difficulty_label": "low",
+      "reason": "common objects with simple spatial relation and atmospheric style"
+    },
+    "normalized": {
+      "llm_object_count": 3,
+      "llm_attribute_count": 4,
+      "llm_relation_count": 2,
+      "llm_spatial_relation_count": 1,
+      "llm_action_count": 1,
+      "llm_style_constraint_count": 2,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.4,
+      "llm_rare_concept_score": 0.1,
+      "llm_estimated_difficulty": 0.35,
+      "llm_difficulty_label": "low",
+      "llm_reason": "common objects with simple spatial relation and atmospheric style"
+    },
+    "usage": {
+      "prompt_tokens": 438,
+      "completion_tokens": 126,
+      "total_tokens": 564
+    },
+    "created_at": "2026-05-18 12:21:47"
+  },
+  "a9f26e3de4208663a2d38f81f313f333297ae0b836b4e9168ca1fd574c802933": {
+    "model": "deepseek-v4-flash",
+    "prompt": "chocolate cake slice on porcelain plate with silver fork nearby",
+    "features": {
+      "object_count": 3,
+      "attribute_count": 3,
+      "relation_count": 2,
+      "spatial_relation_count": 2,
+      "action_count": 0,
+      "style_constraint_count": 0,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.3,
+      "rare_concept_score": 0.0,
+      "estimated_difficulty": 0.2,
+      "difficulty_label": "low",
+      "reason": "common objects with simple spatial relations"
+    },
+    "normalized": {
+      "llm_object_count": 3,
+      "llm_attribute_count": 3,
+      "llm_relation_count": 2,
+      "llm_spatial_relation_count": 2,
+      "llm_action_count": 0,
+      "llm_style_constraint_count": 0,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.3,
+      "llm_rare_concept_score": 0.0,
+      "llm_estimated_difficulty": 0.2,
+      "llm_difficulty_label": "low",
+      "llm_reason": "common objects with simple spatial relations"
+    },
+    "usage": {
+      "prompt_tokens": 439,
+      "completion_tokens": 123,
+      "total_tokens": 562
+    },
+    "created_at": "2026-05-18 12:21:49"
+  },
+  "639f9d850f7badabc50e12c5dadc277e1a51f8728f37a8fa3e8033b15e0d5951": {
+    "model": "deepseek-v4-flash",
+    "prompt": "green backpack hanging from classroom chair under fluorescent lights quietly",
+    "features": {
+      "object_count": 3,
+      "attribute_count": 3,
+      "relation_count": 2,
+      "spatial_relation_count": 2,
+      "action_count": 0,
+      "style_constraint_count": 1,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.4,
+      "rare_concept_score": 0.1,
+      "estimated_difficulty": 0.35,
+      "difficulty_label": "low",
+      "reason": "three common objects with spatial relations and one lighting constraint"
+    },
+    "normalized": {
+      "llm_object_count": 3,
+      "llm_attribute_count": 3,
+      "llm_relation_count": 2,
+      "llm_spatial_relation_count": 2,
+      "llm_action_count": 0,
+      "llm_style_constraint_count": 1,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.4,
+      "llm_rare_concept_score": 0.1,
+      "llm_estimated_difficulty": 0.35,
+      "llm_difficulty_label": "low",
+      "llm_reason": "three common objects with spatial relations and one lighting constraint"
+    },
+    "usage": {
+      "prompt_tokens": 438,
+      "completion_tokens": 127,
+      "total_tokens": 565
+    },
+    "created_at": "2026-05-18 12:21:52"
+  },
+  "e83de52a1db1fd97b5ba8af68e1ad6ede630c702dab70c49368c50538f053ebc": {
+    "model": "deepseek-v4-flash",
+    "prompt": "white sailboat drifting across calm lake during golden sunset alone",
+    "features": {
+      "object_count": 3,
+      "attribute_count": 4,
+      "relation_count": 2,
+      "spatial_relation_count": 1,
+      "action_count": 1,
+      "style_constraint_count": 2,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.3,
+      "rare_concept_score": 0.0,
+      "estimated_difficulty": 0.3,
+      "difficulty_label": "low",
+      "reason": "few common objects with simple attributes and relations"
+    },
+    "normalized": {
+      "llm_object_count": 3,
+      "llm_attribute_count": 4,
+      "llm_relation_count": 2,
+      "llm_spatial_relation_count": 1,
+      "llm_action_count": 1,
+      "llm_style_constraint_count": 2,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.3,
+      "llm_rare_concept_score": 0.0,
+      "llm_estimated_difficulty": 0.3,
+      "llm_difficulty_label": "low",
+      "llm_reason": "few common objects with simple attributes and relations"
+    },
+    "usage": {
+      "prompt_tokens": 439,
+      "completion_tokens": 125,
+      "total_tokens": 564
+    },
+    "created_at": "2026-05-18 12:21:54"
+  },
+  "89597233f9cc384973bfb0265dd4fe2cb6eeb111a1417c8c322d40e33918780a": {
+    "model": "deepseek-v4-flash",
+    "prompt": "red sneakers placed on concrete floor beside gym lockers neatly",
+    "features": {
+      "object_count": 3,
+      "attribute_count": 3,
+      "relation_count": 2,
+      "spatial_relation_count": 1,
+      "action_count": 0,
+      "style_constraint_count": 1,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.4,
+      "rare_concept_score": 0.0,
+      "estimated_difficulty": 0.3,
+      "difficulty_label": "low",
+      "reason": "three common objects with simple spatial relation and one attribute"
+    },
+    "normalized": {
+      "llm_object_count": 3,
+      "llm_attribute_count": 3,
+      "llm_relation_count": 2,
+      "llm_spatial_relation_count": 1,
+      "llm_action_count": 0,
+      "llm_style_constraint_count": 1,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.4,
+      "llm_rare_concept_score": 0.0,
+      "llm_estimated_difficulty": 0.3,
+      "llm_difficulty_label": "low",
+      "llm_reason": "three common objects with simple spatial relation and one attribute"
+    },
+    "usage": {
+      "prompt_tokens": 440,
+      "completion_tokens": 127,
+      "total_tokens": 567
+    },
+    "created_at": "2026-05-18 12:21:57"
+  },
+  "7fc47543f559cccd562b4979f0271bf403b618604299dde7d89016d54fd46477": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A robot chef cooks pasta in a modern kitchen, steam rising from the pan, stainless tools hanging nearby, warm cinematic lighting, and a curious child watching from the doorway quietly.",
+    "features": {
+      "object_count": 6,
+      "attribute_count": 5,
+      "relation_count": 4,
+      "spatial_relation_count": 2,
+      "action_count": 2,
+      "style_constraint_count": 2,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.7,
+      "rare_concept_score": 0.3,
+      "estimated_difficulty": 0.6,
+      "difficulty_label": "medium",
+      "reason": "Multiple objects with attributes, actions, spatial relations, and cinematic lighting, but common concepts."
+    },
+    "normalized": {
+      "llm_object_count": 6,
+      "llm_attribute_count": 5,
+      "llm_relation_count": 4,
+      "llm_spatial_relation_count": 2,
+      "llm_action_count": 2,
+      "llm_style_constraint_count": 2,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.7,
+      "llm_rare_concept_score": 0.3,
+      "llm_estimated_difficulty": 0.6,
+      "llm_difficulty_label": "medium",
+      "llm_reason": "Multiple objects with attributes, actions, spatial relations, and cinematic lighting, but common concepts."
+    },
+    "usage": {
+      "prompt_tokens": 463,
+      "completion_tokens": 134,
+      "total_tokens": 597
+    },
+    "created_at": "2026-05-18 12:21:59"
+  },
+  "34cdf6cae9a9a63498a541b616658ebb8122f6aa4fdb21e08e81234a003a25ce": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A cozy bedroom glows with warm sunset light through a large window, with folded blankets, potted plants, framed photos, and a small desk ready for reading beside tea and pencils.",
+    "features": {
+      "object_count": 8,
+      "attribute_count": 5,
+      "relation_count": 3,
+      "spatial_relation_count": 2,
+      "action_count": 0,
+      "style_constraint_count": 2,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.7,
+      "rare_concept_score": 0.1,
+      "estimated_difficulty": 0.5,
+      "difficulty_label": "medium",
+      "reason": "multiple objects with attributes and spatial relations, moderate scene density"
+    },
+    "normalized": {
+      "llm_object_count": 8,
+      "llm_attribute_count": 5,
+      "llm_relation_count": 3,
+      "llm_spatial_relation_count": 2,
+      "llm_action_count": 0,
+      "llm_style_constraint_count": 2,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.7,
+      "llm_rare_concept_score": 0.1,
+      "llm_estimated_difficulty": 0.5,
+      "llm_difficulty_label": "medium",
+      "llm_reason": "multiple objects with attributes and spatial relations, moderate scene density"
+    },
+    "usage": {
+      "prompt_tokens": 465,
+      "completion_tokens": 128,
+      "total_tokens": 593
+    },
+    "created_at": "2026-05-18 12:22:02"
+  },
+  "ee441ef0eb257e42aa763e6886ba51aeccf1de1f3607ca9f144a32b8158eb580": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A futuristic train station has glass walls, hovering signs, morning sunlight, travelers waiting on silver benches, and a sleek maglev train arriving beside platform seven with soft blue interior lights.",
+    "features": {
+      "object_count": 6,
+      "attribute_count": 7,
+      "relation_count": 3,
+      "spatial_relation_count": 2,
+      "action_count": 2,
+      "style_constraint_count": 3,
+      "text_rendering_flag": 1,
+      "scene_density_score": 0.7,
+      "rare_concept_score": 0.4,
+      "estimated_difficulty": 0.6,
+      "difficulty_label": "medium",
+      "reason": "multiple objects with attributes, spatial relations, actions, and style constraints; includes hovering signs and maglev train"
+    },
+    "normalized": {
+      "llm_object_count": 6,
+      "llm_attribute_count": 7,
+      "llm_relation_count": 3,
+      "llm_spatial_relation_count": 2,
+      "llm_action_count": 2,
+      "llm_style_constraint_count": 3,
+      "llm_text_rendering_flag": 1,
+      "llm_scene_density_score": 0.7,
+      "llm_rare_concept_score": 0.4,
+      "llm_estimated_difficulty": 0.6,
+      "llm_difficulty_label": "medium",
+      "llm_reason": "multiple objects with attributes, spatial relations, actions, and style constraints; includes hovering signs and maglev train"
+    },
+    "usage": {
+      "prompt_tokens": 465,
+      "completion_tokens": 138,
+      "total_tokens": 603
+    },
+    "created_at": "2026-05-18 12:22:04"
+  },
+  "253a4ee9b9a14761532deda88712d851c7c8127a0139001f928867988d1ebe49": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A young astronaut plants a flag on a colorful alien planet, while crystal rocks, purple grass, two moons, and a tiny rover fill the background under pale green evening clouds.",
+    "features": {
+      "object_count": 7,
+      "attribute_count": 6,
+      "relation_count": 3,
+      "spatial_relation_count": 2,
+      "action_count": 1,
+      "style_constraint_count": 1,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.7,
+      "rare_concept_score": 0.6,
+      "estimated_difficulty": 0.7,
+      "difficulty_label": "high",
+      "reason": "multiple objects with specific attributes, spatial relations, and rare sci-fi concepts"
+    },
+    "normalized": {
+      "llm_object_count": 7,
+      "llm_attribute_count": 6,
+      "llm_relation_count": 3,
+      "llm_spatial_relation_count": 2,
+      "llm_action_count": 1,
+      "llm_style_constraint_count": 1,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.7,
+      "llm_rare_concept_score": 0.6,
+      "llm_estimated_difficulty": 0.7,
+      "llm_difficulty_label": "high",
+      "llm_reason": "multiple objects with specific attributes, spatial relations, and rare sci-fi concepts"
+    },
+    "usage": {
+      "prompt_tokens": 463,
+      "completion_tokens": 131,
+      "total_tokens": 594
+    },
+    "created_at": "2026-05-18 12:22:07"
+  },
+  "c2b6dcd111cec442e3d1d9a4a028b93f9ce9a4f16edde3bd4ffce3c995e9ccc4": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A vintage camera rests on a wooden desk surrounded by travel postcards, brass coins, a notebook, warm lamplight, and an open map of Europe beside a half packed canvas bag.",
+    "features": {
+      "object_count": 8,
+      "attribute_count": 6,
+      "relation_count": 4,
+      "spatial_relation_count": 2,
+      "action_count": 0,
+      "style_constraint_count": 2,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.8,
+      "rare_concept_score": 0.2,
+      "estimated_difficulty": 0.6,
+      "difficulty_label": "medium",
+      "reason": "multiple objects with specific attributes and spatial relations, moderate complexity"
+    },
+    "normalized": {
+      "llm_object_count": 8,
+      "llm_attribute_count": 6,
+      "llm_relation_count": 4,
+      "llm_spatial_relation_count": 2,
+      "llm_action_count": 0,
+      "llm_style_constraint_count": 2,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.8,
+      "llm_rare_concept_score": 0.2,
+      "llm_estimated_difficulty": 0.6,
+      "llm_difficulty_label": "medium",
+      "llm_reason": "multiple objects with specific attributes and spatial relations, moderate complexity"
+    },
+    "usage": {
+      "prompt_tokens": 466,
+      "completion_tokens": 128,
+      "total_tokens": 594
+    },
+    "created_at": "2026-05-18 12:22:09"
+  },
+  "c9e231d608160e91f983077020b7621c15a4b365bde6b5612d3040d2f214e1ab": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A small cafe corner holds leafy plants, stacked books, a blue armchair, soft afternoon light, and a steaming cup of coffee beside a handwritten menu on the narrow wooden table.",
+    "features": {
+      "object_count": 7,
+      "attribute_count": 6,
+      "relation_count": 3,
+      "spatial_relation_count": 2,
+      "action_count": 0,
+      "style_constraint_count": 1,
+      "text_rendering_flag": 1,
+      "scene_density_score": 0.7,
+      "rare_concept_score": 0.1,
+      "estimated_difficulty": 0.6,
+      "difficulty_label": "medium",
+      "reason": "multiple objects with attributes, spatial relations, and a text element"
+    },
+    "normalized": {
+      "llm_object_count": 7,
+      "llm_attribute_count": 6,
+      "llm_relation_count": 3,
+      "llm_spatial_relation_count": 2,
+      "llm_action_count": 0,
+      "llm_style_constraint_count": 1,
+      "llm_text_rendering_flag": 1,
+      "llm_scene_density_score": 0.7,
+      "llm_rare_concept_score": 0.1,
+      "llm_estimated_difficulty": 0.6,
+      "llm_difficulty_label": "medium",
+      "llm_reason": "multiple objects with attributes, spatial relations, and a text element"
+    },
+    "usage": {
+      "prompt_tokens": 464,
+      "completion_tokens": 129,
+      "total_tokens": 593
+    },
+    "created_at": "2026-05-18 12:22:12"
+  },
+  "fc5ebfec6984921a130a6062ed0ed1cba2c72a28813c8576c7bf2b5831767a81": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A watercolor painting shows a mountain village beside a river, with stone bridges, red roofs, distant mist, pine trees, and tiny people walking home under a pale evening sky together.",
+    "features": {
+      "object_count": 7,
+      "attribute_count": 6,
+      "relation_count": 4,
+      "spatial_relation_count": 2,
+      "action_count": 1,
+      "style_constraint_count": 2,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.7,
+      "rare_concept_score": 0.2,
+      "estimated_difficulty": 0.6,
+      "difficulty_label": "medium",
+      "reason": "Multiple objects with spatial relations, style constraint, and moderate scene density."
+    },
+    "normalized": {
+      "llm_object_count": 7,
+      "llm_attribute_count": 6,
+      "llm_relation_count": 4,
+      "llm_spatial_relation_count": 2,
+      "llm_action_count": 1,
+      "llm_style_constraint_count": 2,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.7,
+      "llm_rare_concept_score": 0.2,
+      "llm_estimated_difficulty": 0.6,
+      "llm_difficulty_label": "medium",
+      "llm_reason": "Multiple objects with spatial relations, style constraint, and moderate scene density."
+    },
+    "usage": {
+      "prompt_tokens": 465,
+      "completion_tokens": 130,
+      "total_tokens": 595
+    },
+    "created_at": "2026-05-18 12:22:14"
+  },
+  "42e0c8f29aeffe2d7ca0da5e137d4a00f2f25cf2473033a21ada2ac4f26ca524": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A fantasy library rises around a spiral staircase, with floating candles, glowing books, brass ladders, velvet chairs, and a cat sleeping beneath the desk near a blue magical globe quietly.",
+    "features": {
+      "object_count": 7,
+      "attribute_count": 6,
+      "relation_count": 4,
+      "spatial_relation_count": 3,
+      "action_count": 1,
+      "style_constraint_count": 2,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.8,
+      "rare_concept_score": 0.6,
+      "estimated_difficulty": 0.7,
+      "difficulty_label": "high",
+      "reason": "multiple fantasy objects with specific attributes, spatial relations, and a quiet action"
+    },
+    "normalized": {
+      "llm_object_count": 7,
+      "llm_attribute_count": 6,
+      "llm_relation_count": 4,
+      "llm_spatial_relation_count": 3,
+      "llm_action_count": 1,
+      "llm_style_constraint_count": 2,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.8,
+      "llm_rare_concept_score": 0.6,
+      "llm_estimated_difficulty": 0.7,
+      "llm_difficulty_label": "high",
+      "llm_reason": "multiple fantasy objects with specific attributes, spatial relations, and a quiet action"
+    },
+    "usage": {
+      "prompt_tokens": 465,
+      "completion_tokens": 131,
+      "total_tokens": 596
+    },
+    "created_at": "2026-05-18 12:22:17"
+  },
+  "3cf1fa73bfc58a5e14efbf4b00724af141edbf7d212c9b76a796f955d09de18c": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A rainy city street reflects shop windows and traffic lights, while pedestrians carry umbrellas past bicycles, food stalls, neon signs, and puddles glowing orange under a dark cinematic evening sky.",
+    "features": {
+      "object_count": 8,
+      "attribute_count": 7,
+      "relation_count": 5,
+      "spatial_relation_count": 3,
+      "action_count": 2,
+      "style_constraint_count": 3,
+      "text_rendering_flag": 1,
+      "scene_density_score": 0.8,
+      "rare_concept_score": 0.3,
+      "estimated_difficulty": 0.7,
+      "difficulty_label": "high",
+      "reason": "Complex scene with many objects, attributes, relations, and cinematic style constraints."
+    },
+    "normalized": {
+      "llm_object_count": 8,
+      "llm_attribute_count": 7,
+      "llm_relation_count": 5,
+      "llm_spatial_relation_count": 3,
+      "llm_action_count": 2,
+      "llm_style_constraint_count": 3,
+      "llm_text_rendering_flag": 1,
+      "llm_scene_density_score": 0.8,
+      "llm_rare_concept_score": 0.3,
+      "llm_estimated_difficulty": 0.7,
+      "llm_difficulty_label": "high",
+      "llm_reason": "Complex scene with many objects, attributes, relations, and cinematic style constraints."
+    },
+    "usage": {
+      "prompt_tokens": 468,
+      "completion_tokens": 131,
+      "total_tokens": 599
+    },
+    "created_at": "2026-05-18 12:22:19"
+  },
+  "ceb04915d83161a9c4cce341446c50ddb201caa874e1a2b84bf64be9e847ada4": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A wooden cabin sits in a snowy forest, smoke rising from the chimney, warm windows glowing, pine branches bending, and footprints crossing the yard toward a small frozen pond nearby.",
+    "features": {
+      "object_count": 6,
+      "attribute_count": 5,
+      "relation_count": 5,
+      "spatial_relation_count": 3,
+      "action_count": 2,
+      "style_constraint_count": 0,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.7,
+      "rare_concept_score": 0.1,
+      "estimated_difficulty": 0.5,
+      "difficulty_label": "medium",
+      "reason": "multiple objects with spatial relations and actions, moderate complexity"
+    },
+    "normalized": {
+      "llm_object_count": 6,
+      "llm_attribute_count": 5,
+      "llm_relation_count": 5,
+      "llm_spatial_relation_count": 3,
+      "llm_action_count": 2,
+      "llm_style_constraint_count": 0,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.7,
+      "llm_rare_concept_score": 0.1,
+      "llm_estimated_difficulty": 0.5,
+      "llm_difficulty_label": "medium",
+      "llm_reason": "multiple objects with spatial relations and actions, moderate complexity"
+    },
+    "usage": {
+      "prompt_tokens": 463,
+      "completion_tokens": 127,
+      "total_tokens": 590
+    },
+    "created_at": "2026-05-18 12:22:22"
+  },
+  "c54b01cc3830ee38b2239e8e3a3a4b05675a0d1985506ee228ccf3b8f31b2cb5": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A small robot holds a red umbrella beside a striped cat in front of a rainy bookstore, while the window sign says SANA, puddles reflect yellow lamps, two bicycles lean nearby, and a delivery drone hovers above the narrow street as shoppers wait under awnings during a gentle evening storm.",
+    "features": {
+      "object_count": 9,
+      "attribute_count": 10,
+      "relation_count": 8,
+      "spatial_relation_count": 5,
+      "action_count": 4,
+      "style_constraint_count": 4,
+      "text_rendering_flag": 1,
+      "scene_density_score": 0.85,
+      "rare_concept_score": 0.3,
+      "estimated_difficulty": 0.7,
+      "difficulty_label": "high",
+      "reason": "Many objects, attributes, relations, actions, and text rendering in a complex rainy street scene."
+    },
+    "normalized": {
+      "llm_object_count": 9,
+      "llm_attribute_count": 10,
+      "llm_relation_count": 8,
+      "llm_spatial_relation_count": 5,
+      "llm_action_count": 4,
+      "llm_style_constraint_count": 4,
+      "llm_text_rendering_flag": 1,
+      "llm_scene_density_score": 0.85,
+      "llm_rare_concept_score": 0.3,
+      "llm_estimated_difficulty": 0.7,
+      "llm_difficulty_label": "high",
+      "llm_reason": "Many objects, attributes, relations, actions, and text rendering in a complex rainy street scene."
+    },
+    "usage": {
+      "prompt_tokens": 489,
+      "completion_tokens": 135,
+      "total_tokens": 624
+    },
+    "created_at": "2026-05-18 12:22:24"
+  },
+  "46314e36c31bcac9b92bc6b916cec965261f996fe111b64bac1afe9fcbf650db": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A cyberpunk street market glows at midnight with crowded food stalls, neon kanji signs, rain reflections, masked shoppers, steam vents, hovering taxis, and a musician playing beside a noodle cart, while a child points at a holographic dragon above the wet plaza near a flickering red vending machine tonight outside.",
+    "features": {
+      "object_count": 10,
+      "attribute_count": 8,
+      "relation_count": 5,
+      "spatial_relation_count": 3,
+      "action_count": 3,
+      "style_constraint_count": 4,
+      "text_rendering_flag": 1,
+      "scene_density_score": 0.9,
+      "rare_concept_score": 0.7,
+      "estimated_difficulty": 0.85,
+      "difficulty_label": "high",
+      "reason": "Complex scene with many objects, attributes, relations, and rare concepts like cyberpunk and holographic dragon."
+    },
+    "normalized": {
+      "llm_object_count": 10,
+      "llm_attribute_count": 8,
+      "llm_relation_count": 5,
+      "llm_spatial_relation_count": 3,
+      "llm_action_count": 3,
+      "llm_style_constraint_count": 4,
+      "llm_text_rendering_flag": 1,
+      "llm_scene_density_score": 0.9,
+      "llm_rare_concept_score": 0.7,
+      "llm_estimated_difficulty": 0.85,
+      "llm_difficulty_label": "high",
+      "llm_reason": "Complex scene with many objects, attributes, relations, and rare concepts like cyberpunk and holographic dragon."
+    },
+    "usage": {
+      "prompt_tokens": 494,
+      "completion_tokens": 137,
+      "total_tokens": 631
+    },
+    "created_at": "2026-05-18 12:22:27"
+  },
+  "74a283844cfedc73cfc83b27c1dc29e2ea31ff17d53fcca58fca1051d4134d9b": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A medieval wizard teaches three students inside a crowded library, with glowing books floating above an oak table, candles dripping wax, a raven watching from a shelf, maps pinned to stone walls, and a silver telescope aimed at moonlight through the tall arched window behind a stack of scrolls tonight.",
+    "features": {
+      "object_count": 12,
+      "attribute_count": 8,
+      "relation_count": 8,
+      "spatial_relation_count": 5,
+      "action_count": 3,
+      "style_constraint_count": 2,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.85,
+      "rare_concept_score": 0.4,
+      "estimated_difficulty": 0.7,
+      "difficulty_label": "high",
+      "reason": "Many objects, attributes, and spatial relations in a complex scene with rare concepts like glowing books and medieval wizard."
+    },
+    "normalized": {
+      "llm_object_count": 12,
+      "llm_attribute_count": 8,
+      "llm_relation_count": 8,
+      "llm_spatial_relation_count": 5,
+      "llm_action_count": 3,
+      "llm_style_constraint_count": 2,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.85,
+      "llm_rare_concept_score": 0.4,
+      "llm_estimated_difficulty": 0.7,
+      "llm_difficulty_label": "high",
+      "llm_reason": "Many objects, attributes, and spatial relations in a complex scene with rare concepts like glowing books and medieval wizard."
+    },
+    "usage": {
+      "prompt_tokens": 486,
+      "completion_tokens": 138,
+      "total_tokens": 624
+    },
+    "created_at": "2026-05-18 12:22:30"
+  },
+  "700ad408c224c3a54919240a9d07ade3c021fc4bd3ad57e153c08cfc6955d327": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A busy spaceport spreads beneath an orange sky, where two astronauts repair a rover beside a cargo ship, engineers carry tools, fuel pipes cross the landing pad, warning lights blink, and tourists photograph distant planets from behind glass while security robots guide them toward a silver observation balcony above calmly.",
+    "features": {
+      "object_count": 10,
+      "attribute_count": 5,
+      "relation_count": 8,
+      "spatial_relation_count": 4,
+      "action_count": 6,
+      "style_constraint_count": 1,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.9,
+      "rare_concept_score": 0.7,
+      "estimated_difficulty": 0.8,
+      "difficulty_label": "high",
+      "reason": "Complex scene with many objects, actions, spatial relations, and rare sci-fi concepts."
+    },
+    "normalized": {
+      "llm_object_count": 10,
+      "llm_attribute_count": 5,
+      "llm_relation_count": 8,
+      "llm_spatial_relation_count": 4,
+      "llm_action_count": 6,
+      "llm_style_constraint_count": 1,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.9,
+      "llm_rare_concept_score": 0.7,
+      "llm_estimated_difficulty": 0.8,
+      "llm_difficulty_label": "high",
+      "llm_reason": "Complex scene with many objects, actions, spatial relations, and rare sci-fi concepts."
+    },
+    "usage": {
+      "prompt_tokens": 485,
+      "completion_tokens": 133,
+      "total_tokens": 618
+    },
+    "created_at": "2026-05-18 12:22:32"
+  },
+  "a1b19d246fba911817691107d1ba6a754e37f792b9ea1b135632216cba9097a7": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A family picnic fills a sunny park, where a child flies a kite, a dog sleeps beneath the table, balloons drift near a fountain, grandparents pour lemonade, sandwiches sit in baskets, and clouds cast soft shadows across the grass while birds circle above a blanket covered with fresh strawberries nearby.",
+    "features": {
+      "object_count": 10,
+      "attribute_count": 6,
+      "relation_count": 8,
+      "spatial_relation_count": 5,
+      "action_count": 5,
+      "style_constraint_count": 2,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.8,
+      "rare_concept_score": 0.1,
+      "estimated_difficulty": 0.7,
+      "difficulty_label": "high",
+      "reason": "Many objects, actions, and spatial relations in a complex scene with multiple interactions and lighting constraints."
+    },
+    "normalized": {
+      "llm_object_count": 10,
+      "llm_attribute_count": 6,
+      "llm_relation_count": 8,
+      "llm_spatial_relation_count": 5,
+      "llm_action_count": 5,
+      "llm_style_constraint_count": 2,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.8,
+      "llm_rare_concept_score": 0.1,
+      "llm_estimated_difficulty": 0.7,
+      "llm_difficulty_label": "high",
+      "llm_reason": "Many objects, actions, and spatial relations in a complex scene with multiple interactions and lighting constraints."
+    },
+    "usage": {
+      "prompt_tokens": 486,
+      "completion_tokens": 135,
+      "total_tokens": 621
+    },
+    "created_at": "2026-05-18 12:22:34"
+  },
+  "d8eabcf8a113cf0c3c8a82af6baf19186a896e82b61abee456604cfed1994800": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A steampunk workshop contains brass gears, glass tubes, a robot bird, a chalkboard that says PCAS, copper lamps, scattered blueprints, and an inventor tightening a valve while sparks fly from a half built clockwork engine beside shelves packed with lenses springs tools and polished wooden boxes under smoky golden light.",
+    "features": {
+      "object_count": 12,
+      "attribute_count": 10,
+      "relation_count": 6,
+      "spatial_relation_count": 3,
+      "action_count": 2,
+      "style_constraint_count": 3,
+      "text_rendering_flag": 1,
+      "scene_density_score": 0.9,
+      "rare_concept_score": 0.7,
+      "estimated_difficulty": 0.85,
+      "difficulty_label": "high",
+      "reason": "Many objects, attributes, relations, actions, and a rare steampunk style with text rendering and dense scene."
+    },
+    "normalized": {
+      "llm_object_count": 12,
+      "llm_attribute_count": 10,
+      "llm_relation_count": 6,
+      "llm_spatial_relation_count": 3,
+      "llm_action_count": 2,
+      "llm_style_constraint_count": 3,
+      "llm_text_rendering_flag": 1,
+      "llm_scene_density_score": 0.9,
+      "llm_rare_concept_score": 0.7,
+      "llm_estimated_difficulty": 0.85,
+      "llm_difficulty_label": "high",
+      "llm_reason": "Many objects, attributes, relations, actions, and a rare steampunk style with text rendering and dense scene."
+    },
+    "usage": {
+      "prompt_tokens": 491,
+      "completion_tokens": 139,
+      "total_tokens": 630
+    },
+    "created_at": "2026-05-18 12:22:37"
+  },
+  "cca6b466019bb2f6b2f51ab5f8b5c357760c19bd37daa38b35ca30fca15da5ae": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A seaside festival begins at dusk with lanterns, musicians, children dancing, fireworks over the water, fishing boats tied to the pier, vendors selling fruit, and a painter capturing the scene while waves shimmer under purple clouds near a wooden stage covered with flowers ribbons drums and glowing paper stars tonight.",
+    "features": {
+      "object_count": 12,
+      "attribute_count": 8,
+      "relation_count": 6,
+      "spatial_relation_count": 3,
+      "action_count": 5,
+      "style_constraint_count": 2,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.9,
+      "rare_concept_score": 0.3,
+      "estimated_difficulty": 0.8,
+      "difficulty_label": "high",
+      "reason": "Many objects, attributes, actions, and spatial relations in a complex scene with specific lighting and cultural elements."
+    },
+    "normalized": {
+      "llm_object_count": 12,
+      "llm_attribute_count": 8,
+      "llm_relation_count": 6,
+      "llm_spatial_relation_count": 3,
+      "llm_action_count": 5,
+      "llm_style_constraint_count": 2,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.9,
+      "llm_rare_concept_score": 0.3,
+      "llm_estimated_difficulty": 0.8,
+      "llm_difficulty_label": "high",
+      "llm_reason": "Many objects, attributes, actions, and spatial relations in a complex scene with specific lighting and cultural elements."
+    },
+    "usage": {
+      "prompt_tokens": 487,
+      "completion_tokens": 137,
+      "total_tokens": 624
+    },
+    "created_at": "2026-05-18 12:22:39"
+  },
+  "a6c8ee8a55f0aaf68e1930253be3d58e10048dbdff6f3bcd7245cf3ae741a501": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A detective office is cluttered with case files, where a woman studies a city map, a man holds a flashlight, clues cover the wall, rain streaks the window, and a clock points toward midnight as coffee steams beside photographs marked with red thread across a dusty wooden desk quietly tonight.",
+    "features": {
+      "object_count": 10,
+      "attribute_count": 8,
+      "relation_count": 8,
+      "spatial_relation_count": 4,
+      "action_count": 4,
+      "style_constraint_count": 3,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.9,
+      "rare_concept_score": 0.3,
+      "estimated_difficulty": 0.8,
+      "difficulty_label": "high",
+      "reason": "Many objects, attributes, and relations with a complex scene and specific lighting conditions."
+    },
+    "normalized": {
+      "llm_object_count": 10,
+      "llm_attribute_count": 8,
+      "llm_relation_count": 8,
+      "llm_spatial_relation_count": 4,
+      "llm_action_count": 4,
+      "llm_style_constraint_count": 3,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.9,
+      "llm_rare_concept_score": 0.3,
+      "llm_estimated_difficulty": 0.8,
+      "llm_difficulty_label": "high",
+      "llm_reason": "Many objects, attributes, and relations with a complex scene and specific lighting conditions."
+    },
+    "usage": {
+      "prompt_tokens": 486,
+      "completion_tokens": 132,
+      "total_tokens": 618
+    },
+    "created_at": "2026-05-18 12:22:42"
+  },
+  "1635cbbcd33c4f52dd284bd12b246bee123dad5dce2172f6afe262d79ad6841b": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A fantasy battle unfolds in heavy rain as a dragon flies above a castle, knights defend a bridge, archers light flaming arrows, horses rear near broken shields, and lightning reveals a wizard casting blue magic while villagers watch from stone windows beside banners torn by wind over the river below.",
+    "features": {
+      "object_count": 10,
+      "attribute_count": 8,
+      "relation_count": 9,
+      "spatial_relation_count": 5,
+      "action_count": 6,
+      "style_constraint_count": 3,
+      "text_rendering_flag": 0,
+      "scene_density_score": 0.9,
+      "rare_concept_score": 0.6,
+      "estimated_difficulty": 0.85,
+      "difficulty_label": "high",
+      "reason": "Complex fantasy scene with many entities, actions, spatial relations, and specific attributes like blue magic and heavy rain."
+    },
+    "normalized": {
+      "llm_object_count": 10,
+      "llm_attribute_count": 8,
+      "llm_relation_count": 9,
+      "llm_spatial_relation_count": 5,
+      "llm_action_count": 6,
+      "llm_style_constraint_count": 3,
+      "llm_text_rendering_flag": 0,
+      "llm_scene_density_score": 0.9,
+      "llm_rare_concept_score": 0.6,
+      "llm_estimated_difficulty": 0.85,
+      "llm_difficulty_label": "high",
+      "llm_reason": "Complex fantasy scene with many entities, actions, spatial relations, and specific attributes like blue magic and heavy rain."
+    },
+    "usage": {
+      "prompt_tokens": 484,
+      "completion_tokens": 138,
+      "total_tokens": 622
+    },
+    "created_at": "2026-05-18 12:22:45"
+  },
+  "168b645a2e48173174c4bab5c06dce98d32e2cc5863c37e34d928e765523b9d8": {
+    "model": "deepseek-v4-flash",
+    "prompt": "A futuristic classroom shows robots and children building a small rocket, posters spelling SANA on the wall, tablets glowing on desks, a teacher adjusting holographic equations, and tiny drones carrying tools between colorful experiment stations while sunlight enters through wide windows above plants wires gears notebooks and safety helmets neatly.",
+    "features": {
+      "object_count": 12,
+      "attribute_count": 8,
+      "relation_count": 7,
+      "spatial_relation_count": 4,
+      "action_count": 4,
+      "style_constraint_count": 3,
+      "text_rendering_flag": 1,
+      "scene_density_score": 0.85,
+      "rare_concept_score": 0.6,
+      "estimated_difficulty": 0.75,
+      "difficulty_label": "high",
+      "reason": "Many objects, actions, spatial relations, and a text rendering request increase complexity."
+    },
+    "normalized": {
+      "llm_object_count": 12,
+      "llm_attribute_count": 8,
+      "llm_relation_count": 7,
+      "llm_spatial_relation_count": 4,
+      "llm_action_count": 4,
+      "llm_style_constraint_count": 3,
+      "llm_text_rendering_flag": 1,
+      "llm_scene_density_score": 0.85,
+      "llm_rare_concept_score": 0.6,
+      "llm_estimated_difficulty": 0.75,
+      "llm_difficulty_label": "high",
+      "llm_reason": "Many objects, actions, spatial relations, and a text rendering request increase complexity."
+    },
+    "usage": {
+      "prompt_tokens": 486,
+      "completion_tokens": 132,
+      "total_tokens": 618
+    },
+    "created_at": "2026-05-18 12:22:47"
+  }
+}

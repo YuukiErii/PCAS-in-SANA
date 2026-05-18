@@ -1,0 +1,3 @@
+method,num_prompts,avg_steps,avg_elapsed_seconds_no_warmup,fixed20_elapsed_seconds_no_warmup,speedup_percent_vs_fixed20,avg_clip_score,avg_clip_delta_vs_fixed20,quality_satisfaction_rate
+fixed_20,30,20,1.8543467517241692,1.8543467517241692,0.0,35.76220174630483,0.0,1.0
+oracle_min_sufficient,30,10.933333333333334,1.1123271931034557,1.8543467517241692,40.01514592299335,36.27566486597061,0.5134631196657816,1.0

@@ -1,0 +1,722 @@
+{
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\01_s08_red_apple_resting_on_wooden_table_under_soft_studio_light.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"red apple resting on wooden table under soft studio light\"}": {
+    "clip_cosine": 0.32380595803260803,
+    "clip_score": 32.3805958032608
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\01_s12_red_apple_resting_on_wooden_table_under_soft_studio_light.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"red apple resting on wooden table under soft studio light\"}": {
+    "clip_cosine": 0.32732972502708435,
+    "clip_score": 32.732972502708435
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\01_s16_red_apple_resting_on_wooden_table_under_soft_studio_light.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"red apple resting on wooden table under soft studio light\"}": {
+    "clip_cosine": 0.32840096950531006,
+    "clip_score": 32.840096950531006
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\01_s20_red_apple_resting_on_wooden_table_under_soft_studio_light.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"red apple resting on wooden table under soft studio light\"}": {
+    "clip_cosine": 0.3294485807418823,
+    "clip_score": 32.94485807418823
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\01_s24_red_apple_resting_on_wooden_table_under_soft_studio_light.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"red apple resting on wooden table under soft studio light\"}": {
+    "clip_cosine": 0.32928627729415894,
+    "clip_score": 32.928627729415894
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\01_s28_red_apple_resting_on_wooden_table_under_soft_studio_light.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"red apple resting on wooden table under soft studio light\"}": {
+    "clip_cosine": 0.32952794432640076,
+    "clip_score": 32.952794432640076
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\02_s08_golden_retriever_sitting_on_grass_beside_a_white_garden_ball.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"golden retriever sitting on grass beside a white garden ball\"}": {
+    "clip_cosine": 0.3746127486228943,
+    "clip_score": 37.46127486228943
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\02_s12_golden_retriever_sitting_on_grass_beside_a_white_garden_ball.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"golden retriever sitting on grass beside a white garden ball\"}": {
+    "clip_cosine": 0.3735942244529724,
+    "clip_score": 37.35942244529724
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\02_s16_golden_retriever_sitting_on_grass_beside_a_white_garden_ball.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"golden retriever sitting on grass beside a white garden ball\"}": {
+    "clip_cosine": 0.3759545683860779,
+    "clip_score": 37.59545683860779
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\02_s20_golden_retriever_sitting_on_grass_beside_a_white_garden_ball.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"golden retriever sitting on grass beside a white garden ball\"}": {
+    "clip_cosine": 0.3724573254585266,
+    "clip_score": 37.24573254585266
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\02_s24_golden_retriever_sitting_on_grass_beside_a_white_garden_ball.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"golden retriever sitting on grass beside a white garden ball\"}": {
+    "clip_cosine": 0.36935603618621826,
+    "clip_score": 36.935603618621826
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\02_s28_golden_retriever_sitting_on_grass_beside_a_white_garden_ball.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"golden retriever sitting on grass beside a white garden ball\"}": {
+    "clip_cosine": 0.3727535009384155,
+    "clip_score": 37.27535009384155
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\03_s08_blue_sports_car_parked_on_empty_road_at_bright_noon.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"blue sports car parked on empty road at bright noon\"}": {
+    "clip_cosine": 0.30499085783958435,
+    "clip_score": 30.499085783958435
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\03_s12_blue_sports_car_parked_on_empty_road_at_bright_noon.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"blue sports car parked on empty road at bright noon\"}": {
+    "clip_cosine": 0.29910188913345337,
+    "clip_score": 29.910188913345337
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\03_s16_blue_sports_car_parked_on_empty_road_at_bright_noon.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"blue sports car parked on empty road at bright noon\"}": {
+    "clip_cosine": 0.29506394267082214,
+    "clip_score": 29.506394267082214
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\03_s20_blue_sports_car_parked_on_empty_road_at_bright_noon.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"blue sports car parked on empty road at bright noon\"}": {
+    "clip_cosine": 0.29935193061828613,
+    "clip_score": 29.935193061828613
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\03_s24_blue_sports_car_parked_on_empty_road_at_bright_noon.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"blue sports car parked on empty road at bright noon\"}": {
+    "clip_cosine": 0.29953497648239136,
+    "clip_score": 29.953497648239136
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\03_s28_blue_sports_car_parked_on_empty_road_at_bright_noon.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"blue sports car parked on empty road at bright noon\"}": {
+    "clip_cosine": 0.3004325330257416,
+    "clip_score": 30.043253302574158
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\04_s08_white_ceramic_mug_steaming_on_kitchen_counter_near_morning_windo.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"white ceramic mug steaming on kitchen counter near morning window\"}": {
+    "clip_cosine": 0.3445635437965393,
+    "clip_score": 34.45635437965393
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\04_s12_white_ceramic_mug_steaming_on_kitchen_counter_near_morning_windo.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"white ceramic mug steaming on kitchen counter near morning window\"}": {
+    "clip_cosine": 0.3468782901763916,
+    "clip_score": 34.68782901763916
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\04_s16_white_ceramic_mug_steaming_on_kitchen_counter_near_morning_windo.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"white ceramic mug steaming on kitchen counter near morning window\"}": {
+    "clip_cosine": 0.36020272970199585,
+    "clip_score": 36.020272970199585
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\04_s20_white_ceramic_mug_steaming_on_kitchen_counter_near_morning_windo.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"white ceramic mug steaming on kitchen counter near morning window\"}": {
+    "clip_cosine": 0.35949692130088806,
+    "clip_score": 35.949692130088806
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\04_s24_white_ceramic_mug_steaming_on_kitchen_counter_near_morning_windo.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"white ceramic mug steaming on kitchen counter near morning window\"}": {
+    "clip_cosine": 0.3602510690689087,
+    "clip_score": 36.02510690689087
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\04_s28_white_ceramic_mug_steaming_on_kitchen_counter_near_morning_windo.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"white ceramic mug steaming on kitchen counter near morning window\"}": {
+    "clip_cosine": 0.36134323477745056,
+    "clip_score": 36.134323477745056
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\05_s08_sunflower_standing_in_clear_glass_vase_beside_folded_linen_napki.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"sunflower standing in clear glass vase beside folded linen napkin\"}": {
+    "clip_cosine": 0.37694743275642395,
+    "clip_score": 37.694743275642395
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\05_s12_sunflower_standing_in_clear_glass_vase_beside_folded_linen_napki.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"sunflower standing in clear glass vase beside folded linen napkin\"}": {
+    "clip_cosine": 0.3717060685157776,
+    "clip_score": 37.17060685157776
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\05_s16_sunflower_standing_in_clear_glass_vase_beside_folded_linen_napki.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"sunflower standing in clear glass vase beside folded linen napkin\"}": {
+    "clip_cosine": 0.3605312705039978,
+    "clip_score": 36.05312705039978
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\05_s20_sunflower_standing_in_clear_glass_vase_beside_folded_linen_napki.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"sunflower standing in clear glass vase beside folded linen napkin\"}": {
+    "clip_cosine": 0.3649657964706421,
+    "clip_score": 36.49657964706421
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\05_s24_sunflower_standing_in_clear_glass_vase_beside_folded_linen_napki.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"sunflower standing in clear glass vase beside folded linen napkin\"}": {
+    "clip_cosine": 0.36405158042907715,
+    "clip_score": 36.405158042907715
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\05_s28_sunflower_standing_in_clear_glass_vase_beside_folded_linen_napki.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"sunflower standing in clear glass vase beside folded linen napkin\"}": {
+    "clip_cosine": 0.3665505051612854,
+    "clip_score": 36.65505051612854
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\06_s08_black_bicycle_leaning_against_brick_wall_after_summer_rain_quiet.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"black bicycle leaning against brick wall after summer rain quietly\"}": {
+    "clip_cosine": 0.32889166474342346,
+    "clip_score": 32.889166474342346
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\06_s12_black_bicycle_leaning_against_brick_wall_after_summer_rain_quiet.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"black bicycle leaning against brick wall after summer rain quietly\"}": {
+    "clip_cosine": 0.3198111057281494,
+    "clip_score": 31.98111057281494
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\06_s16_black_bicycle_leaning_against_brick_wall_after_summer_rain_quiet.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"black bicycle leaning against brick wall after summer rain quietly\"}": {
+    "clip_cosine": 0.31969374418258667,
+    "clip_score": 31.969374418258667
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\06_s20_black_bicycle_leaning_against_brick_wall_after_summer_rain_quiet.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"black bicycle leaning against brick wall after summer rain quietly\"}": {
+    "clip_cosine": 0.3188818097114563,
+    "clip_score": 31.88818097114563
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\06_s24_black_bicycle_leaning_against_brick_wall_after_summer_rain_quiet.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"black bicycle leaning against brick wall after summer rain quietly\"}": {
+    "clip_cosine": 0.3223320245742798,
+    "clip_score": 32.23320245742798
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\06_s28_black_bicycle_leaning_against_brick_wall_after_summer_rain_quiet.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"black bicycle leaning against brick wall after summer rain quietly\"}": {
+    "clip_cosine": 0.3210967779159546,
+    "clip_score": 32.10967779159546
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\07_s08_chocolate_cake_slice_on_porcelain_plate_with_silver_fork_nearby.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"chocolate cake slice on porcelain plate with silver fork nearby\"}": {
+    "clip_cosine": 0.32228466868400574,
+    "clip_score": 32.228466868400574
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\07_s12_chocolate_cake_slice_on_porcelain_plate_with_silver_fork_nearby.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"chocolate cake slice on porcelain plate with silver fork nearby\"}": {
+    "clip_cosine": 0.3185882568359375,
+    "clip_score": 31.85882568359375
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\07_s16_chocolate_cake_slice_on_porcelain_plate_with_silver_fork_nearby.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"chocolate cake slice on porcelain plate with silver fork nearby\"}": {
+    "clip_cosine": 0.32562366127967834,
+    "clip_score": 32.562366127967834
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\07_s20_chocolate_cake_slice_on_porcelain_plate_with_silver_fork_nearby.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"chocolate cake slice on porcelain plate with silver fork nearby\"}": {
+    "clip_cosine": 0.3128839433193207,
+    "clip_score": 31.288394331932068
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\07_s24_chocolate_cake_slice_on_porcelain_plate_with_silver_fork_nearby.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"chocolate cake slice on porcelain plate with silver fork nearby\"}": {
+    "clip_cosine": 0.31550151109695435,
+    "clip_score": 31.550151109695435
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\07_s28_chocolate_cake_slice_on_porcelain_plate_with_silver_fork_nearby.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"chocolate cake slice on porcelain plate with silver fork nearby\"}": {
+    "clip_cosine": 0.3156621754169464,
+    "clip_score": 31.56621754169464
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\08_s08_green_backpack_hanging_from_classroom_chair_under_fluorescent_li.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"green backpack hanging from classroom chair under fluorescent lights quietly\"}": {
+    "clip_cosine": 0.3433429002761841,
+    "clip_score": 34.33429002761841
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\08_s12_green_backpack_hanging_from_classroom_chair_under_fluorescent_li.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"green backpack hanging from classroom chair under fluorescent lights quietly\"}": {
+    "clip_cosine": 0.3770328760147095,
+    "clip_score": 37.70328760147095
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\08_s16_green_backpack_hanging_from_classroom_chair_under_fluorescent_li.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"green backpack hanging from classroom chair under fluorescent lights quietly\"}": {
+    "clip_cosine": 0.3831065893173218,
+    "clip_score": 38.31065893173218
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\08_s20_green_backpack_hanging_from_classroom_chair_under_fluorescent_li.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"green backpack hanging from classroom chair under fluorescent lights quietly\"}": {
+    "clip_cosine": 0.381231427192688,
+    "clip_score": 38.1231427192688
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\08_s24_green_backpack_hanging_from_classroom_chair_under_fluorescent_li.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"green backpack hanging from classroom chair under fluorescent lights quietly\"}": {
+    "clip_cosine": 0.3825550675392151,
+    "clip_score": 38.25550675392151
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\08_s28_green_backpack_hanging_from_classroom_chair_under_fluorescent_li.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"green backpack hanging from classroom chair under fluorescent lights quietly\"}": {
+    "clip_cosine": 0.3846374750137329,
+    "clip_score": 38.46374750137329
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\09_s08_white_sailboat_drifting_across_calm_lake_during_golden_sunset_al.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"white sailboat drifting across calm lake during golden sunset alone\"}": {
+    "clip_cosine": 0.3517688512802124,
+    "clip_score": 35.17688512802124
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\09_s12_white_sailboat_drifting_across_calm_lake_during_golden_sunset_al.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"white sailboat drifting across calm lake during golden sunset alone\"}": {
+    "clip_cosine": 0.34408897161483765,
+    "clip_score": 34.408897161483765
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\09_s16_white_sailboat_drifting_across_calm_lake_during_golden_sunset_al.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"white sailboat drifting across calm lake during golden sunset alone\"}": {
+    "clip_cosine": 0.3435342013835907,
+    "clip_score": 34.35342013835907
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\09_s20_white_sailboat_drifting_across_calm_lake_during_golden_sunset_al.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"white sailboat drifting across calm lake during golden sunset alone\"}": {
+    "clip_cosine": 0.3444634974002838,
+    "clip_score": 34.44634974002838
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\09_s24_white_sailboat_drifting_across_calm_lake_during_golden_sunset_al.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"white sailboat drifting across calm lake during golden sunset alone\"}": {
+    "clip_cosine": 0.34317293763160706,
+    "clip_score": 34.317293763160706
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\09_s28_white_sailboat_drifting_across_calm_lake_during_golden_sunset_al.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"white sailboat drifting across calm lake during golden sunset alone\"}": {
+    "clip_cosine": 0.3431285619735718,
+    "clip_score": 34.31285619735718
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\10_s08_red_sneakers_placed_on_concrete_floor_beside_gym_lockers_neatly.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"red sneakers placed on concrete floor beside gym lockers neatly\"}": {
+    "clip_cosine": 0.33623361587524414,
+    "clip_score": 33.623361587524414
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\10_s12_red_sneakers_placed_on_concrete_floor_beside_gym_lockers_neatly.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"red sneakers placed on concrete floor beside gym lockers neatly\"}": {
+    "clip_cosine": 0.34335601329803467,
+    "clip_score": 34.33560132980347
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\10_s16_red_sneakers_placed_on_concrete_floor_beside_gym_lockers_neatly.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"red sneakers placed on concrete floor beside gym lockers neatly\"}": {
+    "clip_cosine": 0.3486570715904236,
+    "clip_score": 34.86570715904236
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\10_s20_red_sneakers_placed_on_concrete_floor_beside_gym_lockers_neatly.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"red sneakers placed on concrete floor beside gym lockers neatly\"}": {
+    "clip_cosine": 0.3504387438297272,
+    "clip_score": 35.04387438297272
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\10_s24_red_sneakers_placed_on_concrete_floor_beside_gym_lockers_neatly.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"red sneakers placed on concrete floor beside gym lockers neatly\"}": {
+    "clip_cosine": 0.34938305616378784,
+    "clip_score": 34.938305616378784
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\10_s28_red_sneakers_placed_on_concrete_floor_beside_gym_lockers_neatly.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"red sneakers placed on concrete floor beside gym lockers neatly\"}": {
+    "clip_cosine": 0.3492427170276642,
+    "clip_score": 34.92427170276642
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\11_s08_a_robot_chef_cooks_pasta_in_a_modern_kitchen_steam_rising_from_t.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A robot chef cooks pasta in a modern kitchen, steam rising from the pan, stainless tools hanging nearby, warm cinematic lighting, and a curious child watching from the doorway quietly.\"}": {
+    "clip_cosine": 0.40530937910079956,
+    "clip_score": 40.530937910079956
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\11_s12_a_robot_chef_cooks_pasta_in_a_modern_kitchen_steam_rising_from_t.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A robot chef cooks pasta in a modern kitchen, steam rising from the pan, stainless tools hanging nearby, warm cinematic lighting, and a curious child watching from the doorway quietly.\"}": {
+    "clip_cosine": 0.3970909118652344,
+    "clip_score": 39.70909118652344
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\11_s16_a_robot_chef_cooks_pasta_in_a_modern_kitchen_steam_rising_from_t.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A robot chef cooks pasta in a modern kitchen, steam rising from the pan, stainless tools hanging nearby, warm cinematic lighting, and a curious child watching from the doorway quietly.\"}": {
+    "clip_cosine": 0.3985994756221771,
+    "clip_score": 39.85994756221771
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\11_s20_a_robot_chef_cooks_pasta_in_a_modern_kitchen_steam_rising_from_t.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A robot chef cooks pasta in a modern kitchen, steam rising from the pan, stainless tools hanging nearby, warm cinematic lighting, and a curious child watching from the doorway quietly.\"}": {
+    "clip_cosine": 0.39259523153305054,
+    "clip_score": 39.259523153305054
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\11_s24_a_robot_chef_cooks_pasta_in_a_modern_kitchen_steam_rising_from_t.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A robot chef cooks pasta in a modern kitchen, steam rising from the pan, stainless tools hanging nearby, warm cinematic lighting, and a curious child watching from the doorway quietly.\"}": {
+    "clip_cosine": 0.3928857445716858,
+    "clip_score": 39.28857445716858
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\11_s28_a_robot_chef_cooks_pasta_in_a_modern_kitchen_steam_rising_from_t.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A robot chef cooks pasta in a modern kitchen, steam rising from the pan, stainless tools hanging nearby, warm cinematic lighting, and a curious child watching from the doorway quietly.\"}": {
+    "clip_cosine": 0.39036303758621216,
+    "clip_score": 39.036303758621216
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\12_s08_a_cozy_bedroom_glows_with_warm_sunset_light_through_a_large_wind.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A cozy bedroom glows with warm sunset light through a large window, with folded blankets, potted plants, framed photos, and a small desk ready for reading beside tea and pencils.\"}": {
+    "clip_cosine": 0.38065046072006226,
+    "clip_score": 38.065046072006226
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\12_s12_a_cozy_bedroom_glows_with_warm_sunset_light_through_a_large_wind.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A cozy bedroom glows with warm sunset light through a large window, with folded blankets, potted plants, framed photos, and a small desk ready for reading beside tea and pencils.\"}": {
+    "clip_cosine": 0.3931732773780823,
+    "clip_score": 39.31732773780823
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\12_s16_a_cozy_bedroom_glows_with_warm_sunset_light_through_a_large_wind.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A cozy bedroom glows with warm sunset light through a large window, with folded blankets, potted plants, framed photos, and a small desk ready for reading beside tea and pencils.\"}": {
+    "clip_cosine": 0.3943970203399658,
+    "clip_score": 39.43970203399658
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\12_s20_a_cozy_bedroom_glows_with_warm_sunset_light_through_a_large_wind.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A cozy bedroom glows with warm sunset light through a large window, with folded blankets, potted plants, framed photos, and a small desk ready for reading beside tea and pencils.\"}": {
+    "clip_cosine": 0.392966628074646,
+    "clip_score": 39.2966628074646
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\12_s24_a_cozy_bedroom_glows_with_warm_sunset_light_through_a_large_wind.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A cozy bedroom glows with warm sunset light through a large window, with folded blankets, potted plants, framed photos, and a small desk ready for reading beside tea and pencils.\"}": {
+    "clip_cosine": 0.39070695638656616,
+    "clip_score": 39.070695638656616
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\12_s28_a_cozy_bedroom_glows_with_warm_sunset_light_through_a_large_wind.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A cozy bedroom glows with warm sunset light through a large window, with folded blankets, potted plants, framed photos, and a small desk ready for reading beside tea and pencils.\"}": {
+    "clip_cosine": 0.3890652060508728,
+    "clip_score": 38.90652060508728
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\13_s08_a_futuristic_train_station_has_glass_walls_hovering_signs_mornin.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A futuristic train station has glass walls, hovering signs, morning sunlight, travelers waiting on silver benches, and a sleek maglev train arriving beside platform seven with soft blue interior lights.\"}": {
+    "clip_cosine": 0.33495813608169556,
+    "clip_score": 33.495813608169556
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\13_s12_a_futuristic_train_station_has_glass_walls_hovering_signs_mornin.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A futuristic train station has glass walls, hovering signs, morning sunlight, travelers waiting on silver benches, and a sleek maglev train arriving beside platform seven with soft blue interior lights.\"}": {
+    "clip_cosine": 0.3282358646392822,
+    "clip_score": 32.82358646392822
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\13_s16_a_futuristic_train_station_has_glass_walls_hovering_signs_mornin.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A futuristic train station has glass walls, hovering signs, morning sunlight, travelers waiting on silver benches, and a sleek maglev train arriving beside platform seven with soft blue interior lights.\"}": {
+    "clip_cosine": 0.32255643606185913,
+    "clip_score": 32.25564360618591
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\13_s20_a_futuristic_train_station_has_glass_walls_hovering_signs_mornin.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A futuristic train station has glass walls, hovering signs, morning sunlight, travelers waiting on silver benches, and a sleek maglev train arriving beside platform seven with soft blue interior lights.\"}": {
+    "clip_cosine": 0.3191719055175781,
+    "clip_score": 31.917190551757812
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\13_s24_a_futuristic_train_station_has_glass_walls_hovering_signs_mornin.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A futuristic train station has glass walls, hovering signs, morning sunlight, travelers waiting on silver benches, and a sleek maglev train arriving beside platform seven with soft blue interior lights.\"}": {
+    "clip_cosine": 0.32170572876930237,
+    "clip_score": 32.17057287693024
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\13_s28_a_futuristic_train_station_has_glass_walls_hovering_signs_mornin.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A futuristic train station has glass walls, hovering signs, morning sunlight, travelers waiting on silver benches, and a sleek maglev train arriving beside platform seven with soft blue interior lights.\"}": {
+    "clip_cosine": 0.3214269280433655,
+    "clip_score": 32.14269280433655
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\14_s08_a_young_astronaut_plants_a_flag_on_a_colorful_alien_planet_while.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A young astronaut plants a flag on a colorful alien planet, while crystal rocks, purple grass, two moons, and a tiny rover fill the background under pale green evening clouds.\"}": {
+    "clip_cosine": 0.3857067823410034,
+    "clip_score": 38.57067823410034
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\14_s12_a_young_astronaut_plants_a_flag_on_a_colorful_alien_planet_while.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A young astronaut plants a flag on a colorful alien planet, while crystal rocks, purple grass, two moons, and a tiny rover fill the background under pale green evening clouds.\"}": {
+    "clip_cosine": 0.37625330686569214,
+    "clip_score": 37.625330686569214
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\14_s16_a_young_astronaut_plants_a_flag_on_a_colorful_alien_planet_while.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A young astronaut plants a flag on a colorful alien planet, while crystal rocks, purple grass, two moons, and a tiny rover fill the background under pale green evening clouds.\"}": {
+    "clip_cosine": 0.3764861822128296,
+    "clip_score": 37.64861822128296
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\14_s20_a_young_astronaut_plants_a_flag_on_a_colorful_alien_planet_while.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A young astronaut plants a flag on a colorful alien planet, while crystal rocks, purple grass, two moons, and a tiny rover fill the background under pale green evening clouds.\"}": {
+    "clip_cosine": 0.37640994787216187,
+    "clip_score": 37.64099478721619
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\14_s24_a_young_astronaut_plants_a_flag_on_a_colorful_alien_planet_while.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A young astronaut plants a flag on a colorful alien planet, while crystal rocks, purple grass, two moons, and a tiny rover fill the background under pale green evening clouds.\"}": {
+    "clip_cosine": 0.37739986181259155,
+    "clip_score": 37.739986181259155
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\14_s28_a_young_astronaut_plants_a_flag_on_a_colorful_alien_planet_while.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A young astronaut plants a flag on a colorful alien planet, while crystal rocks, purple grass, two moons, and a tiny rover fill the background under pale green evening clouds.\"}": {
+    "clip_cosine": 0.376192569732666,
+    "clip_score": 37.6192569732666
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\15_s08_a_vintage_camera_rests_on_a_wooden_desk_surrounded_by_travel_pos.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A vintage camera rests on a wooden desk surrounded by travel postcards, brass coins, a notebook, warm lamplight, and an open map of Europe beside a half packed canvas bag.\"}": {
+    "clip_cosine": 0.36469918489456177,
+    "clip_score": 36.46991848945618
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\15_s12_a_vintage_camera_rests_on_a_wooden_desk_surrounded_by_travel_pos.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A vintage camera rests on a wooden desk surrounded by travel postcards, brass coins, a notebook, warm lamplight, and an open map of Europe beside a half packed canvas bag.\"}": {
+    "clip_cosine": 0.3694629669189453,
+    "clip_score": 36.94629669189453
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\15_s16_a_vintage_camera_rests_on_a_wooden_desk_surrounded_by_travel_pos.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A vintage camera rests on a wooden desk surrounded by travel postcards, brass coins, a notebook, warm lamplight, and an open map of Europe beside a half packed canvas bag.\"}": {
+    "clip_cosine": 0.3799784183502197,
+    "clip_score": 37.99784183502197
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\15_s20_a_vintage_camera_rests_on_a_wooden_desk_surrounded_by_travel_pos.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A vintage camera rests on a wooden desk surrounded by travel postcards, brass coins, a notebook, warm lamplight, and an open map of Europe beside a half packed canvas bag.\"}": {
+    "clip_cosine": 0.37610936164855957,
+    "clip_score": 37.61093616485596
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\15_s24_a_vintage_camera_rests_on_a_wooden_desk_surrounded_by_travel_pos.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A vintage camera rests on a wooden desk surrounded by travel postcards, brass coins, a notebook, warm lamplight, and an open map of Europe beside a half packed canvas bag.\"}": {
+    "clip_cosine": 0.3787077069282532,
+    "clip_score": 37.87077069282532
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\15_s28_a_vintage_camera_rests_on_a_wooden_desk_surrounded_by_travel_pos.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A vintage camera rests on a wooden desk surrounded by travel postcards, brass coins, a notebook, warm lamplight, and an open map of Europe beside a half packed canvas bag.\"}": {
+    "clip_cosine": 0.3769906759262085,
+    "clip_score": 37.69906759262085
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\16_s08_a_small_cafe_corner_holds_leafy_plants_stacked_books_a_blue_armc.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A small cafe corner holds leafy plants, stacked books, a blue armchair, soft afternoon light, and a steaming cup of coffee beside a handwritten menu on the narrow wooden table.\"}": {
+    "clip_cosine": 0.39123475551605225,
+    "clip_score": 39.123475551605225
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\16_s12_a_small_cafe_corner_holds_leafy_plants_stacked_books_a_blue_armc.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A small cafe corner holds leafy plants, stacked books, a blue armchair, soft afternoon light, and a steaming cup of coffee beside a handwritten menu on the narrow wooden table.\"}": {
+    "clip_cosine": 0.39242276549339294,
+    "clip_score": 39.242276549339294
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\16_s16_a_small_cafe_corner_holds_leafy_plants_stacked_books_a_blue_armc.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A small cafe corner holds leafy plants, stacked books, a blue armchair, soft afternoon light, and a steaming cup of coffee beside a handwritten menu on the narrow wooden table.\"}": {
+    "clip_cosine": 0.3846135139465332,
+    "clip_score": 38.46135139465332
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\16_s20_a_small_cafe_corner_holds_leafy_plants_stacked_books_a_blue_armc.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A small cafe corner holds leafy plants, stacked books, a blue armchair, soft afternoon light, and a steaming cup of coffee beside a handwritten menu on the narrow wooden table.\"}": {
+    "clip_cosine": 0.3859372138977051,
+    "clip_score": 38.59372138977051
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\16_s24_a_small_cafe_corner_holds_leafy_plants_stacked_books_a_blue_armc.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A small cafe corner holds leafy plants, stacked books, a blue armchair, soft afternoon light, and a steaming cup of coffee beside a handwritten menu on the narrow wooden table.\"}": {
+    "clip_cosine": 0.3908655643463135,
+    "clip_score": 39.08655643463135
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\16_s28_a_small_cafe_corner_holds_leafy_plants_stacked_books_a_blue_armc.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A small cafe corner holds leafy plants, stacked books, a blue armchair, soft afternoon light, and a steaming cup of coffee beside a handwritten menu on the narrow wooden table.\"}": {
+    "clip_cosine": 0.39124080538749695,
+    "clip_score": 39.124080538749695
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\17_s08_a_watercolor_painting_shows_a_mountain_village_beside_a_river_wi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A watercolor painting shows a mountain village beside a river, with stone bridges, red roofs, distant mist, pine trees, and tiny people walking home under a pale evening sky together.\"}": {
+    "clip_cosine": 0.3173312246799469,
+    "clip_score": 31.73312246799469
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\17_s12_a_watercolor_painting_shows_a_mountain_village_beside_a_river_wi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A watercolor painting shows a mountain village beside a river, with stone bridges, red roofs, distant mist, pine trees, and tiny people walking home under a pale evening sky together.\"}": {
+    "clip_cosine": 0.3635006546974182,
+    "clip_score": 36.35006546974182
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\17_s16_a_watercolor_painting_shows_a_mountain_village_beside_a_river_wi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A watercolor painting shows a mountain village beside a river, with stone bridges, red roofs, distant mist, pine trees, and tiny people walking home under a pale evening sky together.\"}": {
+    "clip_cosine": 0.36644798517227173,
+    "clip_score": 36.64479851722717
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\17_s20_a_watercolor_painting_shows_a_mountain_village_beside_a_river_wi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A watercolor painting shows a mountain village beside a river, with stone bridges, red roofs, distant mist, pine trees, and tiny people walking home under a pale evening sky together.\"}": {
+    "clip_cosine": 0.35388925671577454,
+    "clip_score": 35.388925671577454
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\17_s24_a_watercolor_painting_shows_a_mountain_village_beside_a_river_wi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A watercolor painting shows a mountain village beside a river, with stone bridges, red roofs, distant mist, pine trees, and tiny people walking home under a pale evening sky together.\"}": {
+    "clip_cosine": 0.3511953353881836,
+    "clip_score": 35.11953353881836
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\17_s28_a_watercolor_painting_shows_a_mountain_village_beside_a_river_wi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A watercolor painting shows a mountain village beside a river, with stone bridges, red roofs, distant mist, pine trees, and tiny people walking home under a pale evening sky together.\"}": {
+    "clip_cosine": 0.36017200350761414,
+    "clip_score": 36.017200350761414
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\18_s08_a_fantasy_library_rises_around_a_spiral_staircase_with_floating_.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A fantasy library rises around a spiral staircase, with floating candles, glowing books, brass ladders, velvet chairs, and a cat sleeping beneath the desk near a blue magical globe quietly.\"}": {
+    "clip_cosine": 0.3766308128833771,
+    "clip_score": 37.66308128833771
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\18_s12_a_fantasy_library_rises_around_a_spiral_staircase_with_floating_.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A fantasy library rises around a spiral staircase, with floating candles, glowing books, brass ladders, velvet chairs, and a cat sleeping beneath the desk near a blue magical globe quietly.\"}": {
+    "clip_cosine": 0.3856510818004608,
+    "clip_score": 38.56510818004608
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\18_s16_a_fantasy_library_rises_around_a_spiral_staircase_with_floating_.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A fantasy library rises around a spiral staircase, with floating candles, glowing books, brass ladders, velvet chairs, and a cat sleeping beneath the desk near a blue magical globe quietly.\"}": {
+    "clip_cosine": 0.38415631651878357,
+    "clip_score": 38.41563165187836
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\18_s20_a_fantasy_library_rises_around_a_spiral_staircase_with_floating_.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A fantasy library rises around a spiral staircase, with floating candles, glowing books, brass ladders, velvet chairs, and a cat sleeping beneath the desk near a blue magical globe quietly.\"}": {
+    "clip_cosine": 0.3857991695404053,
+    "clip_score": 38.57991695404053
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\18_s24_a_fantasy_library_rises_around_a_spiral_staircase_with_floating_.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A fantasy library rises around a spiral staircase, with floating candles, glowing books, brass ladders, velvet chairs, and a cat sleeping beneath the desk near a blue magical globe quietly.\"}": {
+    "clip_cosine": 0.3855434060096741,
+    "clip_score": 38.55434060096741
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\18_s28_a_fantasy_library_rises_around_a_spiral_staircase_with_floating_.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A fantasy library rises around a spiral staircase, with floating candles, glowing books, brass ladders, velvet chairs, and a cat sleeping beneath the desk near a blue magical globe quietly.\"}": {
+    "clip_cosine": 0.38205164670944214,
+    "clip_score": 38.205164670944214
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\19_s08_a_rainy_city_street_reflects_shop_windows_and_traffic_lights_whi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A rainy city street reflects shop windows and traffic lights, while pedestrians carry umbrellas past bicycles, food stalls, neon signs, and puddles glowing orange under a dark cinematic evening sky.\"}": {
+    "clip_cosine": 0.3503952622413635,
+    "clip_score": 35.03952622413635
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\19_s12_a_rainy_city_street_reflects_shop_windows_and_traffic_lights_whi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A rainy city street reflects shop windows and traffic lights, while pedestrians carry umbrellas past bicycles, food stalls, neon signs, and puddles glowing orange under a dark cinematic evening sky.\"}": {
+    "clip_cosine": 0.34736567735671997,
+    "clip_score": 34.736567735672
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\19_s16_a_rainy_city_street_reflects_shop_windows_and_traffic_lights_whi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A rainy city street reflects shop windows and traffic lights, while pedestrians carry umbrellas past bicycles, food stalls, neon signs, and puddles glowing orange under a dark cinematic evening sky.\"}": {
+    "clip_cosine": 0.3511050343513489,
+    "clip_score": 35.11050343513489
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\19_s20_a_rainy_city_street_reflects_shop_windows_and_traffic_lights_whi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A rainy city street reflects shop windows and traffic lights, while pedestrians carry umbrellas past bicycles, food stalls, neon signs, and puddles glowing orange under a dark cinematic evening sky.\"}": {
+    "clip_cosine": 0.35823506116867065,
+    "clip_score": 35.823506116867065
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\19_s24_a_rainy_city_street_reflects_shop_windows_and_traffic_lights_whi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A rainy city street reflects shop windows and traffic lights, while pedestrians carry umbrellas past bicycles, food stalls, neon signs, and puddles glowing orange under a dark cinematic evening sky.\"}": {
+    "clip_cosine": 0.3566322326660156,
+    "clip_score": 35.66322326660156
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\19_s28_a_rainy_city_street_reflects_shop_windows_and_traffic_lights_whi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A rainy city street reflects shop windows and traffic lights, while pedestrians carry umbrellas past bicycles, food stalls, neon signs, and puddles glowing orange under a dark cinematic evening sky.\"}": {
+    "clip_cosine": 0.35832643508911133,
+    "clip_score": 35.83264350891113
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\20_s08_a_wooden_cabin_sits_in_a_snowy_forest_smoke_rising_from_the_chim.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A wooden cabin sits in a snowy forest, smoke rising from the chimney, warm windows glowing, pine branches bending, and footprints crossing the yard toward a small frozen pond nearby.\"}": {
+    "clip_cosine": 0.31099337339401245,
+    "clip_score": 31.099337339401245
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\20_s12_a_wooden_cabin_sits_in_a_snowy_forest_smoke_rising_from_the_chim.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A wooden cabin sits in a snowy forest, smoke rising from the chimney, warm windows glowing, pine branches bending, and footprints crossing the yard toward a small frozen pond nearby.\"}": {
+    "clip_cosine": 0.32646557688713074,
+    "clip_score": 32.646557688713074
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\20_s16_a_wooden_cabin_sits_in_a_snowy_forest_smoke_rising_from_the_chim.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A wooden cabin sits in a snowy forest, smoke rising from the chimney, warm windows glowing, pine branches bending, and footprints crossing the yard toward a small frozen pond nearby.\"}": {
+    "clip_cosine": 0.318562388420105,
+    "clip_score": 31.856238842010498
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\20_s20_a_wooden_cabin_sits_in_a_snowy_forest_smoke_rising_from_the_chim.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A wooden cabin sits in a snowy forest, smoke rising from the chimney, warm windows glowing, pine branches bending, and footprints crossing the yard toward a small frozen pond nearby.\"}": {
+    "clip_cosine": 0.32029274106025696,
+    "clip_score": 32.029274106025696
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\20_s24_a_wooden_cabin_sits_in_a_snowy_forest_smoke_rising_from_the_chim.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A wooden cabin sits in a snowy forest, smoke rising from the chimney, warm windows glowing, pine branches bending, and footprints crossing the yard toward a small frozen pond nearby.\"}": {
+    "clip_cosine": 0.3215527832508087,
+    "clip_score": 32.15527832508087
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\20_s28_a_wooden_cabin_sits_in_a_snowy_forest_smoke_rising_from_the_chim.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A wooden cabin sits in a snowy forest, smoke rising from the chimney, warm windows glowing, pine branches bending, and footprints crossing the yard toward a small frozen pond nearby.\"}": {
+    "clip_cosine": 0.32078817486763,
+    "clip_score": 32.078817486763
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\21_s08_a_small_robot_holds_a_red_umbrella_beside_a_striped_cat_in_front.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A small robot holds a red umbrella beside a striped cat in front of a rainy bookstore, while the window sign says SANA, puddles reflect yellow lamps, two bicycles lean nearby, and a delivery drone hovers above the narrow street as shoppers wait under awnings during a gentle evening storm.\"}": {
+    "clip_cosine": 0.39402419328689575,
+    "clip_score": 39.402419328689575
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\21_s12_a_small_robot_holds_a_red_umbrella_beside_a_striped_cat_in_front.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A small robot holds a red umbrella beside a striped cat in front of a rainy bookstore, while the window sign says SANA, puddles reflect yellow lamps, two bicycles lean nearby, and a delivery drone hovers above the narrow street as shoppers wait under awnings during a gentle evening storm.\"}": {
+    "clip_cosine": 0.3907203674316406,
+    "clip_score": 39.07203674316406
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\21_s16_a_small_robot_holds_a_red_umbrella_beside_a_striped_cat_in_front.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A small robot holds a red umbrella beside a striped cat in front of a rainy bookstore, while the window sign says SANA, puddles reflect yellow lamps, two bicycles lean nearby, and a delivery drone hovers above the narrow street as shoppers wait under awnings during a gentle evening storm.\"}": {
+    "clip_cosine": 0.3923727869987488,
+    "clip_score": 39.23727869987488
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\21_s20_a_small_robot_holds_a_red_umbrella_beside_a_striped_cat_in_front.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A small robot holds a red umbrella beside a striped cat in front of a rainy bookstore, while the window sign says SANA, puddles reflect yellow lamps, two bicycles lean nearby, and a delivery drone hovers above the narrow street as shoppers wait under awnings during a gentle evening storm.\"}": {
+    "clip_cosine": 0.394730806350708,
+    "clip_score": 39.4730806350708
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\21_s24_a_small_robot_holds_a_red_umbrella_beside_a_striped_cat_in_front.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A small robot holds a red umbrella beside a striped cat in front of a rainy bookstore, while the window sign says SANA, puddles reflect yellow lamps, two bicycles lean nearby, and a delivery drone hovers above the narrow street as shoppers wait under awnings during a gentle evening storm.\"}": {
+    "clip_cosine": 0.39119952917099,
+    "clip_score": 39.119952917099
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\21_s28_a_small_robot_holds_a_red_umbrella_beside_a_striped_cat_in_front.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A small robot holds a red umbrella beside a striped cat in front of a rainy bookstore, while the window sign says SANA, puddles reflect yellow lamps, two bicycles lean nearby, and a delivery drone hovers above the narrow street as shoppers wait under awnings during a gentle evening storm.\"}": {
+    "clip_cosine": 0.394115149974823,
+    "clip_score": 39.4115149974823
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\22_s08_a_cyberpunk_street_market_glows_at_midnight_with_crowded_food_st.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A cyberpunk street market glows at midnight with crowded food stalls, neon kanji signs, rain reflections, masked shoppers, steam vents, hovering taxis, and a musician playing beside a noodle cart, while a child points at a holographic dragon above the wet plaza near a flickering red vending machine tonight outside.\"}": {
+    "clip_cosine": 0.3669074773788452,
+    "clip_score": 36.69074773788452
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\22_s12_a_cyberpunk_street_market_glows_at_midnight_with_crowded_food_st.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A cyberpunk street market glows at midnight with crowded food stalls, neon kanji signs, rain reflections, masked shoppers, steam vents, hovering taxis, and a musician playing beside a noodle cart, while a child points at a holographic dragon above the wet plaza near a flickering red vending machine tonight outside.\"}": {
+    "clip_cosine": 0.3694216310977936,
+    "clip_score": 36.94216310977936
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\22_s16_a_cyberpunk_street_market_glows_at_midnight_with_crowded_food_st.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A cyberpunk street market glows at midnight with crowded food stalls, neon kanji signs, rain reflections, masked shoppers, steam vents, hovering taxis, and a musician playing beside a noodle cart, while a child points at a holographic dragon above the wet plaza near a flickering red vending machine tonight outside.\"}": {
+    "clip_cosine": 0.37290582060813904,
+    "clip_score": 37.290582060813904
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\22_s20_a_cyberpunk_street_market_glows_at_midnight_with_crowded_food_st.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A cyberpunk street market glows at midnight with crowded food stalls, neon kanji signs, rain reflections, masked shoppers, steam vents, hovering taxis, and a musician playing beside a noodle cart, while a child points at a holographic dragon above the wet plaza near a flickering red vending machine tonight outside.\"}": {
+    "clip_cosine": 0.37343329191207886,
+    "clip_score": 37.343329191207886
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\22_s24_a_cyberpunk_street_market_glows_at_midnight_with_crowded_food_st.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A cyberpunk street market glows at midnight with crowded food stalls, neon kanji signs, rain reflections, masked shoppers, steam vents, hovering taxis, and a musician playing beside a noodle cart, while a child points at a holographic dragon above the wet plaza near a flickering red vending machine tonight outside.\"}": {
+    "clip_cosine": 0.37407854199409485,
+    "clip_score": 37.407854199409485
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\22_s28_a_cyberpunk_street_market_glows_at_midnight_with_crowded_food_st.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A cyberpunk street market glows at midnight with crowded food stalls, neon kanji signs, rain reflections, masked shoppers, steam vents, hovering taxis, and a musician playing beside a noodle cart, while a child points at a holographic dragon above the wet plaza near a flickering red vending machine tonight outside.\"}": {
+    "clip_cosine": 0.3745189607143402,
+    "clip_score": 37.45189607143402
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\23_s08_a_medieval_wizard_teaches_three_students_inside_a_crowded_librar.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A medieval wizard teaches three students inside a crowded library, with glowing books floating above an oak table, candles dripping wax, a raven watching from a shelf, maps pinned to stone walls, and a silver telescope aimed at moonlight through the tall arched window behind a stack of scrolls tonight.\"}": {
+    "clip_cosine": 0.35977596044540405,
+    "clip_score": 35.977596044540405
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\23_s12_a_medieval_wizard_teaches_three_students_inside_a_crowded_librar.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A medieval wizard teaches three students inside a crowded library, with glowing books floating above an oak table, candles dripping wax, a raven watching from a shelf, maps pinned to stone walls, and a silver telescope aimed at moonlight through the tall arched window behind a stack of scrolls tonight.\"}": {
+    "clip_cosine": 0.3525715172290802,
+    "clip_score": 35.25715172290802
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\23_s16_a_medieval_wizard_teaches_three_students_inside_a_crowded_librar.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A medieval wizard teaches three students inside a crowded library, with glowing books floating above an oak table, candles dripping wax, a raven watching from a shelf, maps pinned to stone walls, and a silver telescope aimed at moonlight through the tall arched window behind a stack of scrolls tonight.\"}": {
+    "clip_cosine": 0.3427625000476837,
+    "clip_score": 34.27625000476837
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\23_s20_a_medieval_wizard_teaches_three_students_inside_a_crowded_librar.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A medieval wizard teaches three students inside a crowded library, with glowing books floating above an oak table, candles dripping wax, a raven watching from a shelf, maps pinned to stone walls, and a silver telescope aimed at moonlight through the tall arched window behind a stack of scrolls tonight.\"}": {
+    "clip_cosine": 0.34762245416641235,
+    "clip_score": 34.762245416641235
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\23_s24_a_medieval_wizard_teaches_three_students_inside_a_crowded_librar.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A medieval wizard teaches three students inside a crowded library, with glowing books floating above an oak table, candles dripping wax, a raven watching from a shelf, maps pinned to stone walls, and a silver telescope aimed at moonlight through the tall arched window behind a stack of scrolls tonight.\"}": {
+    "clip_cosine": 0.3441118001937866,
+    "clip_score": 34.41118001937866
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\23_s28_a_medieval_wizard_teaches_three_students_inside_a_crowded_librar.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A medieval wizard teaches three students inside a crowded library, with glowing books floating above an oak table, candles dripping wax, a raven watching from a shelf, maps pinned to stone walls, and a silver telescope aimed at moonlight through the tall arched window behind a stack of scrolls tonight.\"}": {
+    "clip_cosine": 0.35350608825683594,
+    "clip_score": 35.350608825683594
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\24_s08_a_busy_spaceport_spreads_beneath_an_orange_sky_where_two_astrona.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A busy spaceport spreads beneath an orange sky, where two astronauts repair a rover beside a cargo ship, engineers carry tools, fuel pipes cross the landing pad, warning lights blink, and tourists photograph distant planets from behind glass while security robots guide them toward a silver observation balcony above calmly.\"}": {
+    "clip_cosine": 0.3411867916584015,
+    "clip_score": 34.11867916584015
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\24_s12_a_busy_spaceport_spreads_beneath_an_orange_sky_where_two_astrona.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A busy spaceport spreads beneath an orange sky, where two astronauts repair a rover beside a cargo ship, engineers carry tools, fuel pipes cross the landing pad, warning lights blink, and tourists photograph distant planets from behind glass while security robots guide them toward a silver observation balcony above calmly.\"}": {
+    "clip_cosine": 0.34372416138648987,
+    "clip_score": 34.37241613864899
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\24_s16_a_busy_spaceport_spreads_beneath_an_orange_sky_where_two_astrona.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A busy spaceport spreads beneath an orange sky, where two astronauts repair a rover beside a cargo ship, engineers carry tools, fuel pipes cross the landing pad, warning lights blink, and tourists photograph distant planets from behind glass while security robots guide them toward a silver observation balcony above calmly.\"}": {
+    "clip_cosine": 0.31951743364334106,
+    "clip_score": 31.951743364334106
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\24_s20_a_busy_spaceport_spreads_beneath_an_orange_sky_where_two_astrona.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A busy spaceport spreads beneath an orange sky, where two astronauts repair a rover beside a cargo ship, engineers carry tools, fuel pipes cross the landing pad, warning lights blink, and tourists photograph distant planets from behind glass while security robots guide them toward a silver observation balcony above calmly.\"}": {
+    "clip_cosine": 0.3189433515071869,
+    "clip_score": 31.89433515071869
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\24_s24_a_busy_spaceport_spreads_beneath_an_orange_sky_where_two_astrona.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A busy spaceport spreads beneath an orange sky, where two astronauts repair a rover beside a cargo ship, engineers carry tools, fuel pipes cross the landing pad, warning lights blink, and tourists photograph distant planets from behind glass while security robots guide them toward a silver observation balcony above calmly.\"}": {
+    "clip_cosine": 0.3226439356803894,
+    "clip_score": 32.26439356803894
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\24_s28_a_busy_spaceport_spreads_beneath_an_orange_sky_where_two_astrona.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A busy spaceport spreads beneath an orange sky, where two astronauts repair a rover beside a cargo ship, engineers carry tools, fuel pipes cross the landing pad, warning lights blink, and tourists photograph distant planets from behind glass while security robots guide them toward a silver observation balcony above calmly.\"}": {
+    "clip_cosine": 0.32254016399383545,
+    "clip_score": 32.254016399383545
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\25_s08_a_family_picnic_fills_a_sunny_park_where_a_child_flies_a_kite_a_.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A family picnic fills a sunny park, where a child flies a kite, a dog sleeps beneath the table, balloons drift near a fountain, grandparents pour lemonade, sandwiches sit in baskets, and clouds cast soft shadows across the grass while birds circle above a blanket covered with fresh strawberries nearby.\"}": {
+    "clip_cosine": 0.3885919451713562,
+    "clip_score": 38.85919451713562
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\25_s12_a_family_picnic_fills_a_sunny_park_where_a_child_flies_a_kite_a_.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A family picnic fills a sunny park, where a child flies a kite, a dog sleeps beneath the table, balloons drift near a fountain, grandparents pour lemonade, sandwiches sit in baskets, and clouds cast soft shadows across the grass while birds circle above a blanket covered with fresh strawberries nearby.\"}": {
+    "clip_cosine": 0.37985095381736755,
+    "clip_score": 37.985095381736755
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\25_s16_a_family_picnic_fills_a_sunny_park_where_a_child_flies_a_kite_a_.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A family picnic fills a sunny park, where a child flies a kite, a dog sleeps beneath the table, balloons drift near a fountain, grandparents pour lemonade, sandwiches sit in baskets, and clouds cast soft shadows across the grass while birds circle above a blanket covered with fresh strawberries nearby.\"}": {
+    "clip_cosine": 0.3818344175815582,
+    "clip_score": 38.18344175815582
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\25_s20_a_family_picnic_fills_a_sunny_park_where_a_child_flies_a_kite_a_.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A family picnic fills a sunny park, where a child flies a kite, a dog sleeps beneath the table, balloons drift near a fountain, grandparents pour lemonade, sandwiches sit in baskets, and clouds cast soft shadows across the grass while birds circle above a blanket covered with fresh strawberries nearby.\"}": {
+    "clip_cosine": 0.38267889618873596,
+    "clip_score": 38.267889618873596
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\25_s24_a_family_picnic_fills_a_sunny_park_where_a_child_flies_a_kite_a_.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A family picnic fills a sunny park, where a child flies a kite, a dog sleeps beneath the table, balloons drift near a fountain, grandparents pour lemonade, sandwiches sit in baskets, and clouds cast soft shadows across the grass while birds circle above a blanket covered with fresh strawberries nearby.\"}": {
+    "clip_cosine": 0.3757760524749756,
+    "clip_score": 37.57760524749756
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\25_s28_a_family_picnic_fills_a_sunny_park_where_a_child_flies_a_kite_a_.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A family picnic fills a sunny park, where a child flies a kite, a dog sleeps beneath the table, balloons drift near a fountain, grandparents pour lemonade, sandwiches sit in baskets, and clouds cast soft shadows across the grass while birds circle above a blanket covered with fresh strawberries nearby.\"}": {
+    "clip_cosine": 0.3776280879974365,
+    "clip_score": 37.76280879974365
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\26_s08_a_steampunk_workshop_contains_brass_gears_glass_tubes_a_robot_bi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A steampunk workshop contains brass gears, glass tubes, a robot bird, a chalkboard that says PCAS, copper lamps, scattered blueprints, and an inventor tightening a valve while sparks fly from a half built clockwork engine beside shelves packed with lenses springs tools and polished wooden boxes under smoky golden light.\"}": {
+    "clip_cosine": 0.3551996946334839,
+    "clip_score": 35.51996946334839
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\26_s12_a_steampunk_workshop_contains_brass_gears_glass_tubes_a_robot_bi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A steampunk workshop contains brass gears, glass tubes, a robot bird, a chalkboard that says PCAS, copper lamps, scattered blueprints, and an inventor tightening a valve while sparks fly from a half built clockwork engine beside shelves packed with lenses springs tools and polished wooden boxes under smoky golden light.\"}": {
+    "clip_cosine": 0.361525297164917,
+    "clip_score": 36.1525297164917
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\26_s16_a_steampunk_workshop_contains_brass_gears_glass_tubes_a_robot_bi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A steampunk workshop contains brass gears, glass tubes, a robot bird, a chalkboard that says PCAS, copper lamps, scattered blueprints, and an inventor tightening a valve while sparks fly from a half built clockwork engine beside shelves packed with lenses springs tools and polished wooden boxes under smoky golden light.\"}": {
+    "clip_cosine": 0.35181695222854614,
+    "clip_score": 35.181695222854614
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\26_s20_a_steampunk_workshop_contains_brass_gears_glass_tubes_a_robot_bi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A steampunk workshop contains brass gears, glass tubes, a robot bird, a chalkboard that says PCAS, copper lamps, scattered blueprints, and an inventor tightening a valve while sparks fly from a half built clockwork engine beside shelves packed with lenses springs tools and polished wooden boxes under smoky golden light.\"}": {
+    "clip_cosine": 0.3563351631164551,
+    "clip_score": 35.63351631164551
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\26_s24_a_steampunk_workshop_contains_brass_gears_glass_tubes_a_robot_bi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A steampunk workshop contains brass gears, glass tubes, a robot bird, a chalkboard that says PCAS, copper lamps, scattered blueprints, and an inventor tightening a valve while sparks fly from a half built clockwork engine beside shelves packed with lenses springs tools and polished wooden boxes under smoky golden light.\"}": {
+    "clip_cosine": 0.36082008481025696,
+    "clip_score": 36.082008481025696
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\26_s28_a_steampunk_workshop_contains_brass_gears_glass_tubes_a_robot_bi.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A steampunk workshop contains brass gears, glass tubes, a robot bird, a chalkboard that says PCAS, copper lamps, scattered blueprints, and an inventor tightening a valve while sparks fly from a half built clockwork engine beside shelves packed with lenses springs tools and polished wooden boxes under smoky golden light.\"}": {
+    "clip_cosine": 0.3646872043609619,
+    "clip_score": 36.46872043609619
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\27_s08_a_seaside_festival_begins_at_dusk_with_lanterns_musicians_childr.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A seaside festival begins at dusk with lanterns, musicians, children dancing, fireworks over the water, fishing boats tied to the pier, vendors selling fruit, and a painter capturing the scene while waves shimmer under purple clouds near a wooden stage covered with flowers ribbons drums and glowing paper stars tonight.\"}": {
+    "clip_cosine": 0.36826011538505554,
+    "clip_score": 36.826011538505554
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\27_s12_a_seaside_festival_begins_at_dusk_with_lanterns_musicians_childr.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A seaside festival begins at dusk with lanterns, musicians, children dancing, fireworks over the water, fishing boats tied to the pier, vendors selling fruit, and a painter capturing the scene while waves shimmer under purple clouds near a wooden stage covered with flowers ribbons drums and glowing paper stars tonight.\"}": {
+    "clip_cosine": 0.3769809305667877,
+    "clip_score": 37.69809305667877
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\27_s16_a_seaside_festival_begins_at_dusk_with_lanterns_musicians_childr.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A seaside festival begins at dusk with lanterns, musicians, children dancing, fireworks over the water, fishing boats tied to the pier, vendors selling fruit, and a painter capturing the scene while waves shimmer under purple clouds near a wooden stage covered with flowers ribbons drums and glowing paper stars tonight.\"}": {
+    "clip_cosine": 0.3801027238368988,
+    "clip_score": 38.01027238368988
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\27_s20_a_seaside_festival_begins_at_dusk_with_lanterns_musicians_childr.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A seaside festival begins at dusk with lanterns, musicians, children dancing, fireworks over the water, fishing boats tied to the pier, vendors selling fruit, and a painter capturing the scene while waves shimmer under purple clouds near a wooden stage covered with flowers ribbons drums and glowing paper stars tonight.\"}": {
+    "clip_cosine": 0.382255494594574,
+    "clip_score": 38.2255494594574
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\27_s24_a_seaside_festival_begins_at_dusk_with_lanterns_musicians_childr.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A seaside festival begins at dusk with lanterns, musicians, children dancing, fireworks over the water, fishing boats tied to the pier, vendors selling fruit, and a painter capturing the scene while waves shimmer under purple clouds near a wooden stage covered with flowers ribbons drums and glowing paper stars tonight.\"}": {
+    "clip_cosine": 0.3870980143547058,
+    "clip_score": 38.70980143547058
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\27_s28_a_seaside_festival_begins_at_dusk_with_lanterns_musicians_childr.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A seaside festival begins at dusk with lanterns, musicians, children dancing, fireworks over the water, fishing boats tied to the pier, vendors selling fruit, and a painter capturing the scene while waves shimmer under purple clouds near a wooden stage covered with flowers ribbons drums and glowing paper stars tonight.\"}": {
+    "clip_cosine": 0.3858790695667267,
+    "clip_score": 38.58790695667267
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\28_s08_a_detective_office_is_cluttered_with_case_files_where_a_woman_st.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A detective office is cluttered with case files, where a woman studies a city map, a man holds a flashlight, clues cover the wall, rain streaks the window, and a clock points toward midnight as coffee steams beside photographs marked with red thread across a dusty wooden desk quietly tonight.\"}": {
+    "clip_cosine": 0.34898295998573303,
+    "clip_score": 34.8982959985733
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\28_s12_a_detective_office_is_cluttered_with_case_files_where_a_woman_st.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A detective office is cluttered with case files, where a woman studies a city map, a man holds a flashlight, clues cover the wall, rain streaks the window, and a clock points toward midnight as coffee steams beside photographs marked with red thread across a dusty wooden desk quietly tonight.\"}": {
+    "clip_cosine": 0.3483925461769104,
+    "clip_score": 34.83925461769104
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\28_s16_a_detective_office_is_cluttered_with_case_files_where_a_woman_st.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A detective office is cluttered with case files, where a woman studies a city map, a man holds a flashlight, clues cover the wall, rain streaks the window, and a clock points toward midnight as coffee steams beside photographs marked with red thread across a dusty wooden desk quietly tonight.\"}": {
+    "clip_cosine": 0.3461185693740845,
+    "clip_score": 34.61185693740845
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\28_s20_a_detective_office_is_cluttered_with_case_files_where_a_woman_st.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A detective office is cluttered with case files, where a woman studies a city map, a man holds a flashlight, clues cover the wall, rain streaks the window, and a clock points toward midnight as coffee steams beside photographs marked with red thread across a dusty wooden desk quietly tonight.\"}": {
+    "clip_cosine": 0.3457721471786499,
+    "clip_score": 34.57721471786499
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\28_s24_a_detective_office_is_cluttered_with_case_files_where_a_woman_st.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A detective office is cluttered with case files, where a woman studies a city map, a man holds a flashlight, clues cover the wall, rain streaks the window, and a clock points toward midnight as coffee steams beside photographs marked with red thread across a dusty wooden desk quietly tonight.\"}": {
+    "clip_cosine": 0.3478306531906128,
+    "clip_score": 34.78306531906128
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\28_s28_a_detective_office_is_cluttered_with_case_files_where_a_woman_st.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A detective office is cluttered with case files, where a woman studies a city map, a man holds a flashlight, clues cover the wall, rain streaks the window, and a clock points toward midnight as coffee steams beside photographs marked with red thread across a dusty wooden desk quietly tonight.\"}": {
+    "clip_cosine": 0.34775930643081665,
+    "clip_score": 34.775930643081665
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\29_s08_a_fantasy_battle_unfolds_in_heavy_rain_as_a_dragon_flies_above_a.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A fantasy battle unfolds in heavy rain as a dragon flies above a castle, knights defend a bridge, archers light flaming arrows, horses rear near broken shields, and lightning reveals a wizard casting blue magic while villagers watch from stone windows beside banners torn by wind over the river below.\"}": {
+    "clip_cosine": 0.3726646602153778,
+    "clip_score": 37.26646602153778
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\29_s12_a_fantasy_battle_unfolds_in_heavy_rain_as_a_dragon_flies_above_a.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A fantasy battle unfolds in heavy rain as a dragon flies above a castle, knights defend a bridge, archers light flaming arrows, horses rear near broken shields, and lightning reveals a wizard casting blue magic while villagers watch from stone windows beside banners torn by wind over the river below.\"}": {
+    "clip_cosine": 0.36946845054626465,
+    "clip_score": 36.946845054626465
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\29_s16_a_fantasy_battle_unfolds_in_heavy_rain_as_a_dragon_flies_above_a.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A fantasy battle unfolds in heavy rain as a dragon flies above a castle, knights defend a bridge, archers light flaming arrows, horses rear near broken shields, and lightning reveals a wizard casting blue magic while villagers watch from stone windows beside banners torn by wind over the river below.\"}": {
+    "clip_cosine": 0.37314826250076294,
+    "clip_score": 37.314826250076294
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\29_s20_a_fantasy_battle_unfolds_in_heavy_rain_as_a_dragon_flies_above_a.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A fantasy battle unfolds in heavy rain as a dragon flies above a castle, knights defend a bridge, archers light flaming arrows, horses rear near broken shields, and lightning reveals a wizard casting blue magic while villagers watch from stone windows beside banners torn by wind over the river below.\"}": {
+    "clip_cosine": 0.3719933032989502,
+    "clip_score": 37.19933032989502
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\29_s24_a_fantasy_battle_unfolds_in_heavy_rain_as_a_dragon_flies_above_a.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A fantasy battle unfolds in heavy rain as a dragon flies above a castle, knights defend a bridge, archers light flaming arrows, horses rear near broken shields, and lightning reveals a wizard casting blue magic while villagers watch from stone windows beside banners torn by wind over the river below.\"}": {
+    "clip_cosine": 0.3722146153450012,
+    "clip_score": 37.22146153450012
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\29_s28_a_fantasy_battle_unfolds_in_heavy_rain_as_a_dragon_flies_above_a.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A fantasy battle unfolds in heavy rain as a dragon flies above a castle, knights defend a bridge, archers light flaming arrows, horses rear near broken shields, and lightning reveals a wizard casting blue magic while villagers watch from stone windows beside banners torn by wind over the river below.\"}": {
+    "clip_cosine": 0.37303972244262695,
+    "clip_score": 37.303972244262695
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\30_s08_a_futuristic_classroom_shows_robots_and_children_building_a_smal.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A futuristic classroom shows robots and children building a small rocket, posters spelling SANA on the wall, tablets glowing on desks, a teacher adjusting holographic equations, and tiny drones carrying tools between colorful experiment stations while sunlight enters through wide windows above plants wires gears notebooks and safety helmets neatly.\"}": {
+    "clip_cosine": 0.3630352318286896,
+    "clip_score": 36.30352318286896
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\30_s12_a_futuristic_classroom_shows_robots_and_children_building_a_smal.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A futuristic classroom shows robots and children building a small rocket, posters spelling SANA on the wall, tablets glowing on desks, a teacher adjusting holographic equations, and tiny drones carrying tools between colorful experiment stations while sunlight enters through wide windows above plants wires gears notebooks and safety helmets neatly.\"}": {
+    "clip_cosine": 0.35356441140174866,
+    "clip_score": 35.356441140174866
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\30_s16_a_futuristic_classroom_shows_robots_and_children_building_a_smal.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A futuristic classroom shows robots and children building a small rocket, posters spelling SANA on the wall, tablets glowing on desks, a teacher adjusting holographic equations, and tiny drones carrying tools between colorful experiment stations while sunlight enters through wide windows above plants wires gears notebooks and safety helmets neatly.\"}": {
+    "clip_cosine": 0.3626554310321808,
+    "clip_score": 36.26554310321808
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\30_s20_a_futuristic_classroom_shows_robots_and_children_building_a_smal.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A futuristic classroom shows robots and children building a small rocket, posters spelling SANA on the wall, tablets glowing on desks, a teacher adjusting holographic equations, and tiny drones carrying tools between colorful experiment stations while sunlight enters through wide windows above plants wires gears notebooks and safety helmets neatly.\"}": {
+    "clip_cosine": 0.359869122505188,
+    "clip_score": 35.9869122505188
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\30_s24_a_futuristic_classroom_shows_robots_and_children_building_a_smal.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A futuristic classroom shows robots and children building a small rocket, posters spelling SANA on the wall, tablets glowing on desks, a teacher adjusting holographic equations, and tiny drones carrying tools between colorful experiment stations while sunlight enters through wide windows above plants wires gears notebooks and safety helmets neatly.\"}": {
+    "clip_cosine": 0.3594697415828705,
+    "clip_score": 35.94697415828705
+  },
+  "{\"image_path\": \"outputs\\\\day6_calibration_grid\\\\30_s28_a_futuristic_classroom_shows_robots_and_children_building_a_smal.png\", \"model_id\": \"openai/clip-vit-base-patch32\", \"prompt\": \"A futuristic classroom shows robots and children building a small rocket, posters spelling SANA on the wall, tablets glowing on desks, a teacher adjusting holographic equations, and tiny drones carrying tools between colorful experiment stations while sunlight enters through wide windows above plants wires gears notebooks and safety helmets neatly.\"}": {
+    "clip_cosine": 0.3624546229839325,
+    "clip_score": 36.24546229839325
+  }
+}

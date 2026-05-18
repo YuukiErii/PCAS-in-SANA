@@ -1,8 +1,11 @@
-# SANA 项目 PPT 与学术报告大纲
+# SANA 项目 PPT 与正式报告最新大纲
 
-更新时间：2026-05-17
+更新时间：2026-05-18
 
-本文档用于后续制作课程汇报 PPT 和正式书面报告。它是页级/章节级大纲，不是最终报告正文。
+本文档用于后续制作课程汇报 PPT，并同步记录当前正式 LaTeX 报告的大纲。最新正式报告已经位于：
+
+- `report/latex/sana_pcas_report.tex`
+- `report/latex/sana_pcas_report.pdf`
 
 ## 1. 推荐汇报题目
 
@@ -16,101 +19,91 @@
 
 一句话摘要：
 
-> 本项目复现 SANA-0.6B 文生图推理流程，并提出预算约束下的 Prompt-Complexity Adaptive Sampling，在保持 CLIPScore 接近的同时减少平均推理时间。
+> 本项目复现 SANA-0.6B 文生图推理流程，并提出 prompt-aware 的自适应采样策略：Balanced-PCAS 在保持 CLIPScore 接近的同时获得约 24.6% 平均加速，Calibrated-PCAS 进一步将手工策略推进为 Fixed-20 质量约束下的最小充分 steps 预测。
 
-## 2. PPT 叙事主线
+## 2. 最新 PPT 叙事主线
 
-建议整场汇报不要按“每天做了什么”平铺，而是按研究故事组织：
+建议整场汇报按研究推进逻辑组织，而不是按“每天做了什么”平铺：
 
-1. 高分辨率文生图需要效率。
-2. SANA 是高效 backbone，但实际推理仍常用固定采样参数。
-3. 不同 prompt 难度不同，固定 steps 会浪费或不足。
-4. 我们提出 PCAS：按 prompt 复杂度自适应分配 steps/guidance。
-5. 原始 PCAS 有两个问题：整体速度收益小，DeepSeek 过保守。
-6. 我们提出 Balanced-PCAS 和 DeepSeek-Balanced，使方法真正符合预算约束。
-7. 自动质量指标提升不明显，因此将贡献定位为效率-质量权衡，而非质量上限提升。
-8. LoRA 个性化作为扩展实验，展示 SANA pipeline 的可扩展性和小样本个性化局限。
+```text
+提出问题
+  固定 20/28 steps 是否对所有 prompt 都合理？
 
-## 3. PPT 页级大纲
+初步探索
+  Rule-PCAS 根据 prompt 长度重分配 steps，证明 prompt-aware 思路可行。
 
-建议 15-18 页，适合 8-12 分钟课程汇报。
+发现问题
+  Rule-PCAS 整体加速不足；DeepSeek-PCAS 语义判断更强但过于保守；质量指标差异很小。
+
+进一步深化
+  Balanced-PCAS 控制平均预算；
+  DeepSeek-Balanced 校准 LLM 标签到采样动作；
+  Calibrated-PCAS 用真实 calibration grid 学习最小充分 steps。
+
+扩展验证
+  Guidance / hard prompt / LoRA 说明方法边界和 SANA pipeline 可扩展性。
+```
+
+核心讲述口径：
+
+- 不要宣称 PCAS 显著提升图像质量。
+- 要强调 PCAS 的价值是改善效率-质量权衡：在自动文本对齐指标和视觉观感基本相近的情况下，减少固定预算浪费。
+- Balanced-PCAS 是主结果，Calibrated-PCAS 是方法深化，LoRA 是扩展实验。
+
+## 3. 最新 PPT 页级大纲
+
+建议 17-19 页，适合 8-12 分钟课程汇报。若时间更短，可删去 Slide 15 或合并 Slide 16-17。
 
 ### Slide 1：标题页
 
-标题：
-
-```text
-基于 SANA 的高效文生图复现与 Prompt 复杂度自适应采样策略研究
-```
-
 内容：
 
-- 课程名称
-- 姓名/组员
-- 日期
-- 关键词：SANA, Text-to-Image, Adaptive Sampling, Efficient Inference
+- 中文标题与英文标题。
+- 作者：钟子铭 2200012104。
+- 关键词：SANA, Text-to-Image, Adaptive Sampling, Efficient Inference。
 
-备注：
+建议视觉：
 
-- 标题页不放复杂图，可以放 2-3 张生成图小样例作为背景或底部 strip。
+- 可在底部放 3-4 张 SANA 生成图小样例。
 
-### Slide 2：研究背景：高分辨率文生图的效率问题
-
-核心信息：
-
-- Diffusion/DiT 文生图模型效果强，但推理成本高。
-- 高分辨率生成中 latent token 数量和 attention 计算带来压力。
-- 实际应用常希望在质量可接受的前提下减少推理时间。
-
-建议图：
-
-- 可用简单流程图：Text prompt -> Diffusion model -> Image。
-- 或引用 SANA 论文中的效率动机，但若不准备截图，可用自绘示意。
-
-讲述重点：
-
-- 本项目不是从头训练模型，而是在高效 backbone 上做推理调度优化。
-
-### Slide 3：经典工作：SANA 简介
+### Slide 2：研究背景：文生图质量强，但推理仍贵
 
 核心信息：
 
-- SANA 是 ICLR 2025 高效高分辨率文生图模型。
-- 关键设计：Deep Compression Autoencoder、Linear Diffusion Transformer、decoder-only text encoder、Flow-DPM-Solver。
-- 适合单卡复现实验。
+- 扩散模型和 DiT 推动了高质量文生图。
+- 高分辨率生成依赖多步采样，推理延迟仍是实际约束。
+- 课程项目目标不是从头训练大模型，而是在已有高效 backbone 上做推理阶段优化。
 
-建议内容：
+### Slide 3：经典工作复现对象：SANA
+
+核心信息：
 
 | 模块 | 作用 |
 | --- | --- |
 | Deep Compression Autoencoder | 减少 latent tokens |
-| Linear DiT | 降低高分辨率 attention 开销 |
+| Linear Diffusion Transformer | 降低高分辨率 attention 开销 |
 | Decoder-only Text Encoder | 增强文本理解 |
 | Flow-DPM-Solver | 提高采样效率 |
 
 讲述重点：
 
-- SANA 已经高效，但固定推理参数仍可能浪费。
+- SANA 已经是高效 backbone，但实际推理仍常用固定 steps / guidance。
 
-### Slide 4：项目问题：固定采样参数不适合所有 prompt
+### Slide 4：提出问题：固定采样预算不适合所有 prompt
 
 核心信息：
 
 | Prompt 类型 | 示例 | 固定 steps 的问题 |
 | --- | --- | --- |
-| 简单 | a red apple on a wooden table | 20/28 steps 可能浪费 |
+| 简单 | red apple on a wooden table | 20/28 steps 可能浪费 |
 | 中等 | robot chef cooking pasta | 需要稳定对齐 |
-| 复杂 | cyberpunk street market with many objects | 低步数可能缺细节 |
+| 复杂 | cyberpunk street market with many objects | 低步数可能不足 |
 
 主问题：
 
-> 能否根据 prompt 复杂度动态调整采样参数，使简单 prompt 更快，复杂 prompt 更稳？
+> 能否不改 SANA 主模型，只根据 prompt 复杂度动态选择推理预算？
 
-建议图：
-
-- 使用 `results/figures/day2_baseline_grid_full_prompts.png` 展示固定步数效果。
-
-### Slide 5：项目整体技术路线
+### Slide 5：总体技术路线
 
 建议画成 pipeline：
 
@@ -120,50 +113,33 @@ Prompt
   -> Adaptive Policy
   -> SANA Pipeline
   -> Image
-  -> Speed / CLIPScore / Visual Evaluation
+  -> Time / CLIPScore / Visual Evaluation
 ```
 
 核心信息：
 
-- 不改 SANA 主模型参数。
-- 创新集中在 inference-time adaptive computation。
-- 评估同时包含速度、显存、CLIPScore、定性图。
+- 方法只作用于 inference-time policy。
+- 不重新训练 SANA 主模型。
+- 评估包括速度、显存、平均 steps、CLIPScore、定性图。
 
-### Slide 6：Prompt-Complexity Adaptive Sampling 方法
-
-核心信息：
-
-- Rule-PCAS 使用 prompt 长度/结构粗略估计复杂度。
-- 初始策略：
-
-| Group | Steps | Guidance |
-| --- | ---: | ---: |
-| short / 10 words | 10 | 4.0 |
-| medium / 30 words | 20 | 4.5 |
-| long / 50 words | 28 | 5.0 |
-
-建议讲述：
-
-- 简单 prompt 少给 steps，复杂 prompt 多给 steps。
-- 这符合 adaptive computation 的直觉。
-
-### Slide 7：实验设置
+### Slide 6：实验设置
 
 核心信息：
 
-- Backbone：`Efficient-Large-Model/Sana_600M_512px_diffusers`
-- 硬件：RTX 5080 Laptop GPU, 16GB VRAM
-- Resolution：512x512
-- Benchmark：30 prompts，10/30/50 words 各 10 条
-- Baselines：Fixed-10, Fixed-20, Fixed-28
-- Metrics：average inference time, peak VRAM, average steps, CLIPScore
+| 项目 | 设置 |
+| --- | --- |
+| Model | `Efficient-Large-Model/Sana_600M_512px_diffusers` |
+| Hardware | NVIDIA GeForce RTX 5080 Laptop GPU, 16GB VRAM |
+| Resolution | 512x512 |
+| Benchmark | 30 prompts, 10/30/50 words 各 10 条 |
+| Main reference | Fixed-20 |
+| Metrics | time, peak VRAM, avg steps, CLIPScore, qualitative comparison |
 
 建议图：
 
-- 简单表格即可。
-- 可插入 `results/figures/day2_speed_summary_chart.png`。
+- `results/figures/day2_speed_summary_chart.png`
 
-### Slide 8：Baseline 结果：固定步数的速度-质量关系
+### Slide 7：Baseline：固定步数的速度-质量关系
 
 核心表：
 
@@ -173,48 +149,56 @@ Prompt
 | Fixed-20 | 20.000 | 0.996s | 35.762 |
 | Fixed-28 | 28.000 | 1.335s | 35.890 |
 
-建议图：
-
-- `results/figures/day4_speed_quality_tradeoff.png`
-
 讲述重点：
 
-- 采样步数增加会略微提高 CLIPScore，但提升幅度有限。
-- Fixed-20 是主要参考点。
+- 步数增加会带来轻微 CLIPScore 提升，但时间成本明显上升。
+- 这提出了固定预算冗余问题。
 
-### Slide 9：问题 1：原始 Rule-PCAS 整体加速不明显
+### Slide 8：初步探索：Rule-PCAS
+
+初始策略：
+
+| Group | Steps | Guidance |
+| --- | ---: | ---: |
+| 10-word | 10 | 4.0 |
+| 30-word | 20 | 4.5 |
+| 50-word | 28 | 5.0 |
 
 核心信息：
 
-- Rule-PCAS 在 short prompt 上节省明显。
-- 但 long prompt 使用 28 steps，抵消总体收益。
+- 简单 prompt 少给 steps，复杂 prompt 多给 steps。
+- 这是 prompt-aware adaptive sampling 的第一版。
+
+建议图：
+
+- `results/figures/day3_pcas_vs_fixed20_chart.png`
+
+### Slide 9：发现问题 1：Rule-PCAS 整体收益不足
 
 核心表：
 
 | Method | Avg steps | Avg time no-warmup | Saving vs Fixed-20 |
 | --- | ---: | ---: | ---: |
 | Fixed-20 | 20.000 | 0.996s | 0.0% |
-| Rule-PCAS 7.2 | 19.333 | 0.977s | 1.9% |
-
-建议图：
-
-- `results/figures/day3_pcas_vs_fixed20_chart.png`
+| Rule-PCAS | 19.333 | 0.977s | 1.9% |
 
 讲述重点：
 
-- 这是项目中第一个“不尽人意”的结果，引出 Balanced-PCAS。
+- 短 prompt 的加速是真实的。
+- 但长 prompt 的 28 steps 抵消了总体收益。
+- 结论：prompt-aware 不自动等于 faster，还必须 budget-aware。
 
 ### Slide 10：改进 1：Balanced-PCAS
 
-核心策略：
+策略对比：
 
 | Group | Rule-PCAS | Balanced-PCAS |
 | --- | ---: | ---: |
-| 10 words | 10 | 8 |
-| 30 words | 20 | 16 |
-| 50 words | 28 | 24 |
+| 10-word | 10 | 8 |
+| 30-word | 20 | 16 |
+| 50-word | 28 | 24 |
 
-核心结果：
+主结果：
 
 | Method | Avg steps | Avg time no-warmup | Saving vs Fixed-20 | Avg CLIPScore |
 | --- | ---: | ---: | ---: | ---: |
@@ -228,29 +212,24 @@ Prompt
 
 讲述重点：
 
-- Balanced-PCAS 是最终主推的效率版本。
+- Balanced-PCAS 是最稳健的主效率结果。
+- 它证明关键不只是分配预算，而是在平均预算下降的前提下分配预算。
 
-### Slide 11：问题 2：DeepSeek-PCAS 语义判断强，但过于保守
+### Slide 11：发现问题 2：DeepSeek-PCAS 更懂语义，但策略过保守
 
 核心信息：
 
-- DeepSeek 将 19/30 条 prompt 判为 high。
-- 原始 policy high=28 steps。
-- 平均 steps=23.4，导致比 Fixed-20 慢 30.8%。
-
-表格：
-
-| Method | Low | Medium | High | Avg steps | Avg time |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| DeepSeek-PCAS | 5 | 6 | 19 | 23.400 | 1.303s |
+- DeepSeek 将 30 条 prompt 判为 low/medium/high = 5/6/19。
+- 原始 policy 使用 10/20/28 steps。
+- high 标签过多导致平均 steps=23.4，平均时间比 Fixed-20 慢 30.8%。
 
 讲述重点：
 
-- DeepSeek 的语义标签有意义，但动作策略太激进。
+- LLM 标签不是没有用，问题在于“标签到动作”的映射没有校准。
 
 ### Slide 12：改进 2：DeepSeek-Balanced
 
-核心策略：
+策略对比：
 
 | Label | Original | Balanced |
 | --- | ---: | ---: |
@@ -272,87 +251,90 @@ Prompt
 
 讲述重点：
 
-- 这证明 LLM complexity 可以用于调度，但必须有预算约束。
+- 语义复杂度可以用于调度，但必须纳入预算约束。
 
-### Slide 13：质量评估：CLIPScore 差异很小
+### Slide 13：进一步深化：Calibrated-PCAS
 
-核心信息：
+动机：
 
-- 各方法 CLIPScore 差距很小。
-- 不应声称 PCAS 显著提升质量。
-- 更稳妥结论：PCAS 保持自动对齐指标，同时改善计算预算分配。
+- Balanced-PCAS 和 DeepSeek-Balanced 仍是手工 policy。
+- 它们没有回答每条 prompt 到 Fixed-20 附近究竟需要多少 steps。
 
-建议图：
+定义：
 
-- `results/figures/day4_clipscore_by_group.png`
-- `results/figures/day4_speed_quality_tradeoff.png`
+```text
+steps = {8, 12, 16, 20, 24, 28}
+s* = min{s | CLIPScore(s) >= CLIPScore(Fixed-20) - 0.2}
+```
+
+标签分布：
+
+| Minimal sufficient steps | Prompts |
+| ---: | ---: |
+| 8 | 18 |
+| 12 | 4 |
+| 16 | 6 |
+| 20 | 2 |
 
 讲述重点：
 
-- 主贡献从“提升质量”调整为“效率-质量权衡”。
+- 这一步把 PCAS 从经验规则推进到数据校准的最小预算预测。
 
-### Slide 14：Guidance Scale 消融
+### Slide 14：Calibrated-PCAS 结果
 
 核心表：
 
-| Guidance | Avg CLIPScore |
-| ---: | ---: |
-| 1.5 | 34.705 |
-| 3.5 | 35.856 |
-| 4.5 | 35.762 |
-| 5.5 | 35.848 |
-| 6.5 | 35.892 |
-| 8.5 | 36.027 |
+| Method | Avg steps | Avg time no-warmup | Avg CLIPScore | Constraint satisfaction |
+| --- | ---: | ---: | ---: | ---: |
+| Fixed-20 | 20.000 | 1.537s | 35.762 | 100.0% |
+| Balanced-PCAS | 16.000 | 1.740s | 35.772 | 73.3% |
+| DeepSeek-Balanced | 18.467 | 2.023s | 35.813 | 73.3% |
+| Oracle minimum | 10.933 | 1.112s | 36.276 | 100.0% |
+| Calibrated-PCAS | 10.667 | 0.675s | 36.234 | 96.7% |
+| LLM-feature Calibrated-PCAS | 11.333 | 1.093s | 36.230 | 96.7% |
+
+讲述重点：
+
+- 约束满足率从 73.3% 提升到 96.7%。
+- 由于样本只有 30 条，Calibrated-PCAS 应表述为方法深化和 proof-of-concept，而不是完全替代 Balanced-PCAS 的主结果。
+
+### Slide 15：质量评价：保持质量，而非显著提升质量
+
+核心信息：
+
+- 各方法 CLIPScore 差异较小。
+- hard prompt 定性对比没有显示稳定的质量上限提升。
+- 因此 PCAS 的贡献是保持自动对齐指标并改善效率-质量权衡。
+
+建议图：
+
+- `results/figures/day4_speed_quality_tradeoff.png`
+- `results/figures/day4_clipscore_by_group.png`
+
+### Slide 16：Guidance 与 hard prompt 补充分析
+
+核心信息：
+
+- Guidance 3.5-6.5 中等区间不敏感。
+- 1.5 明显较弱。
+- 8.5 有轻微 CLIPScore 偏好，但不等于视觉质量显著提升。
+- Hard prompt 差异多体现在局部纹理、光照、小物体细节。
 
 建议图：
 
 - `results/figures/day4_guidance_ablation_clipscore.png`
-- 可选：`results/figures/day4_guidance_stress_qualitative_grid.png`
-
-讲述重点：
-
-- 3.5-6.5 中等区间不敏感。
-- 1.5 明显较弱。
-- 8.5 有轻微 CLIPScore 偏好，但不等于视觉质量显著提升。
-
-### Slide 15：Hard Prompt 定性分析
-
-核心信息：
-
-- 选 8 条复杂 prompt。
-- Fixed-20、Fixed-28、Rule-PCAS、Balanced-PCAS、DeepSeek-Balanced 视觉上多数难分稳定优劣。
-- 差异更多体现在纹理、光照、局部细节。
-
-建议图：
-
 - `results/figures/day4_hard_prompt_qualitative_grid.png`
 - `results/figures/day4_hard_prompt_difference_heatmap_vs_fixed20.png`
 
-讲述重点：
-
-- 这进一步支持“质量基本保持，而非显著提升”的表述。
-
-### Slide 16：扩展实验：SANA-LoRA 个性化
+### Slide 17：扩展实验：SANA-LoRA 个性化
 
 核心信息：
 
-- 目标：用少量个人耳机照片训练 LoRA adapter。
-- Subject：`zzmearphone` 黑色头戴耳机。
-- 初始设置：9 张图，rank8/alpha8，200 steps。
-- 后续补强：enhanced LoRA rank16/500 steps，clean-captioned LoRA rank16/400 steps。
+- 使用个人耳机照片训练 DreamBooth LoRA。
+- 初始 LoRA 能跑通，但主体一致性不稳定。
+- 追加 enhanced LoRA、clean-captioned LoRA 和 subject-focused prompts。
 
-建议图：
-
-- `results/figures/day5_lora_base_vs_lora_scale2_grid.png`
-- `results/figures/day5_lora_training_images_contact_sheet.png`
-
-讲述重点：
-
-- LoRA 是可选增强，不是 PCAS 主线。
-
-### Slide 17：Day5 主体一致性分析
-
-核心表：
+关键结果：
 
 | Method | Ref sim | Subject CLIP | Prompt CLIPScore |
 | --- | ---: | ---: | ---: |
@@ -363,219 +345,178 @@ Prompt
 
 建议图：
 
+- `results/figures/day5_lora_training_images_contact_sheet.png`
 - `results/figures/day5_lora_subject_consistency_grid.png`
 
 讲述重点：
 
-- Enhanced x1.5 在主体描述和 prompt 对齐上最好。
-- Clean-caption x1.25 是更保守的稳定方案。
-- Scale 过强会导致结构坍塌。
-- 当前足够支撑汇报；补拍不是必须。
+- LoRA 是扩展实验，用于说明 SANA pipeline 可扩展，也说明小样本个性化受数据、caption 和 scale 影响明显。
 
-### Slide 18：总结与未来工作
+### Slide 18：结论
 
 建议总结：
 
-1. 成功复现 SANA-0.6B 文生图推理流程。
-2. 提出 PCAS，将固定推理参数改为 prompt-aware adaptive computation。
-3. Balanced-PCAS 在保持 CLIPScore 接近的同时实现约 24.6% 平均加速。
-4. DeepSeek-Balanced 将 LLM 复杂度判断转化为预算约束下的语义调度，实现约 15.3% 加速。
-5. Day4 评估表明质量差异不明显，因此 PCAS 应定位为效率-质量权衡策略。
-6. Day5 LoRA 复现证明小样本个性化可行，但主体一致性仍受数据、caption 和 scale 影响。
+1. 成功复现 SANA-0.6B diffusers 推理流程。
+2. 构建 30 条受控 prompt benchmark，并完成固定步数 baseline。
+3. Rule-PCAS 证明 prompt-aware 思路可行，但暴露整体预算问题。
+4. Balanced-PCAS 在保持 CLIPScore 接近的同时实现约 24.6% 平均加速。
+5. DeepSeek-Balanced 将 LLM 复杂度标签转化为预算约束下的语义调度，实现约 15.3% 加速。
+6. Calibrated-PCAS 将 PCAS 推进为 Fixed-20 质量约束下的最小充分 steps 预测，达到 96.7% 约束满足率。
+7. 质量评价表明 PCAS 应定位为效率-质量权衡策略，而不是显著质量提升方法。
+8. LoRA 扩展实验说明小样本个性化流程可行，但主体一致性仍受数据和 scale 影响。
 
-未来工作：
+### Slide 19：未来工作
 
-- 增加人工评分或 VQA-based 评估。
-- 尝试 adaptive resolution。
-- 在真实用户 prompt 分布上评估。
-- 使用更强 backbone 或更多 LoRA 产品图。
+建议内容：
 
-## 4. 正式书面报告大纲
+- 扩大 prompt benchmark，纳入真实用户 prompt、中文 prompt、文字渲染 prompt。
+- 引入人工偏好、VQA、OCR、ImageReward / PickScore 等更丰富指标。
+- 将 PCAS 从 steps/guidance 扩展到 adaptive resolution、adaptive solver order 或 early stopping。
+- 用更干净、多角度产品图加强 LoRA 主体一致性。
+- 在 SANA 1.6B、更高分辨率或其他高效 backbone 上验证迁移性。
 
-建议报告采用论文式结构。
+## 4. 当前正式报告大纲
 
-### 摘要
+正式报告目前已编译为 42 页 PDF，结构如下。
 
-内容要点：
+### Front Matter
 
-- 复现 SANA。
-- 提出 PCAS。
-- Balanced-PCAS 主要结果：24.6% 加速，CLIPScore 基本保持。
-- DeepSeek-Balanced 主要结果：15.3% 加速。
-- LoRA 作为可选增强，展示小样本个性化可行但不稳定。
+1. 标题页：中英文标题 + 作者 `钟子铭 2200012104`
+2. 摘要页：摘要 + 关键词
+3. 目录页
 
-### 1. Introduction
+### 1. 引言
 
-建议写：
+- 1.1 高分辨率文生图的推理效率问题
+- 1.2 从原始 SANA 到 prompt-aware SANA 推理
+- 1.3 本文贡献
 
-- 高分辨率文生图效率问题。
-- SANA 的意义。
-- 固定采样参数的不足。
-- 本文贡献。
+写作重点：
 
-贡献列表可写：
+- 从固定采样预算的问题引出 PCAS。
+- 摘要和引言中的核心结论是 Balanced-PCAS 加速与 Calibrated-PCAS 方法深化。
 
-1. 复现 SANA-0.6B diffusers 推理。
-2. 构建 30 条 prompt benchmark 和固定步数 baseline。
-3. 提出 Rule-PCAS、Balanced-PCAS、DeepSeek-PCAS、DeepSeek-Balanced。
-4. 系统评估速度、CLIPScore、guidance scale 和 hard prompt。
-5. 复现 SANA-LoRA DreamBooth 并分析主体一致性问题。
+### 2. 相关工作
 
-### 2. Related Work
+- 2.1 扩散模型与 Diffusion Transformer
+- 2.2 SANA 的高效生成设计
+- 2.3 自适应推理与动态计算
+- 2.4 LoRA 与 DreamBooth 个性化
 
-可分小节：
+写作重点：
 
-- Diffusion Models and Diffusion Transformers
-- Efficient Text-to-Image Generation
-- SANA
-- Adaptive Inference / Dynamic Computation
-- DreamBooth and LoRA Personalization
+- 把 PCAS 放在 adaptive inference / dynamic computation 语境下，而不是宣称新 backbone。
 
-### 3. Method
+### 3. 方法
 
-建议结构：
+- 3.1 问题定义
+- 3.2 Prompt 复杂度估计
+- 3.3 Adaptive Sampling Policy
+- 3.4 Calibrated-PCAS：最小充分 steps 预测
+- 3.5 SANA-LoRA 个性化扩展
 
-#### 3.1 SANA Backbone
+写作重点：
 
-简述：
+- 先给固定推理和 adaptive policy 的形式化定义。
+- 解释 rule features、DeepSeek features 和 calibration grid。
+- LoRA 明确为扩展实验。
 
-- Deep compression autoencoder
-- Linear DiT
-- Decoder-only text encoder
-- Flow-DPM-Solver
+### 4. 实验设置
 
-#### 3.2 Prompt Complexity Estimation
+- 4.1 硬件与软件环境
+- 4.2 Prompt Benchmark
+- 4.3 评价指标
 
-Rule-based：
+写作重点：
 
-- prompt 长度
-- 主体数量/属性/关系/风格/文字需求
+- 明确单张 RTX 5080 Laptop GPU、SANA-0.6B、512x512、30 prompts。
+- 说明 CLIPScore 的局限，避免过度解释质量。
 
-DeepSeek-based：
+### 5. 实验结果
 
-- LLM 输出 low / medium / high
-- 使用 cache 降低成本
+- 5.1 固定步数 SANA baseline
+- 5.2 原始 Rule-PCAS：计算重分配有效但整体收益不足
+- 5.3 Balanced-PCAS：相对于固定 SANA 推理的主要效率优势
+- 5.4 DeepSeek-Balanced：从语义复杂度到预算约束调度
+- 5.5 Calibrated-PCAS：从手工规则到数据校准 policy
+- 5.6 质量评价：PCAS 保持质量而非显著提高质量
+- 5.7 Guidance scale 消融
+- 5.8 Hard prompt 定性分析与视觉差异
+- 5.9 LoRA 个性化实验
 
-#### 3.3 Adaptive Sampling Policy
+写作重点：
 
-写四个策略：
+- 这一章已经按“提出问题 -> 初步探索 -> 发现问题 -> 进一步深化”重写。
+- 不再单独列“前一版不足”表，而是在对应结果小节中自然说明每一步改进。
 
-| 方法 | 作用 |
-| --- | --- |
-| Rule-PCAS | 展示基础自适应机制 |
-| Balanced-PCAS | 效率优先主推版本 |
-| DeepSeek-PCAS | 展示语义复杂度判断 |
-| DeepSeek-Balanced | 预算约束下的语义调度 |
+### 6. 讨论
 
-#### 3.4 Optional LoRA Personalization
+- 6.1 PCAS 相对于原始 SANA 固定推理的优势
+- 6.2 为什么原始 PCAS 和 DeepSeek-PCAS 需要 Balanced 版本
+- 6.3 Calibrated-PCAS 带来的新版结论
+- 6.4 质量结论的边界
+- 6.5 Guidance scale 的启示
+- 6.6 LoRA 个性化实验的意义与限制
+- 6.7 局限性
+- 6.8 未来工作
 
-说明：
+写作重点：
 
-- 不是主线方法。
-- 用于验证 SANA pipeline 可扩展性。
-- 聚焦小样本个性化和主体一致性。
+- 讨论部分负责收束方法边界，不夸大结论。
 
-### 4. Experiments
+### 7. 结论
 
-建议结构：
+写作重点：
 
-#### 4.1 Experimental Setup
+- 用一段话总结复现、PCAS、Balanced、DeepSeek-Balanced、Calibrated-PCAS、质量边界和 LoRA。
 
-- Hardware：RTX5080 Laptop GPU, 16GB VRAM。
-- Model：SANA-0.6B 512px diffusers。
-- Prompt benchmark：30 prompts，10/30/50 words 各 10 条。
-- Metrics：time, VRAM, average steps, CLIPScore, qualitative grid。
+### Appendix A. 补充图表
 
-#### 4.2 Fixed-Step Baselines
+- A.1 固定步数生成结果网格
+- A.2 原始 PCAS 与 DeepSeek-PCAS 补充图
+- A.3 Guidance 与 hard prompt 补充图
+- A.4 LoRA 个性化补充图
 
-放 Fixed-10/20/28 表格。
+## 5. 可直接用于摘要/汇报开场的版本
 
-#### 4.3 PCAS Results
-
-先写原始 Rule-PCAS，再写 Balanced-PCAS。
-
-重点：
-
-- 原始 Rule-PCAS 总体加速小。
-- Balanced-PCAS 解决问题。
-
-#### 4.4 DeepSeek-Assisted PCAS
-
-重点：
-
-- 原始 DeepSeek-PCAS 太保守。
-- DeepSeek-Balanced 保留标签但降低预算。
-
-#### 4.5 Quality Evaluation
-
-重点：
-
-- CLIPScore 差异很小。
-- 不能声称质量显著提升。
-- hard prompt 视觉上基本打平。
-
-#### 4.6 Guidance Scale Ablation
-
-重点：
-
-- guidance 3.5-6.5 不敏感。
-- 1.5 低 guidance 不推荐。
-- 8.5 有轻微 CLIPScore 偏好但不是主线。
-
-#### 4.7 LoRA Personalization
-
-重点：
-
-- 初始 LoRA 成功但主体不稳定。
-- Enhanced x1.5 最佳自动指标。
-- Clean-caption x1.25 是保守稳定方案。
-- 当前足够支撑报告，补拍不是必须。
-
-### 5. Discussion
-
-建议讨论：
-
-- PCAS 的价值是 adaptive computation，不是必然提高质量。
-- CLIPScore 局限：对局部结构和关系错误不敏感。
-- DeepSeek labels 有语义价值，但需要 policy 校准。
-- LoRA 个性化受数据质量、caption 和 adapter scale 影响。
-
-### 6. Conclusion
-
-建议结论：
-
-- 本项目完成 SANA 复现和系统实验。
-- Balanced-PCAS 是主要成果。
-- DeepSeek-Balanced 是语义复杂度调度的补充。
-- Day4 说明自动指标提升有限，报告应保持保守。
-- Day5 LoRA 是探索性增强。
-
-### 7. Limitations and Future Work
-
-建议写：
-
-- Benchmark 规模仍较小。
-- 主要使用 CLIPScore，缺少人工评分和 VQA-based 指标。
-- 尚未系统测试 adaptive resolution。
-- LoRA 数据量少，主体一致性仍不稳定。
-- 未全面测试 SANA 1.6B 或更高分辨率。
-
-## 5. 可直接用于摘要的版本
-
-本项目围绕高效文生图模型 SANA 展开，首先在单张 RTX5080 Laptop GPU 上复现 SANA-0.6B 的 diffusers 推理流程，并构建 30 条按 prompt 长度分组的 benchmark。针对固定采样步数可能造成计算浪费的问题，项目提出 Prompt-Complexity Adaptive Sampling，根据 prompt 复杂度动态分配采样步数和 guidance scale。实验发现，原始 Rule-PCAS 在短 prompt 上节省明显，但在均衡 benchmark 中整体收益有限；因此进一步提出 Balanced-PCAS，将采样预算调整为 8/16/24 steps，使平均推理时间相比 Fixed-20 降低约 24.6%，同时 CLIPScore 保持在几乎相同水平。对于 LLM-based 复杂度估计，项目实现 DeepSeek-PCAS，并发现其原始策略过于保守；通过 DeepSeek-Balanced 策略，平均推理时间相比 Fixed-20 降低约 15.3%。质量评估表明，各方法 CLIPScore 差异较小，PCAS 更适合定位为一种改善效率-质量权衡的自适应推理策略。最后，项目复现 SANA-LoRA DreamBooth 个性化流程，并通过 enhanced LoRA 与 clean-captioned LoRA 分析主体一致性问题，展示了小样本个性化的可行性与局限。
+本项目围绕高效文生图模型 SANA 展开，首先在单张 RTX 5080 Laptop GPU 上复现 SANA-0.6B 的 diffusers 推理流程，并构建 30 条按 prompt 长度分组的 benchmark。针对固定采样步数可能造成计算浪费的问题，项目提出 Prompt-Complexity Adaptive Sampling，根据 prompt 复杂度动态分配采样步数和 guidance scale。实验发现，原始 Rule-PCAS 在短 prompt 上节省明显，但在均衡 benchmark 中整体收益有限；因此进一步提出 Balanced-PCAS，将采样预算调整为 8/16/24 steps，使平均推理时间相比 Fixed-20 降低约 24.6%，同时 CLIPScore 保持在几乎相同水平。对于 LLM-based 复杂度估计，项目实现 DeepSeek-PCAS，并发现其原始策略过于保守；通过 DeepSeek-Balanced 策略，平均推理时间相比 Fixed-20 降低约 15.3%。进一步地，Calibrated-PCAS 用 6 档 steps calibration grid 定义每条 prompt 的最小充分预算，在当前 calibration set 上以约 10--11 个平均 steps 达到 96.7% 的 Fixed-20 约束满足率。质量评估表明，各方法 CLIPScore 差异较小，PCAS 更适合定位为一种改善效率-质量权衡的自适应推理策略。最后，项目复现 SANA-LoRA DreamBooth 个性化流程，并通过 enhanced LoRA 与 clean-captioned LoRA 分析主体一致性问题，展示了小样本个性化的可行性与局限。
 
 ## 6. 推荐最终图表组合
 
-正式报告建议放：
+PPT 优先使用图，表格只保留关键数字。
 
-1. SANA/PCAS pipeline 示意图，自绘。
-2. Fixed-step baseline 速度表。
-3. Balanced-PCAS speed-quality 图：`results/figures/day3_pcas_balanced_speed_quality_tradeoff.png`
-4. DeepSeek-Balanced speed-quality 图：`results/figures/day3_deepseek_balanced_speed_quality_tradeoff.png`
-5. Day4 speed-quality 图：`results/figures/day4_speed_quality_tradeoff.png`
-6. Guidance ablation 图：`results/figures/day4_guidance_ablation_clipscore.png`
-7. Hard prompt qualitative grid：`results/figures/day4_hard_prompt_qualitative_grid.png`
-8. LoRA subject consistency grid：`results/figures/day5_lora_subject_consistency_grid.png`
+| 图/表 | 路径 | 用途 |
+| --- | --- | --- |
+| Fixed-step baseline speed | `results/figures/day2_speed_summary_chart.png` | 提出固定预算问题 |
+| Day2 baseline image grid | `results/figures/day2_baseline_grid_full_prompts.png` | 展示 SANA 复现效果 |
+| Original Rule-PCAS chart | `results/figures/day3_pcas_vs_fixed20_chart.png` | 展示初步探索和问题 |
+| Balanced-PCAS speed chart | `results/figures/day3_pcas_balanced_speed_chart.png` | 主效率结果 |
+| Balanced-PCAS speed-quality | `results/figures/day3_pcas_balanced_speed_quality_tradeoff.png` | 速度-质量权衡主图 |
+| DeepSeek-Balanced speed chart | `results/figures/day3_deepseek_balanced_speed_chart.png` | LLM 语义调度结果 |
+| DeepSeek-Balanced speed-quality | `results/figures/day3_deepseek_balanced_speed_quality_tradeoff.png` | LLM-PCAS 权衡图 |
+| Calibrated-PCAS summary | `results/day6_calibrated_pcas_final_comparison_summary.md` | 最小充分 steps 与约束满足率 |
+| Day4 speed-quality | `results/figures/day4_speed_quality_tradeoff.png` | 说明质量差异小 |
+| CLIPScore by group | `results/figures/day4_clipscore_by_group.png` | 分组质量评价 |
+| Guidance ablation | `results/figures/day4_guidance_ablation_clipscore.png` | guidance 消融 |
+| Hard prompt qualitative grid | `results/figures/day4_hard_prompt_qualitative_grid.png` | 定性分析 |
+| Hard prompt difference heatmap | `results/figures/day4_hard_prompt_difference_heatmap_vs_fixed20.png` | 视觉差异边界 |
+| LoRA training contact sheet | `results/figures/day5_lora_training_images_contact_sheet.png` | 解释数据限制 |
+| LoRA subject consistency grid | `results/figures/day5_lora_subject_consistency_grid.png` | LoRA 扩展结果 |
 
-PPT 建议少放大表，多放图；书面报告可以放完整表。
+## 7. 汇报中应避免的说法
 
+不要这样讲：
+
+- “PCAS 显著提升图像质量。”
+- “DeepSeek-PCAS 本身比所有方法都好。”
+- “Calibrated-PCAS 已经证明能泛化到真实用户 prompt。”
+- “LoRA 已经稳定复制耳机身份。”
+- “Guidance 越高越好。”
+
+建议这样讲：
+
+- “PCAS 在保持相近 CLIPScore 的同时改善计算预算分配。”
+- “Balanced-PCAS 是当前最稳健的效率主结果。”
+- “DeepSeek-Balanced 说明语义复杂度有价值，但标签到动作需要预算校准。”
+- “Calibrated-PCAS 是把经验规则推进到数据校准 policy 的 proof-of-concept。”
+- “LoRA 证明个性化流程可行，但主体一致性仍依赖数据、caption 和 adapter scale。”

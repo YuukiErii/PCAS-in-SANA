@@ -143,3 +143,16 @@ Build a 30-prompt benchmark split into 10-word, 30-word, and 50-word prompts. Th
 - Added subject-focused validation prompts that keep the headphones centered and unobstructed, then compared Base, original LoRA x2, enhanced LoRA x1.5/x2, and clean-captioned LoRA x1.25/x1.5/x1.75.
 - Saved subject-consistency tables under `results/day5_lora_subject_consistency_*.csv`, summary under `results/day5_lora_subject_consistency_summary.md`, and visual grid under `results/figures/day5_lora_subject_consistency_grid.png`.
 - Main Day 5 finding: LoRA training and loading succeeded; original LoRA x2 is closest to the training-photo reference centroid, enhanced LoRA x1.5 gives the best subject-prompt CLIPScore and prompt CLIPScore, and clean-caption x1.25 is the most conservative clean-data compromise. Stronger scales can distort the headphone structure. Present Day 5 as an exploratory personalization reproduction with clear limits; new photos are optional for better visual polish, not required for the current report.
+
+## Current Day 6 Notes
+
+- Added a Calibrated-PCAS extension based on `report/CALIBRATED_PCAS_OUTLINE.md`.
+- Generated a six-step calibration grid for the 30 benchmark prompts: 8, 12, 16, 20, 24, and 28 steps.
+- Built minimal sufficient step labels relative to Fixed-20 with `epsilon=0.2` CLIPScore tolerance.
+- Implemented rule prompt features in `src/prompt_features.py` and DeepSeek JSON prompt features in `src/prompt_features_deepseek.py`.
+- Implemented pure-Python decision tree training in `src/train_calibrated_pcas_predictor.py`.
+- Implemented calibrated SANA inference in `src/run_sana_calibrated_pcas.py`.
+- Added `--no-default-methods` to `src/evaluate_clipscore.py` so one CLIPScore run can evaluate only the requested Day6 comparison methods.
+- Saved Day6 tables under `results/day6_*` and the report draft under `report/day6_calibrated_pcas_draft.md`.
+- Main Day 6 finding: the minimal sufficient steps distribution is 8 steps for 18 prompts, 12 steps for 4 prompts, 16 steps for 6 prompts, and 20 steps for 2 prompts. Rule-feature and LLM-feature Calibrated-PCAS both reach 96.7% Fixed-20 constraint satisfaction on the current calibration set, with average steps of 10.667 and 11.333 respectively.
+- Treat Calibrated-PCAS as an additional research extension. The strongest main-report baseline remains Balanced-PCAS because the Day6 calibration set is small and wall-clock latency varies between reruns.

@@ -1,0 +1,16 @@
+model_id: Efficient-Large-Model/Sana_600M_512px_diffusers
+output_dir: outputs/day6_calibration_grid
+prompt_file: prompts/day2_benchmark_prompts.txt
+seed: 42
+torch_dtype: float16
+variant: fp16
+auxiliary_dtype: bfloat16
+device: cuda
+local_files_only: true
+height: 512
+width: 512
+guidance_scale: 4.5
+calibration_steps: [8, 12, 16, 20, 24, 28]
+allowed_steps: [8, 12, 16, 20, 24, 28]
+reference_steps: 20
+clip_tolerance: 0.2
