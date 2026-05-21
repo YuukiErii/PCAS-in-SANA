@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below and cite the original SANA paper."
+title: "PCAS in SANA: Prompt-Complexity Adaptive Sampling for Efficient Text-to-Image Generation"
+authors:
+  - alias: "YuukiErii"
+date-released: 2026-05-22
+repository-code: "https://github.com/YuukiErii/PCAS-in-SANA"
+keywords:
+  - text-to-image generation
+  - diffusion models
+  - SANA
+  - adaptive sampling
+  - prompt complexity
+license: MIT

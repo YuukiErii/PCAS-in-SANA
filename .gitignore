@@ -2,6 +2,9 @@ API_DEEPSEEK.txt
 SANA.pdf
 report/latex/*.pdf
 *.docx
+*.ppt
+*.pptx
+report/PPT_PRESENTATION_LOGIC_CN.md
 
 .env
 .venv/

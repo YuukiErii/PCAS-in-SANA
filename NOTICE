@@ -1,0 +1,13 @@
+PCAS in SANA
+
+This repository contains course-project code and documentation for prompt-complexity adaptive sampling with SANA.
+
+External components and required citations:
+
+- SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformers.
+- Hugging Face Diffusers, Transformers, Accelerate, and Hub libraries.
+- PyTorch and TorchVision.
+- CLIP model `openai/clip-vit-base-patch32` for automatic image-text alignment scoring.
+- DeepSeek API for optional semantic prompt feature extraction.
+
+The file `src/external/train_dreambooth_lora_sana.py` is adapted from the Hugging Face Diffusers training examples and keeps its original Apache License, Version 2.0 header.
