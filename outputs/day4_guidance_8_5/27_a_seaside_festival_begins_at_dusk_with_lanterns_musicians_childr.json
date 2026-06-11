@@ -1,0 +1,12 @@
+{
+  "prompt": "A seaside festival begins at dusk with lanterns, musicians, children dancing, fireworks over the water, fishing boats tied to the pier, vendors selling fruit, and a painter capturing the scene while waves shimmer under purple clouds near a wooden stage covered with flowers ribbons drums and glowing paper stars tonight.",
+  "image_path": "outputs\\day4_guidance_8_5\\27_a_seaside_festival_begins_at_dusk_with_lanterns_musicians_childr.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 20,
+  "guidance_scale": 8.5,
+  "seed": 69,
+  "elapsed_seconds": 0.8624721000014688,
+  "peak_vram_gb": 6.979499816894531
+}

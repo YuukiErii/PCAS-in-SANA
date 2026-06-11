@@ -1,0 +1,14 @@
+{
+  "method": "base",
+  "prompt": "a pair of zzmearphone headphones floating on a dark background with subtle blue rim lighting, premium advertisement style",
+  "image_path": "outputs\\day5_lora_validation_base\\04_a_pair_of_zzmearphone_headphones_floating_on_a_dark_background_w.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "lora_weights": null,
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 20,
+  "guidance_scale": 4.5,
+  "seed": 146,
+  "elapsed_seconds": 0.8780075000031502,
+  "peak_vram_gb": 6.979499816894531
+}

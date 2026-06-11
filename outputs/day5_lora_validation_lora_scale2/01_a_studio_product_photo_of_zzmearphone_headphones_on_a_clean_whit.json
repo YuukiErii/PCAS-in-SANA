@@ -1,0 +1,15 @@
+{
+  "method": "lora",
+  "prompt": "a studio product photo of zzmearphone headphones on a clean white table, softbox lighting, sharp focus",
+  "image_path": "outputs\\day5_lora_validation_lora_scale2\\01_a_studio_product_photo_of_zzmearphone_headphones_on_a_clean_whit.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "lora_weights": "outputs/day5_lora_zzmearphone",
+  "lora_scale": 2.0,
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 20,
+  "guidance_scale": 4.5,
+  "seed": 143,
+  "elapsed_seconds": 2.986268700005894,
+  "peak_vram_gb": 6.985267639160156
+}

@@ -1,0 +1,14 @@
+{
+  "method": "base",
+  "prompt": "a close-up macro photo of zzmearphone headphones with metallic details, shallow depth of field, commercial product photography",
+  "image_path": "outputs\\day5_lora_validation_base\\02_a_close_up_macro_photo_of_zzmearphone_headphones_with_metallic_d.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "lora_weights": null,
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 20,
+  "guidance_scale": 4.5,
+  "seed": 144,
+  "elapsed_seconds": 0.8875159000017447,
+  "peak_vram_gb": 6.979499816894531
+}

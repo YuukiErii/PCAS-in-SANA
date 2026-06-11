@@ -1,0 +1,14 @@
+{
+  "method": "base",
+  "prompt": "zzmearphone headphones placed inside an open travel backpack with notebooks and charging cables, realistic indoor photo",
+  "image_path": "outputs\\day5_lora_validation_base\\05_zzmearphone_headphones_placed_inside_an_open_travel_backpack_wit.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "lora_weights": null,
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 20,
+  "guidance_scale": 4.5,
+  "seed": 147,
+  "elapsed_seconds": 0.8784240000022692,
+  "peak_vram_gb": 6.979499816894531
+}

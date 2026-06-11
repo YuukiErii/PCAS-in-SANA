@@ -1,0 +1,12 @@
+{
+  "prompt": "blue sports car parked on empty road at bright noon",
+  "image_path": "outputs\\day4_guidance_6_5\\03_blue_sports_car_parked_on_empty_road_at_bright_noon.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 20,
+  "guidance_scale": 6.5,
+  "seed": 45,
+  "elapsed_seconds": 1.082524800003739,
+  "peak_vram_gb": 6.979499816894531
+}

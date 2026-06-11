@@ -1,0 +1,14 @@
+{
+  "method": "base",
+  "prompt": "an exploded-view product render of zzmearphone headphones showing ear cups, headband, cushions, and small hardware details",
+  "image_path": "outputs\\day5_lora_validation_base\\06_an_exploded_view_product_render_of_zzmearphone_headphones_showin.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "lora_weights": null,
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 20,
+  "guidance_scale": 4.5,
+  "seed": 148,
+  "elapsed_seconds": 0.8760896000021603,
+  "peak_vram_gb": 6.979499816894531
+}

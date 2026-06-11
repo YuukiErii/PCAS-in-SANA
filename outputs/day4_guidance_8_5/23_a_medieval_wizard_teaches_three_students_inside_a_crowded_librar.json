@@ -1,0 +1,12 @@
+{
+  "prompt": "A medieval wizard teaches three students inside a crowded library, with glowing books floating above an oak table, candles dripping wax, a raven watching from a shelf, maps pinned to stone walls, and a silver telescope aimed at moonlight through the tall arched window behind a stack of scrolls tonight.",
+  "image_path": "outputs\\day4_guidance_8_5\\23_a_medieval_wizard_teaches_three_students_inside_a_crowded_librar.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 20,
+  "guidance_scale": 8.5,
+  "seed": 65,
+  "elapsed_seconds": 0.8545529000039096,
+  "peak_vram_gb": 6.979499816894531
+}

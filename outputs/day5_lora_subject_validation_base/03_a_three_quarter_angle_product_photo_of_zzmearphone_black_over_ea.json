@@ -1,0 +1,15 @@
+{
+  "method": "base",
+  "prompt": "a three-quarter angle product photo of zzmearphone black over-ear headphones on a wooden desk, visible padded headband, oval ear cushions, realistic photography, warm window light",
+  "image_path": "outputs\\day5_lora_subject_validation_base\\03_a_three_quarter_angle_product_photo_of_zzmearphone_black_over_ea.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "lora_weights": null,
+  "lora_scale": null,
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 24,
+  "guidance_scale": 6.5,
+  "seed": 245,
+  "elapsed_seconds": 1.0174177000008058,
+  "peak_vram_gb": 6.979499816894531
+}

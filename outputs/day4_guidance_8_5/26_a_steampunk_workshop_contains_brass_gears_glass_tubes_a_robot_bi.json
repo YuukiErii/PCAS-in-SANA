@@ -1,0 +1,12 @@
+{
+  "prompt": "A steampunk workshop contains brass gears, glass tubes, a robot bird, a chalkboard that says PCAS, copper lamps, scattered blueprints, and an inventor tightening a valve while sparks fly from a half built clockwork engine beside shelves packed with lenses springs tools and polished wooden boxes under smoky golden light.",
+  "image_path": "outputs\\day4_guidance_8_5\\26_a_steampunk_workshop_contains_brass_gears_glass_tubes_a_robot_bi.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 20,
+  "guidance_scale": 8.5,
+  "seed": 68,
+  "elapsed_seconds": 0.8777168000015081,
+  "peak_vram_gb": 6.979499816894531
+}

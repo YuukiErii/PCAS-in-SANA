@@ -1,0 +1,12 @@
+{
+  "prompt": "A wooden cabin sits in a snowy forest, smoke rising from the chimney, warm windows glowing, pine branches bending, and footprints crossing the yard toward a small frozen pond nearby.",
+  "image_path": "outputs\\day4_guidance_8_5\\20_a_wooden_cabin_sits_in_a_snowy_forest_smoke_rising_from_the_chim.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 20,
+  "guidance_scale": 8.5,
+  "seed": 62,
+  "elapsed_seconds": 0.8933595999988029,
+  "peak_vram_gb": 6.979499816894531
+}

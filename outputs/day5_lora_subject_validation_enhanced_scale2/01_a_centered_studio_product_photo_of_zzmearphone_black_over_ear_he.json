@@ -1,0 +1,15 @@
+{
+  "method": "enhanced_lora_scale_2",
+  "prompt": "a centered studio product photo of zzmearphone black over-ear headphones with large oval ear cups, a padded headband, black leather cushions, isolated on a clean white table, sharp focus",
+  "image_path": "outputs\\day5_lora_subject_validation_enhanced_scale2\\01_a_centered_studio_product_photo_of_zzmearphone_black_over_ear_he.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "lora_weights": "outputs/day5_lora_zzmearphone_enhanced",
+  "lora_scale": 2.0,
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 24,
+  "guidance_scale": 6.5,
+  "seed": 243,
+  "elapsed_seconds": 2.889193000009982,
+  "peak_vram_gb": 6.991035461425781
+}
