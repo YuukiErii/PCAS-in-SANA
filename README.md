@@ -9,8 +9,8 @@ This repository studies a simple question: after SANA reduces the per-step cost 
 - Reproduces SANA-0.6B inference with Diffusers on a 30-prompt benchmark.
 - Implements fixed-step baselines, rule-based PCAS, DeepSeek-assisted PCAS, budget-aware Balanced-PCAS, and a data-calibrated PCAS extension.
 - Evaluates speed, step budget, CLIPScore alignment, guidance-scale sensitivity, and hard-prompt qualitative behavior.
-- Includes an exploratory SANA DreamBooth LoRA personalization pipeline; private images and LoRA weights are intentionally excluded from Git.
-- Keeps generated images, model weights, logs, API keys, and presentation binaries out of the repository.
+- Includes an exploratory SANA DreamBooth LoRA personalization pipeline with reproducibility data and LoRA artifacts kept in the project artifact tree when present.
+- Keeps local course deliverables, API keys, local environments, and transient logs out of the public repository.
 
 ## Method Overview
 
@@ -29,15 +29,15 @@ The repository contains four main policy families:
 
 ```text
 configs/       YAML configs for inference, PCAS, LoRA validation, and calibration.
+data/          Raw and prepared LoRA/DreamBooth data used by the reproducibility scripts.
 docs/          Clean documentation for reproduction, results, and repository policy.
+outputs/       Generated samples, per-run metadata, and LoRA/checkpoint artifacts.
 prompts/       Controlled benchmark prompts and validation prompts.
-report/        Research notes, draft writeups, and LaTeX report source.
 results/       Lightweight CSV/JSON/Markdown result tables.
 src/           Experiment, evaluation, visualization, and PCAS source code.
-tools/         Utility scripts for report generation.
 ```
 
-Generated samples are written to `outputs/`, which is ignored by Git. Private DreamBooth images are under `data/` and `ZZM Earphone/`, also ignored.
+Generated samples are written to `outputs/`. Raw and prepared LoRA images are organized under `data/`. Local course deliverables are kept under `private/course_deliverables/` and are ignored by Git.
 
 ## Installation
 
@@ -85,7 +85,7 @@ Detailed command sequences are in [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY
 4. Build Day 6 calibration labels with `src/build_calibration_dataset.py`.
 5. Train and run calibrated predictors with `src/train_calibrated_pcas_predictor.py` and `src/run_sana_calibrated_pcas.py`.
 
-Existing lightweight result tables are committed under `results/`; image outputs and checkpoints are not.
+Existing lightweight result tables are committed under `results/`; generated figures, image outputs, and checkpoints are part of the reproducibility artifact surface when present.
 
 ## Key Results
 
@@ -125,12 +125,11 @@ Cached semantic labels and prompt features are stored as lightweight JSON/CSV fi
 The following are intentionally not committed:
 
 - API keys and `.env` files.
-- Generated images and per-image metadata in `outputs/`.
-- Private or derived DreamBooth images in `data/` and `ZZM Earphone/`.
-- LoRA weights, checkpoints, optimizer states, and model binaries.
-- Presentation binaries, Word documents, PDFs, logs, and process ids.
+- Local course deliverables under `private/` and matching document/deck file types.
+- Local Python environments and scratch folders such as `.venv/`, `.codex_tmp/`, and `private/`.
+- Runtime logs, error logs, process ids, and other transient process files.
 
-This keeps the repository small, reviewable, and suitable for public GitHub hosting.
+This keeps the repository suitable for public GitHub hosting while preserving the code, configs, prompts, result tables, generated outputs, and model artifacts needed for review.
 
 ## Citation
 

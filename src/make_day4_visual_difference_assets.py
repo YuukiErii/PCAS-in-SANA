@@ -299,7 +299,7 @@ def write_summary(rows: list[dict]) -> None:
             "",
             "- Do not force manual scores when the visual difference is largely imperceptible.",
             "- Treat the hard-prompt side-by-side comparison as a qualitative sanity check.",
-            "- In the report, describe Day 4 as evidence that PCAS preserves visual appearance under lower compute, not as strong evidence of quality improvement.",
+            "- Public interpretation: Day 4 is evidence that PCAS preserves visual appearance under lower compute, not strong evidence of quality improvement.",
             "",
             "Files:",
             "",

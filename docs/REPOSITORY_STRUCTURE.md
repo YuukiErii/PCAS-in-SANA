@@ -1,6 +1,6 @@
 # Repository Structure
 
-The repository follows a paper-artifact layout while preserving the default paths used by the experiment scripts.
+The repository follows an experiment-artifact layout while preserving the default paths used by the scripts.
 
 ```text
 PCAS-in-SANA/
@@ -12,12 +12,12 @@ PCAS-in-SANA/
 |-- requirements.txt
 |-- requirements-torch-cu128.txt
 |-- configs/
+|-- data/
 |-- docs/
+|-- outputs/
 |-- prompts/
-|-- report/
 |-- results/
-|-- src/
-`-- tools/
+`-- src/
 ```
 
 ## Public Source and Configs
@@ -25,24 +25,24 @@ PCAS-in-SANA/
 - `src/` contains runnable source code for inference, prompt analysis, CLIPScore evaluation, calibration, and visualization.
 - `configs/` contains YAML configs for the experiments.
 - `prompts/` contains the controlled prompt benchmark and validation prompt files.
-- `tools/` contains utility scripts for draft report generation.
+- `data/` contains raw and prepared LoRA/DreamBooth data when included for reproducibility.
 
-## Public Lightweight Artifacts
+## Public Artifacts
 
 - `results/*.csv`, `results/*.json`, and `results/*.md` contain lightweight numeric summaries and cached analysis tables.
-- `report/*.md` and `report/latex/*.tex` contain draft writeups and LaTeX source.
+- `results/figures/` contains generated charts and visual comparison grids.
+- `outputs/` contains generated samples, per-run metadata, and LoRA/checkpoint artifacts when present.
 
 ## Local-Only Artifacts
 
 The following paths are ignored:
 
-- `outputs/`: generated images and per-image metadata.
-- `data/` and `ZZM Earphone/`: private or derived DreamBooth images.
 - `.venv/`: Python environment.
 - `.codex_tmp/`: local temporary files.
-- `results/figures/`: generated figures and image grids.
-- `*.safetensors`, `*.bin`, `*.pt`, `*.pth`, `*.ckpt`: model weights and checkpoints.
-- `*.ppt`, `*.pptx`, `*.docx`, `SANA.pdf`: presentation, document, and local paper files.
+- `private/`: local course deliverables and render previews.
+- `report/`, `reports/`, `presentations/`, `slides/`, and common report/PPT filename patterns: compatibility guards against accidentally recreating deliverable folders in the public tree.
+- `*.ppt`, `*.pptx`, `*.doc`, `*.docx`, `*.pdf`, `*.tex`: local report and presentation deliverables.
+- `*.log`, `*.err.log`, `*.pid`: process noise.
 - `API_DEEPSEEK.txt`, `.env`: secrets and local environment files.
 
-This keeps the GitHub repository small and reproducible without leaking private data or credentials.
+This keeps the GitHub repository centered on code, reproducibility assets, results, generated outputs, and weights while keeping local deliverables out of the public tree.

@@ -14,7 +14,7 @@ Key finding:
 - On all prompts, guidance 1.5 is -1.057 CLIPScore points below guidance 4.5, so too-low guidance weakens prompt-image alignment.
 - The normal 3.5-6.5 band has only 0.130 CLIPScore range on all prompts, so the original ablation was expected to look flat.
 - Guidance 8.5 is 0.264 above guidance 4.5 on all prompts, but the gain is small enough that it should be reported as a high-guidance CLIPScore preference, not a proven visual-quality improvement.
-- Recommended report wording: SANA-0.6B is robust to moderate guidance changes; avoid very low guidance; keep 4.5 as the default for fair comparison, or use 6.5-8.5 only as an optional higher-alignment setting with qualitative inspection.
+- Recommended interpretation: SANA-0.6B is robust to moderate guidance changes; avoid very low guidance; keep 4.5 as the default for fair comparison, or use 6.5-8.5 only as an optional higher-alignment setting with qualitative inspection.
 
 Files:
 

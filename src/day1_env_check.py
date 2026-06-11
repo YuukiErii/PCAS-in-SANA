@@ -94,7 +94,7 @@ def build_report() -> str:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Write a Day 1 reproducibility report.")
+    parser = argparse.ArgumentParser(description="Write a Day 1 reproducibility summary.")
     parser.add_argument("--output", default="results/day1_environment.md")
     args = parser.parse_args()
 

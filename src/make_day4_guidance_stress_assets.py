@@ -203,7 +203,7 @@ def write_markdown(rows: list[dict]) -> None:
             f"- On all prompts, guidance 1.5 is {all_row['delta_1_5_vs_4_5']} CLIPScore points below guidance 4.5, so too-low guidance weakens prompt-image alignment.",
             f"- The normal 3.5-6.5 band has only {all_row['normal_band_range_3_5_to_6_5']} CLIPScore range on all prompts, so the original ablation was expected to look flat.",
             f"- Guidance 8.5 is {all_row['delta_8_5_vs_4_5']} above guidance 4.5 on all prompts, but the gain is small enough that it should be reported as a high-guidance CLIPScore preference, not a proven visual-quality improvement.",
-            "- Recommended report wording: SANA-0.6B is robust to moderate guidance changes; avoid very low guidance; keep 4.5 as the default for fair comparison, or use 6.5-8.5 only as an optional higher-alignment setting with qualitative inspection.",
+            "- Recommended interpretation: SANA-0.6B is robust to moderate guidance changes; avoid very low guidance; keep 4.5 as the default for fair comparison, or use 6.5-8.5 only as an optional higher-alignment setting with qualitative inspection.",
             "",
             "Files:",
             "",

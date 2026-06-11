@@ -45,7 +45,7 @@ def prepare_dataset(input_dir: Path, output_dir: Path, size: int) -> list[dict[s
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Prepare square DreamBooth images for SANA LoRA training.")
-    parser.add_argument("--input-dir", default="ZZM Earphone")
+    parser.add_argument("--input-dir", default="data/raw/zzm_earphone")
     parser.add_argument("--output-dir", default="data/dreambooth/zzmearphone")
     parser.add_argument("--size", type=int, default=768)
     args = parser.parse_args()

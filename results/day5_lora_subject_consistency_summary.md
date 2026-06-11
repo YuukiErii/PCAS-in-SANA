@@ -19,7 +19,7 @@ Key finding:
 - The enhanced and clean-captioned LoRA variants use more explicit prompts, rank 16, and longer training than the original 200-step run.
 - The clean-captioned variant removes the most ambiguous training views and gives each remaining image a specific caption, so it tests whether better data/caption quality can reduce subject instability.
 - Clean-caption x1.25 is more conservative than the enhanced x1.5 setting: it does not win the automatic subject-prompt metric, but it keeps reference similarity close to Base and avoids the stronger scale collapse seen at x1.75/x2.
-- This is enough for the course-report conclusion; extra photos would mainly improve visual polish and product-identity robustness rather than unblock the current Day 5 result.
+- This is enough for the Day 5 conclusion; extra photos would mainly improve visual polish and product-identity robustness rather than unblock the current result.
 - The validation prompts avoid occlusion-heavy scenes; this better measures whether the adapter can preserve the learned headphone identity.
 - CLIP-based identity metrics remain proxies, so the qualitative grid should be used together with this table.
 

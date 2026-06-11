@@ -1,10 +1,10 @@
 # Results Summary
 
-This repository reports automatic alignment and speed measurements for a controlled 30-prompt benchmark. Each prompt group contains 10 prompts: short, medium, and long.
+This repository presents automatic alignment and speed measurements for a controlled 30-prompt benchmark. Each prompt group contains 10 prompts: short, medium, and long.
 
 ## Main Efficiency Result
 
-Balanced-PCAS is the main reportable efficiency result. It changes the manual Rule-PCAS policy from 10/20/28 steps to a budget-aware 8/16/24-step policy.
+Balanced-PCAS is the primary efficiency result. It changes the manual Rule-PCAS policy from 10/20/28 steps to a budget-aware 8/16/24-step policy.
 
 | Method | Avg steps | Avg time no-warmup | Speedup vs Fixed-20 | Avg CLIPScore |
 | --- | ---: | ---: | ---: | ---: |
@@ -63,4 +63,4 @@ Caveats:
 
 ## LoRA Extension
 
-The LoRA experiment validates that SANA can be adapted with a small DreamBooth-style subject dataset. The image data and trained weights are not published in this repository. The result should be treated as an exploratory personalization supplement, not the main contribution.
+The LoRA experiment validates that SANA can be adapted with a small DreamBooth-style subject dataset. When present, the source images, prepared data, generated samples, and trained LoRA weights live under `data/` and `outputs/` as reproducibility artifacts. The result should be treated as an exploratory personalization supplement, not the main contribution.

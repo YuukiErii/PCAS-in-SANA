@@ -4,7 +4,7 @@ Date: 2026-05-16
 
 ## Completed
 
-- Created the project structure: `configs/`, `prompts/`, `src/`, `outputs/`, `results/`, `report/`.
+- Created the project structure: `configs/`, `prompts/`, `src/`, `outputs/`, and `results/`.
 - Created a Python 3.11 virtual environment in `.venv`.
 - Installed PyTorch CUDA and project dependencies.
 - Verified CUDA with RTX 5080 Laptop GPU.

@@ -1,31 +1,48 @@
+# Secrets and local environment
 API_DEEPSEEK.txt
-SANA.pdf
-report/latex/*.pdf
-*.docx
-*.ppt
-*.pptx
-report/PPT_PRESENTATION_LOGIC_CN.md
-
 .env
+.env.*
 .venv/
+results/*environment*.md
+
+# Python/runtime cache
+__pycache__/
+*.py[cod]
+
+# Local scratch space
 .codex_tmp/
 
-*.pyc
-__pycache__/
+# Private course deliverables: reports, outlines, slides, scripts, speaker notes
+private/
+report/
+reports/
+presentation/
+presentations/
+slides/
+ppt/
+pptx/
+*.doc
+*.docx
+*.pdf
+*.tex
+*.ppt
+*.pptx
+*report_outline*
+*Report_Outline*
+*PPT*
+*ppt*
+*presentation*
+*Presentation*
+*slide_plan*
+*speaker_notes*
+*speaker-notes*
+*讲稿*
+*汇报*
+*报告*
+*大纲*
 
-outputs/
-data/
-ZZM Earphone/
-
-*.safetensors
-*.bin
-*.pt
-*.pth
-*.ckpt
-
+# Process noise
 *.log
 *.err.log
 *.pid
-
-results/figures/
-results/*environment*.md
+*.tmp

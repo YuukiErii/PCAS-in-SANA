@@ -1,6 +1,6 @@
 [
   {
-    "source": "ZZM Earphone\\earphon_1.jpg",
+    "source": "data/raw/zzm_earphone/earphon_1.jpg",
     "prepared": "data\\dreambooth\\zzmearphone\\01_zzmearphone.jpg",
     "source_size": [
       4032,
@@ -12,7 +12,7 @@
     ]
   },
   {
-    "source": "ZZM Earphone\\earphon_2.jpg",
+    "source": "data/raw/zzm_earphone/earphon_2.jpg",
     "prepared": "data\\dreambooth\\zzmearphone\\02_zzmearphone.jpg",
     "source_size": [
       4032,
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "source": "ZZM Earphone\\earphon_3.jpg",
+    "source": "data/raw/zzm_earphone/earphon_3.jpg",
     "prepared": "data\\dreambooth\\zzmearphone\\03_zzmearphone.jpg",
     "source_size": [
       4032,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "source": "ZZM Earphone\\earphon_4.jpg",
+    "source": "data/raw/zzm_earphone/earphon_4.jpg",
     "prepared": "data\\dreambooth\\zzmearphone\\04_zzmearphone.jpg",
     "source_size": [
       4032,
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "source": "ZZM Earphone\\earphon_5.jpg",
+    "source": "data/raw/zzm_earphone/earphon_5.jpg",
     "prepared": "data\\dreambooth\\zzmearphone\\05_zzmearphone.jpg",
     "source_size": [
       4032,
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "source": "ZZM Earphone\\earphon_6.jpg",
+    "source": "data/raw/zzm_earphone/earphon_6.jpg",
     "prepared": "data\\dreambooth\\zzmearphone\\06_zzmearphone.jpg",
     "source_size": [
       4032,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "source": "ZZM Earphone\\earphon_7.jpg",
+    "source": "data/raw/zzm_earphone/earphon_7.jpg",
     "prepared": "data\\dreambooth\\zzmearphone\\07_zzmearphone.jpg",
     "source_size": [
       4032,
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "source": "ZZM Earphone\\earphon_8.jpg",
+    "source": "data/raw/zzm_earphone/earphon_8.jpg",
     "prepared": "data\\dreambooth\\zzmearphone\\08_zzmearphone.jpg",
     "source_size": [
       4032,
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "source": "ZZM Earphone\\earphon_9.jpg",
+    "source": "data/raw/zzm_earphone/earphon_9.jpg",
     "prepared": "data\\dreambooth\\zzmearphone\\09_zzmearphone.jpg",
     "source_size": [
       4032,

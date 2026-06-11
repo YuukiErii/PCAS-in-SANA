@@ -47,7 +47,7 @@ Date: 2026-05-17
   - `results/day4_hard_prompt_visual_tie_summary.md`
   - `results/figures/day4_hard_prompt_qualitative_grid.png`
   - `results/figures/day4_hard_prompt_difference_heatmap_vs_fixed20.png`
-  - `report/day4_hard_prompt_evaluation_draft.md`
+  - `results/day4_hard_prompt_analysis_note.md`
 
 ## CLIPScore Result
 
@@ -99,4 +99,4 @@ Because the generated images are visually very similar, the project does not use
 - Guidance scale between 3.5 and 6.5 does not show a strong monotonic CLIPScore trend because it is a stable normal band. The added 1.5 and 8.5 stress-test points make the conclusion clearer: avoid too-low guidance; high guidance slightly improves CLIPScore, especially for long prompts, but should not be claimed as a clear visual-quality gain.
 - On the hard subset, CLIPScore still separates methods only weakly, so the stronger Day 4 interpretation is visual quality preservation, not manual-score superiority.
 - Since many side-by-side images are nearly indistinguishable, visual similarity itself is evidence that lower-step PCAS preserves appearance.
-- Report wording should be conservative: PCAS can be described as preserving CLIP-based alignment while changing compute allocation; it should not be presented as a proven quality-improving method based on CLIPScore alone.
+- Public interpretation should be conservative: PCAS can be described as preserving CLIP-based alignment while changing compute allocation; it should not be presented as a proven quality-improving method based on CLIPScore alone.

@@ -5,7 +5,7 @@ Date: 2026-05-17
 ## Completed
 
 - Organized the headphone DreamBooth dataset:
-  - Source photos: `ZZM Earphone/`
+  - Source photos: `data/raw/zzm_earphone/`
   - Prepared square images: `data/dreambooth/zzmearphone/`
   - Dataset manifest: `results/day5_lora_dataset_manifest.json`
 - Verified and used the SANA DreamBooth LoRA training script:
@@ -47,7 +47,6 @@ Date: 2026-05-17
   - `results/figures/day5_lora_validation_scale2_metrics.png`
 - Wrote the Day 5 summary:
   - `results/day5_lora_summary.md`
-  - `report/day5_lora_evaluation_draft.md`
 - Implemented and ran subject-focused consistency evaluation:
   - Prompts: `prompts/day5_lora_subject_consistency_prompts.txt`
   - Configs: `configs/day5_lora_subject_original_scale2.yaml`, `configs/day5_lora_subject_enhanced_scale1_5.yaml`, `configs/day5_lora_subject_enhanced_scale2.yaml`
@@ -71,7 +70,7 @@ Date: 2026-05-17
 - Scale 1.0 is visually subtle.
 - Scale 2.0 produces a stronger subject-style shift toward black over-ear headphones in several prompts.
 - The automatic reference CLIP similarity does not improve overall, so the LoRA result should be framed as a qualitative personalization reproduction with clear limitations.
-- The strongest report use is a visual comparison plus a candid limitation discussion, not a claim of quantitative identity improvement.
+- The strongest interpretation is a visual comparison plus a candid limitation discussion, not a claim of quantitative identity improvement.
 
 ## Subject-Focused Follow-Up
 
@@ -92,4 +91,4 @@ Follow-up interpretation:
 - Enhanced LoRA x1.5 is the best automatic subject-prompt setting and also gives the highest prompt CLIPScore.
 - Enhanced LoRA x2 is too strong: it often darkens and simplifies the object, but can collapse the full headphone structure into ear cups or parts.
 - Clean-caption x1.25 is the best conservative clean-data setting: it does not beat enhanced x1.5 on subject-prompt CLIP, but it keeps reference similarity close to Base and avoids the stronger scale collapse seen at higher scales.
-- Final Day 5 conclusion should present LoRA as scale-sensitive and data-sensitive. Current results are enough for the report; new photos are optional for improving visual polish, not required to unblock the project.
+- Final Day 5 conclusion should present LoRA as scale-sensitive and data-sensitive. Current results are sufficient for the public result summary; new photos are optional for improving visual polish, not required to unblock the project.

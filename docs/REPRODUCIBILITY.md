@@ -1,6 +1,6 @@
 # Reproducibility Guide
 
-This guide lists the main commands needed to reproduce the lightweight tables committed in `results/`. Generated images, model checkpoints, and private data are not stored in Git.
+This guide lists the main commands needed to reproduce the tables in `results/` and regenerate the artifacts in `outputs/`. Local course deliverables are kept under `private/` and are not part of the public reproducibility surface.
 
 ## 1. Environment
 
@@ -17,7 +17,7 @@ Check the environment:
 .\.venv\Scripts\python.exe .\src\day1_env_check.py --output .\results\day1_environment.md
 ```
 
-`results/day1_environment.md` is ignored because it contains machine-specific paths and process information.
+`results/day1_environment.md` is ignored because it is machine-specific and may contain local paths or process details.
 
 ## 2. Fixed-Step Baselines
 
@@ -120,7 +120,7 @@ For the LLM-feature variant, pass the feature CSV:
 
 ## 7. Optional LoRA Personalization
 
-LoRA training data and weights are private/local artifacts. The included scripts support dataset preparation and validation, but the image data and generated LoRA weights are ignored:
+The included scripts support dataset preparation, LoRA training, and validation. Raw images are expected under `data/raw/zzm_earphone/`, prepared DreamBooth images are written under `data/dreambooth/`, and generated weights/samples are written under `outputs/`:
 
 ```powershell
 .\.venv\Scripts\python.exe .\src\prepare_lora_dataset.py

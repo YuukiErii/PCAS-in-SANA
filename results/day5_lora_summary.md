@@ -3,7 +3,7 @@
 ## Setup
 
 - Subject: user's black over-ear headphones, named `zzmearphone`.
-- Training images: 9 original photos in `ZZM Earphone/`.
+- Training images: 9 original photos in `data/raw/zzm_earphone/`.
 - Prepared DreamBooth images: 9 square 768x768 images in `data/dreambooth/zzmearphone/`.
 - Instance prompt: `a photo of zzmearphone headphones`.
 - Base model: `Efficient-Large-Model/Sana_600M_512px_diffusers`.
@@ -44,7 +44,7 @@ To separate adapter strength from prompt occlusion, a second validation set uses
 | Clean-caption x1.5 | 8 | 81.778 | -1.882 | 4/8 | 28.646 | 0.159 | 4/8 | 32.752 |
 | Clean-caption x1.75 | 8 | 79.343 | -4.317 | 2/8 | 28.401 | -0.086 | 5/8 | 32.887 |
 
-The enhanced LoRA at scale 1.5 is the best working point on subject-prompt CLIP and prompt CLIPScore, but its reference-centroid similarity is lower than Base and some images still need qualitative checking. The clean-captioned LoRA at scale 1.25 is a more conservative compromise: it keeps reference similarity close to Base, wins 5/8 prompts on reference similarity, and visually avoids the stronger scale collapse seen at clean-caption x1.75 and enhanced x2. This means new photos are not required to finish the course-report conclusion, although additional clean product photos would still help if the goal is a stronger personalization demo.
+The enhanced LoRA at scale 1.5 is the best working point on subject-prompt CLIP and prompt CLIPScore, but its reference-centroid similarity is lower than Base and some images still need qualitative checking. The clean-captioned LoRA at scale 1.25 is a more conservative compromise: it keeps reference similarity close to Base, wins 5/8 prompts on reference similarity, and visually avoids the stronger scale collapse seen at clean-caption x1.75 and enhanced x2. This means new photos are not required for the Day 5 conclusion, although additional clean product photos would still help if the goal is a stronger personalization demo.
 
 ## Figure References
 
