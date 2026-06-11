@@ -1,0 +1,12 @@
+{
+  "prompt": "A robot chef cooks pasta in a modern kitchen, steam rising from the pan, stainless tools hanging nearby, warm cinematic lighting, and a curious child watching from the doorway quietly.",
+  "image_path": "outputs\\day4_guidance_5_5\\11_a_robot_chef_cooks_pasta_in_a_modern_kitchen_steam_rising_from_t.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 20,
+  "guidance_scale": 5.5,
+  "seed": 53,
+  "elapsed_seconds": 1.1822001000036835,
+  "peak_vram_gb": 6.979499816894531
+}

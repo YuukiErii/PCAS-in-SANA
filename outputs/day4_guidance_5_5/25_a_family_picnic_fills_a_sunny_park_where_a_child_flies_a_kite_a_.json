@@ -1,0 +1,12 @@
+{
+  "prompt": "A family picnic fills a sunny park, where a child flies a kite, a dog sleeps beneath the table, balloons drift near a fountain, grandparents pour lemonade, sandwiches sit in baskets, and clouds cast soft shadows across the grass while birds circle above a blanket covered with fresh strawberries nearby.",
+  "image_path": "outputs\\day4_guidance_5_5\\25_a_family_picnic_fills_a_sunny_park_where_a_child_flies_a_kite_a_.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 20,
+  "guidance_scale": 5.5,
+  "seed": 67,
+  "elapsed_seconds": 1.138775400002487,
+  "peak_vram_gb": 6.979499816894531
+}
