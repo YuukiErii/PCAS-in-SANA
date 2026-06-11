@@ -1,0 +1,12 @@
+{
+  "prompt": "white sailboat drifting across calm lake during golden sunset alone",
+  "image_path": "outputs\\day2_baseline_28steps\\09_white_sailboat_drifting_across_calm_lake_during_golden_sunset_al.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 28,
+  "guidance_scale": 4.5,
+  "seed": 51,
+  "elapsed_seconds": 1.3678655999997318,
+  "peak_vram_gb": 6.979499816894531
+}

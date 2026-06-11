@@ -1,0 +1,22 @@
+{
+  "prompt": "A fantasy library rises around a spiral staircase, with floating candles, glowing books, brass ladders, velvet chairs, and a cat sleeping beneath the desk near a blue magical globe quietly.",
+  "image_path": "outputs\\day3_pcas\\18_medium_a_fantasy_library_rises_around_a_spiral_staircase_with_floating_.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "seed": 60,
+  "elapsed_seconds": 0.976255200000196,
+  "peak_vram_gb": 6.979499816894531,
+  "word_count": 30,
+  "relation_count": 1,
+  "style_count": 1,
+  "text_rendering": false,
+  "length_score": 0.6,
+  "relation_score": 0.3333333333333333,
+  "style_score": 0.3333333333333333,
+  "text_score": 0.0,
+  "complexity_score": 0.5033333333333333,
+  "complexity_label": "medium",
+  "selected_steps": 20,
+  "selected_guidance_scale": 4.5,
+  "selected_height": 512,
+  "selected_width": 512
+}

@@ -1,0 +1,22 @@
+{
+  "prompt": "A young astronaut plants a flag on a colorful alien planet, while crystal rocks, purple grass, two moons, and a tiny rover fill the background under pale green evening clouds.",
+  "image_path": "outputs\\day3_pcas\\14_medium_a_young_astronaut_plants_a_flag_on_a_colorful_alien_planet_while.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "seed": 56,
+  "elapsed_seconds": 0.9749874000003729,
+  "peak_vram_gb": 6.979499816894531,
+  "word_count": 30,
+  "relation_count": 1,
+  "style_count": 0,
+  "text_rendering": false,
+  "length_score": 0.6,
+  "relation_score": 0.3333333333333333,
+  "style_score": 0.0,
+  "text_score": 0.0,
+  "complexity_score": 0.47,
+  "complexity_label": "medium",
+  "selected_steps": 20,
+  "selected_guidance_scale": 4.5,
+  "selected_height": 512,
+  "selected_width": 512
+}

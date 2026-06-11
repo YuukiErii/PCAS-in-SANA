@@ -1,0 +1,22 @@
+{
+  "prompt": "A cozy bedroom glows with warm sunset light through a large window, with folded blankets, potted plants, framed photos, and a small desk ready for reading beside tea and pencils.",
+  "image_path": "outputs\\day3_pcas\\12_medium_a_cozy_bedroom_glows_with_warm_sunset_light_through_a_large_wind.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "seed": 54,
+  "elapsed_seconds": 0.9855227000002742,
+  "peak_vram_gb": 6.979499816894531,
+  "word_count": 30,
+  "relation_count": 1,
+  "style_count": 0,
+  "text_rendering": false,
+  "length_score": 0.6,
+  "relation_score": 0.3333333333333333,
+  "style_score": 0.0,
+  "text_score": 0.0,
+  "complexity_score": 0.47,
+  "complexity_label": "medium",
+  "selected_steps": 20,
+  "selected_guidance_scale": 4.5,
+  "selected_height": 512,
+  "selected_width": 512
+}

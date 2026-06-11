@@ -1,0 +1,12 @@
+{
+  "prompt": "A detective office is cluttered with case files, where a woman studies a city map, a man holds a flashlight, clues cover the wall, rain streaks the window, and a clock points toward midnight as coffee steams beside photographs marked with red thread across a dusty wooden desk quietly tonight.",
+  "image_path": "outputs\\day2_baseline_10steps\\28_a_detective_office_is_cluttered_with_case_files_where_a_woman_st.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 10,
+  "guidance_scale": 4.5,
+  "seed": 70,
+  "elapsed_seconds": 0.5215593000002627,
+  "peak_vram_gb": 6.979499816894531
+}

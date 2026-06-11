@@ -1,0 +1,22 @@
+{
+  "prompt": "A futuristic train station has glass walls, hovering signs, morning sunlight, travelers waiting on silver benches, and a sleek maglev train arriving beside platform seven with soft blue interior lights.",
+  "image_path": "outputs\\day3_pcas\\13_medium_a_futuristic_train_station_has_glass_walls_hovering_signs_mornin.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "seed": 55,
+  "elapsed_seconds": 0.9872495999998137,
+  "peak_vram_gb": 6.979499816894531,
+  "word_count": 30,
+  "relation_count": 1,
+  "style_count": 0,
+  "text_rendering": false,
+  "length_score": 0.6,
+  "relation_score": 0.3333333333333333,
+  "style_score": 0.0,
+  "text_score": 0.0,
+  "complexity_score": 0.47,
+  "complexity_label": "medium",
+  "selected_steps": 20,
+  "selected_guidance_scale": 4.5,
+  "selected_height": 512,
+  "selected_width": 512
+}

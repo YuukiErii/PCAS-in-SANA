@@ -1,0 +1,22 @@
+{
+  "prompt": "blue sports car parked on empty road at bright noon",
+  "image_path": "outputs\\day3_pcas\\03_short_blue_sports_car_parked_on_empty_road_at_bright_noon.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "seed": 45,
+  "elapsed_seconds": 0.5968055999996977,
+  "peak_vram_gb": 6.979499816894531,
+  "word_count": 10,
+  "relation_count": 0,
+  "style_count": 0,
+  "text_rendering": false,
+  "length_score": 0.2,
+  "relation_score": 0.0,
+  "style_score": 0.0,
+  "text_score": 0.0,
+  "complexity_score": 0.13999999999999999,
+  "complexity_label": "short",
+  "selected_steps": 10,
+  "selected_guidance_scale": 4.0,
+  "selected_height": 512,
+  "selected_width": 512
+}

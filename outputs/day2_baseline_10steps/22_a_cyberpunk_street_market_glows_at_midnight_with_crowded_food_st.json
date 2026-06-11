@@ -1,0 +1,12 @@
+{
+  "prompt": "A cyberpunk street market glows at midnight with crowded food stalls, neon kanji signs, rain reflections, masked shoppers, steam vents, hovering taxis, and a musician playing beside a noodle cart, while a child points at a holographic dragon above the wet plaza near a flickering red vending machine tonight outside.",
+  "image_path": "outputs\\day2_baseline_10steps\\22_a_cyberpunk_street_market_glows_at_midnight_with_crowded_food_st.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 10,
+  "guidance_scale": 4.5,
+  "seed": 64,
+  "elapsed_seconds": 0.524137200000041,
+  "peak_vram_gb": 6.979499816894531
+}

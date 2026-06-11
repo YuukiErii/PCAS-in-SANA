@@ -1,0 +1,12 @@
+{
+  "prompt": "golden retriever sitting on grass beside a white garden ball",
+  "image_path": "outputs\\day2_baseline_10steps\\02_golden_retriever_sitting_on_grass_beside_a_white_garden_ball.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 10,
+  "guidance_scale": 4.5,
+  "seed": 44,
+  "elapsed_seconds": 0.5438066000001527,
+  "peak_vram_gb": 6.979499816894531
+}

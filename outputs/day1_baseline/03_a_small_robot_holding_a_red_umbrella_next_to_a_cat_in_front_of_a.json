@@ -1,0 +1,12 @@
+{
+  "prompt": "a small robot holding a red umbrella next to a cat, in front of a bookstore with a sign that says SANA",
+  "image_path": "outputs\\day1_baseline\\03_a_small_robot_holding_a_red_umbrella_next_to_a_cat_in_front_of_a.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 10,
+  "guidance_scale": 4.5,
+  "seed": 45,
+  "elapsed_seconds": 0.5272776999991038,
+  "peak_vram_gb": 6.979499816894531
+}

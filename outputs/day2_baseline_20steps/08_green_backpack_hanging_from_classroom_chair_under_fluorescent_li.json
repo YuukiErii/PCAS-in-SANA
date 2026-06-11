@@ -1,0 +1,12 @@
+{
+  "prompt": "green backpack hanging from classroom chair under fluorescent lights quietly",
+  "image_path": "outputs\\day2_baseline_20steps\\08_green_backpack_hanging_from_classroom_chair_under_fluorescent_li.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 20,
+  "guidance_scale": 4.5,
+  "seed": 50,
+  "elapsed_seconds": 2.2917966000022716,
+  "peak_vram_gb": 6.979499816894531
+}

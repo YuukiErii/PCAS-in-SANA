@@ -1,0 +1,12 @@
+{
+  "prompt": "sunflower standing in clear glass vase beside folded linen napkin",
+  "image_path": "outputs\\day2_baseline_10steps\\05_sunflower_standing_in_clear_glass_vase_beside_folded_linen_napki.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 10,
+  "guidance_scale": 4.5,
+  "seed": 47,
+  "elapsed_seconds": 0.5361885000002076,
+  "peak_vram_gb": 6.979499816894531
+}

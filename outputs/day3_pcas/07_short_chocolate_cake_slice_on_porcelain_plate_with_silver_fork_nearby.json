@@ -1,0 +1,22 @@
+{
+  "prompt": "chocolate cake slice on porcelain plate with silver fork nearby",
+  "image_path": "outputs\\day3_pcas\\07_short_chocolate_cake_slice_on_porcelain_plate_with_silver_fork_nearby.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "seed": 49,
+  "elapsed_seconds": 0.5918237999999292,
+  "peak_vram_gb": 6.979499816894531,
+  "word_count": 10,
+  "relation_count": 0,
+  "style_count": 0,
+  "text_rendering": false,
+  "length_score": 0.2,
+  "relation_score": 0.0,
+  "style_score": 0.0,
+  "text_score": 0.0,
+  "complexity_score": 0.13999999999999999,
+  "complexity_label": "short",
+  "selected_steps": 10,
+  "selected_guidance_scale": 4.0,
+  "selected_height": 512,
+  "selected_width": 512
+}

@@ -1,0 +1,22 @@
+{
+  "prompt": "A fantasy battle unfolds in heavy rain as a dragon flies above a castle, knights defend a bridge, archers light flaming arrows, horses rear near broken shields, and lightning reveals a wizard casting blue magic while villagers watch from stone windows beside banners torn by wind over the river below.",
+  "image_path": "outputs\\day3_pcas_balanced\\29_long_a_fantasy_battle_unfolds_in_heavy_rain_as_a_dragon_flies_above_a.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "seed": 71,
+  "elapsed_seconds": 1.450630999999703,
+  "peak_vram_gb": 6.979499816894531,
+  "word_count": 50,
+  "relation_count": 3,
+  "style_count": 1,
+  "text_rendering": false,
+  "length_score": 1.0,
+  "relation_score": 1.0,
+  "style_score": 0.3333333333333333,
+  "text_score": 0.0,
+  "complexity_score": 0.8833333333333333,
+  "complexity_label": "long",
+  "selected_steps": 24,
+  "selected_guidance_scale": 4.8,
+  "selected_height": 512,
+  "selected_width": 512
+}

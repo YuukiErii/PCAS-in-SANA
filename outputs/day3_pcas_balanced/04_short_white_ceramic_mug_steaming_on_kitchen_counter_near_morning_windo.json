@@ -1,0 +1,22 @@
+{
+  "prompt": "white ceramic mug steaming on kitchen counter near morning window",
+  "image_path": "outputs\\day3_pcas_balanced\\04_short_white_ceramic_mug_steaming_on_kitchen_counter_near_morning_windo.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "seed": 46,
+  "elapsed_seconds": 1.0419002999988152,
+  "peak_vram_gb": 6.979499816894531,
+  "word_count": 10,
+  "relation_count": 1,
+  "style_count": 0,
+  "text_rendering": false,
+  "length_score": 0.2,
+  "relation_score": 0.3333333333333333,
+  "style_score": 0.0,
+  "text_score": 0.0,
+  "complexity_score": 0.18999999999999997,
+  "complexity_label": "short",
+  "selected_steps": 8,
+  "selected_guidance_scale": 4.0,
+  "selected_height": 512,
+  "selected_width": 512
+}

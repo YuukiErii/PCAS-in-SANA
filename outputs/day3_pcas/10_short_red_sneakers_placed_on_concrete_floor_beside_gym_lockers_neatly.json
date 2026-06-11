@@ -1,0 +1,22 @@
+{
+  "prompt": "red sneakers placed on concrete floor beside gym lockers neatly",
+  "image_path": "outputs\\day3_pcas\\10_short_red_sneakers_placed_on_concrete_floor_beside_gym_lockers_neatly.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "seed": 52,
+  "elapsed_seconds": 0.5935424999997849,
+  "peak_vram_gb": 6.979499816894531,
+  "word_count": 10,
+  "relation_count": 1,
+  "style_count": 0,
+  "text_rendering": false,
+  "length_score": 0.2,
+  "relation_score": 0.3333333333333333,
+  "style_score": 0.0,
+  "text_score": 0.0,
+  "complexity_score": 0.18999999999999997,
+  "complexity_label": "short",
+  "selected_steps": 10,
+  "selected_guidance_scale": 4.0,
+  "selected_height": 512,
+  "selected_width": 512
+}

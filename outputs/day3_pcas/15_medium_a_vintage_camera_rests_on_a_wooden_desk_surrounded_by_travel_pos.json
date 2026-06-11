@@ -1,0 +1,22 @@
+{
+  "prompt": "A vintage camera rests on a wooden desk surrounded by travel postcards, brass coins, a notebook, warm lamplight, and an open map of Europe beside a half packed canvas bag.",
+  "image_path": "outputs\\day3_pcas\\15_medium_a_vintage_camera_rests_on_a_wooden_desk_surrounded_by_travel_pos.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "seed": 57,
+  "elapsed_seconds": 0.9957651999998234,
+  "peak_vram_gb": 6.979499816894531,
+  "word_count": 30,
+  "relation_count": 1,
+  "style_count": 0,
+  "text_rendering": false,
+  "length_score": 0.6,
+  "relation_score": 0.3333333333333333,
+  "style_score": 0.0,
+  "text_score": 0.0,
+  "complexity_score": 0.47,
+  "complexity_label": "medium",
+  "selected_steps": 20,
+  "selected_guidance_scale": 4.5,
+  "selected_height": 512,
+  "selected_width": 512
+}

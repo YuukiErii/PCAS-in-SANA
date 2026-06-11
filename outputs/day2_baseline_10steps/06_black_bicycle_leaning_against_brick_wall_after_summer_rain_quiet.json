@@ -1,0 +1,12 @@
+{
+  "prompt": "black bicycle leaning against brick wall after summer rain quietly",
+  "image_path": "outputs\\day2_baseline_10steps\\06_black_bicycle_leaning_against_brick_wall_after_summer_rain_quiet.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 10,
+  "guidance_scale": 4.5,
+  "seed": 48,
+  "elapsed_seconds": 0.5257667000000765,
+  "peak_vram_gb": 6.979499816894531
+}

@@ -1,0 +1,22 @@
+{
+  "prompt": "A rainy city street reflects shop windows and traffic lights, while pedestrians carry umbrellas past bicycles, food stalls, neon signs, and puddles glowing orange under a dark cinematic evening sky.",
+  "image_path": "outputs\\day3_pcas\\19_medium_a_rainy_city_street_reflects_shop_windows_and_traffic_lights_whi.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "seed": 61,
+  "elapsed_seconds": 0.9762375000000247,
+  "peak_vram_gb": 6.979499816894531,
+  "word_count": 30,
+  "relation_count": 1,
+  "style_count": 2,
+  "text_rendering": false,
+  "length_score": 0.6,
+  "relation_score": 0.3333333333333333,
+  "style_score": 0.6666666666666666,
+  "text_score": 0.0,
+  "complexity_score": 0.5366666666666666,
+  "complexity_label": "medium",
+  "selected_steps": 20,
+  "selected_guidance_scale": 4.5,
+  "selected_height": 512,
+  "selected_width": 512
+}

@@ -1,0 +1,12 @@
+{
+  "prompt": "A watercolor painting shows a mountain village beside a river, with stone bridges, red roofs, distant mist, pine trees, and tiny people walking home under a pale evening sky together.",
+  "image_path": "outputs\\day2_baseline_10steps\\17_a_watercolor_painting_shows_a_mountain_village_beside_a_river_wi.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 10,
+  "guidance_scale": 4.5,
+  "seed": 59,
+  "elapsed_seconds": 0.530272800000148,
+  "peak_vram_gb": 6.979499816894531
+}

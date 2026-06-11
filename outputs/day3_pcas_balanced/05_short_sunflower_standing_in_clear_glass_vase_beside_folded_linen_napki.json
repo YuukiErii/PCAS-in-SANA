@@ -1,0 +1,22 @@
+{
+  "prompt": "sunflower standing in clear glass vase beside folded linen napkin",
+  "image_path": "outputs\\day3_pcas_balanced\\05_short_sunflower_standing_in_clear_glass_vase_beside_folded_linen_napki.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "seed": 47,
+  "elapsed_seconds": 0.9740125000025728,
+  "peak_vram_gb": 6.979499816894531,
+  "word_count": 10,
+  "relation_count": 1,
+  "style_count": 0,
+  "text_rendering": false,
+  "length_score": 0.2,
+  "relation_score": 0.3333333333333333,
+  "style_score": 0.0,
+  "text_score": 0.0,
+  "complexity_score": 0.18999999999999997,
+  "complexity_label": "short",
+  "selected_steps": 8,
+  "selected_guidance_scale": 4.0,
+  "selected_height": 512,
+  "selected_width": 512
+}

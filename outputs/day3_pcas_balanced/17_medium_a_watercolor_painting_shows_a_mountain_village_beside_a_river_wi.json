@@ -1,0 +1,22 @@
+{
+  "prompt": "A watercolor painting shows a mountain village beside a river, with stone bridges, red roofs, distant mist, pine trees, and tiny people walking home under a pale evening sky together.",
+  "image_path": "outputs\\day3_pcas_balanced\\17_medium_a_watercolor_painting_shows_a_mountain_village_beside_a_river_wi.png",
+  "model_id": "Efficient-Large-Model/Sana_600M_512px_diffusers",
+  "seed": 59,
+  "elapsed_seconds": 2.4591528000019025,
+  "peak_vram_gb": 6.979499816894531,
+  "word_count": 30,
+  "relation_count": 2,
+  "style_count": 1,
+  "text_rendering": false,
+  "length_score": 0.6,
+  "relation_score": 0.6666666666666666,
+  "style_score": 0.3333333333333333,
+  "text_score": 0.0,
+  "complexity_score": 0.5533333333333333,
+  "complexity_label": "medium",
+  "selected_steps": 16,
+  "selected_guidance_scale": 4.4,
+  "selected_height": 512,
+  "selected_width": 512
+}
